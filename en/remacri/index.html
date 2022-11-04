@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-us" class="initial astro-T35XKCE4">
+	<head>
+		<!-- Global Metadata --><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="generator" content="Astro v1.6.2">
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+<link rel="sitemap" href="/sitemap.xml">
+
+<!-- Preload Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&display=swap" rel="stylesheet">
+
+<!-- Scrollable a11y code helper -->
+<script src="/make-scrollable-code-focusable.js">
+
+</script>
+
+<!-- This is intentionally inlined to avoid FOUC -->
+<script>
+	const root = document.documentElement;
+	const theme = localStorage.getItem('theme');
+	if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+		root.classList.add('theme-dark');
+	} else {
+		root.classList.remove('theme-dark');
+	}
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-TEL60V1WM9" is:inline></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-TEL60V1WM9');
+</script> -->
+
+		<!-- Page Metadata --><link rel="canonical" href="http://astro.build/en/remacri/">
+
+<!-- OpenGraph Tags -->
+<meta property="og:title" content="Remacri 🚀 Visual Comparison of Super Resolution Models">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://astro.build/en/remacri/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://github.com/withastro/astro/blob/main/assets/social/banner-minimal.png?raw=true">
+<meta property="og:image:alt" content="astro logo on a starry expanse of space, with a purple saturn-like planet floating in the right foreground">
+<meta name="description" property="og:description" content="Visual Comparison Remacri">
+<meta property="og:site_name" content="Visual Comparison of Super Resolution Models">
+
+<!-- Twitter Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="astrodotbuild">
+<meta name="twitter:title" content="Remacri 🚀 Visual Comparison of Super Resolution Models">
+<meta name="twitter:description" content="Visual Comparison Remacri">
+<meta name="twitter:image" content="https://github.com/withastro/astro/blob/main/assets/social/banner-minimal.png?raw=true">
+<meta name="twitter:image:alt" content="astro logo on a starry expanse of space, with a purple saturn-like planet floating in the right foreground">
+
+<!--
+  TODO: Add json+ld data, maybe https://schema.org/APIReference makes sense?
+  Docs: https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data
+  https://www.npmjs.com/package/schema-dts seems like a great resource for implementing this.
+  Even better, there's a React component that integrates with `schema-dts`: https://github.com/google/react-schemaorg
+-->
+
+		<title>
+			Remacri 🚀 Visual Comparison of Super Resolution Models
+		</title>
+		
+		
+	<link rel="stylesheet" href="/assets/bsrgan.bf5b07e2.css" /></head>
+
+	<body class="astro-T35XKCE4">
+		<header class="astro-NXZHMCB2">
+	<a href="#article" class="sr-only focus:not-sr-only skiplink astro-367NXOLC"><span class="astro-367NXOLC">Skip to Content</span></a>
+
+
+	<nav class="nav-wrapper astro-NXZHMCB2" title="Top Navigation">
+		<div class="menu-toggle astro-NXZHMCB2">
+			<style>astro-island,astro-slot{display:contents}</style><script>(self.Astro=self.Astro||{}).idle=t=>{const e=async()=>{await(await t())()};"requestIdleCallback"in window?window.requestIdleCallback(e):setTimeout(e,200)},window.dispatchEvent(new Event("astro:idle"));var l;{const c={0:t=>t,1:t=>JSON.parse(t,o),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,o)),5:t=>new Set(JSON.parse(t,o)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(JSON.parse(t)),9:t=>new Uint16Array(JSON.parse(t)),10:t=>new Uint32Array(JSON.parse(t))},o=(t,s)=>{if(t===""||!Array.isArray(s))return s;const[e,n]=s;return e in c?c[e](n):void 0};customElements.get("astro-island")||customElements.define("astro-island",(l=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=()=>{if(!this.hydrator||this.parentElement&&this.parentElement.closest("astro-island[ssr]"))return;const s=this.querySelectorAll("astro-slot"),e={},n=this.querySelectorAll("template[data-astro-template]");for(const r of n){const i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(const r of s){const i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("name")||"default"]=r.innerHTML)}const a=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),o):{};this.hydrator(this)(this.Component,a,e,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),window.removeEventListener("astro:hydrate",this.hydrate),window.dispatchEvent(new CustomEvent("astro:hydrate"))}}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((s,e)=>{e.disconnect(),this.childrenConnectedCallback()}).observe(this,{childList:!0})}async childrenConnectedCallback(){window.addEventListener("astro:hydrate",this.hydrate);let s=this.getAttribute("before-hydration-url");s&&await import(s),this.start()}start(){const s=JSON.parse(this.getAttribute("opts")),e=this.getAttribute("client");if(Astro[e]===void 0){window.addEventListener(`astro:${e}`,()=>this.start(),{once:!0});return}Astro[e](async()=>{const n=this.getAttribute("renderer-url"),[a,{default:r}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),i=this.getAttribute("component-export")||"default";if(!i.includes("."))this.Component=a[i];else{this.Component=a;for(const d of i.split("."))this.Component=this.Component[d]}return this.hydrator=r,this.hydrate},s,this)}attributeChangedCallback(){this.hydrator&&this.hydrate()}},l.observedAttributes=["props"],l))}</script><astro-island uid="1qfglF" component-url="/SidebarToggle.f98316a6.js" component-export="default" renderer-url="/client.09d19424.js" props="{&quot;class&quot;:[0,&quot;astro-NXZHMCB2&quot;]}" ssr="" client="idle" opts="{&quot;name&quot;:&quot;SidebarToggle&quot;,&quot;value&quot;:true}" await-children=""><button type="button" aria-pressed="false" id="menu-toggle"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg><span class="sr-only">Toggle sidebar</span></button></astro-island>
+		</div>
+		<div class="logo flex astro-NXZHMCB2">
+			<a href="/" class="astro-NXZHMCB2">
+				<svg class="logo" width="40" height="40" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		#flame {
+			fill: var(--theme-text-accent);
+		}
+
+		#a {
+			fill: var(--theme-text-accent);
+		}
+	</style>
+	<title>Logo</title>
+	<path id="a" fill-rule="evenodd" clip-rule="evenodd" d="M163.008 18.929c1.944 2.413 2.935 5.67 4.917 12.181l43.309 142.27a180.277 180.277 0 00-51.778-17.53l-28.198-95.29a3.67 3.67 0 00-7.042.01l-27.857 95.232a180.225 180.225 0 00-52.01 17.557l43.52-142.281c1.99-6.502 2.983-9.752 4.927-12.16a15.999 15.999 0 016.484-4.798c2.872-1.154 6.271-1.154 13.07-1.154h31.085c6.807 0 10.211 0 13.086 1.157a16.004 16.004 0 016.487 4.806z">
+	</path>
+	<path id="flame" fill-rule="evenodd" clip-rule="evenodd" d="M168.19 180.151c-7.139 6.105-21.39 10.268-37.804 10.268-20.147 0-37.033-6.272-41.513-14.707-1.602 4.835-1.961 10.367-1.961 13.902 0 0-1.056 17.355 11.015 29.426 0-6.268 5.081-11.349 11.349-11.349 10.743 0 10.731 9.373 10.721 16.977v.679c0 11.542 7.054 21.436 17.086 25.606a23.27 23.27 0 01-2.339-10.2c0-11.008 6.463-15.107 13.974-19.87 5.976-3.79 12.616-8.001 17.192-16.449a31.024 31.024 0 003.743-14.82c0-3.299-.513-6.479-1.463-9.463z">
+	</path>
+</svg>
+				<h1 class="astro-NXZHMCB2">Visual Comparison of Super Resolution Models</h1>
+			</a>
+		</div>
+		<div style="flex-grow: 1;" class="astro-NXZHMCB2"></div>
+		
+		<div class="search-item astro-NXZHMCB2">
+			<astro-island uid="1irFGK" component-url="/Search.810117cd.js" component-export="default" renderer-url="/client.2a927c6e.js" props="{}" ssr="" client="idle" opts="{&quot;name&quot;:&quot;Search&quot;,&quot;value&quot;:true}" await-children=""><button type="button" class="search-input"><svg width="24" height="24" fill="none"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Search</span><span class="search-hint"><span class="sr-only">Press </span><kbd>/</kbd><span class="sr-only"> to search</span></span></button></astro-island>
+		</div>
+	</nav>
+</header>
+
+
+
+
+		<main class="layout astro-T35XKCE4">
+			<aside id="grid-left" class="grid-sidebar astro-T35XKCE4" title="Site Navigation">
+				<nav aria-labelledby="grid-left" class="astro-IGDKKDKI">
+	<ul class="nav-groups astro-IGDKKDKI">
+		<li class="astro-IGDKKDKI">
+				<div class="nav-group astro-IGDKKDKI">
+					<h2 class="astro-IGDKKDKI">Image Super Resolution</h2>
+					<ul class="astro-IGDKKDKI">
+						<li class="nav-link astro-IGDKKDKI">
+									<a href="/en/introduction" class="astro-IGDKKDKI">
+										Introduction
+									</a>
+								</li><li class="nav-link astro-IGDKKDKI">
+									<a href="/en/multimodels" class="astro-IGDKKDKI">
+										Multiple Models
+									</a>
+								</li><li class="nav-link astro-IGDKKDKI">
+									<a href="/en/ldsr" class="astro-IGDKKDKI">
+										LDSR
+									</a>
+								</li><li class="nav-link astro-IGDKKDKI">
+									<a href="/en/swinir" class="astro-IGDKKDKI">
+										SwinIR
+									</a>
+								</li><li class="nav-link astro-IGDKKDKI">
+									<a href="/en/siax" class="astro-IGDKKDKI">
+										Siax
+									</a>
+								</li><li class="nav-link astro-IGDKKDKI">
+									<a href="/en/remacri" aria-current="page" class="astro-IGDKKDKI">
+										Remacri
+									</a>
+								</li><li class="nav-link astro-IGDKKDKI">
+									<a href="/en/modelsused" class="astro-IGDKKDKI">
+										Models Used
+									</a>
+								</li>
+					</ul>
+				</div>
+			</li><li class="astro-IGDKKDKI">
+				<div class="nav-group astro-IGDKKDKI">
+					<h2 class="astro-IGDKKDKI">Video Super Resolution</h2>
+					<ul class="astro-IGDKKDKI">
+						
+					</ul>
+				</div>
+			</li>
+	</ul>
+</nav>
+
+<script>
+	window.addEventListener('DOMContentLoaded', () => {
+		var target = document.querySelector('[aria-current="page"]');
+		if (target && target.offsetTop > window.innerHeight - 100) {
+			document.querySelector('.nav-groups').scrollTop = target.offsetTop;
+		}
+	});
+</script>
+
+
+
+
+			</aside>
+			<div id="grid-main" class="astro-T35XKCE4">
+				<article id="article" class="content astro-Z4VAQWGD">
+	<section class="main-section astro-Z4VAQWGD">
+		<h1 class="content-title astro-Z4VAQWGD" id="overview">Remacri</h1>
+		<nav class="block sm:hidden astro-Z4VAQWGD">
+			<script>(self.Astro=self.Astro||{}).media=(s,a)=>{const t=async()=>{await(await s())()};if(a.value){const e=matchMedia(a.value);e.matches?t():e.addEventListener("change",t,{once:!0})}},window.dispatchEvent(new Event("astro:media"));</script><astro-island uid="Z1Smayb" component-url="/TableOfContents.f429573e.js" component-export="default" renderer-url="/client.09d19424.js" props="{&quot;headings&quot;:[1,&quot;[[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;buddy\&quot;],\&quot;text\&quot;:[0,\&quot;Buddy\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;child\&quot;],\&quot;text\&quot;:[0,\&quot;Child\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;grosser-mythen\&quot;],\&quot;text\&quot;:[0,\&quot;Grosser Mythen\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;landscape\&quot;],\&quot;text\&quot;:[0,\&quot;Landscape\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;lightning\&quot;],\&quot;text\&quot;:[0,\&quot;Lightning\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;livingroom\&quot;],\&quot;text\&quot;:[0,\&quot;Livingroom\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;painting\&quot;],\&quot;text\&quot;:[0,\&quot;Painting\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;pc-build\&quot;],\&quot;text\&quot;:[0,\&quot;PC Build\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;snowboard\&quot;],\&quot;text\&quot;:[0,\&quot;Snowboard\&quot;]}]]&quot;],&quot;class&quot;:[0,&quot;astro-Z4VAQWGD&quot;]}" ssr="" client="media" opts="{&quot;name&quot;:&quot;TableOfContents&quot;,&quot;value&quot;:&quot;(max-width: 50em)&quot;}" await-children=""><h2 class="heading">On this page</h2><ul><li class="heading-link depth-2"><a href="#overview">Overview</a></li><li class="heading-link depth-2"><a href="#buddy">Buddy</a></li><li class="heading-link depth-2"><a href="#child">Child</a></li><li class="heading-link depth-2"><a href="#grosser-mythen">Grosser Mythen</a></li><li class="heading-link depth-2"><a href="#landscape">Landscape</a></li><li class="heading-link depth-2"><a href="#lightning">Lightning</a></li><li class="heading-link depth-2"><a href="#livingroom">Livingroom</a></li><li class="heading-link depth-2"><a href="#painting">Painting</a></li><li class="heading-link depth-2"><a href="#pc-build">PC Build</a></li><li class="heading-link depth-2"><a href="#snowboard">Snowboard</a></li></ul></astro-island>
+		</nav>
+		<p>Compare the original input image with its upscaled Remacri version. The model is found <a href="https://u.pcloud.link/publink/show?code=kZgSLsXZ0M1fT3kFGfRXg2tNtoUgbSI4kcSy" target="_blank">here</a></p>
+<h2 id="buddy">Buddy</h2>
+<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyNzE1" style="border: 0px none; height: 26vw; min-height: 330px; margin-top: -75px; margin-bottom:-30px;">
+  </iframe>
+</div>
+<p><a href="https://imgsli.com/MTMyNzE1" target="_blank">Open in external tab</a></p>
+<details>
+  <summary>Details</summary>
+  <p>
+</p><p>Creation Date: 03. Nov 2022</p>
+<p>Input Image: 480x320 pixels</p>
+<p>Scaling Factor: 4</p>
+<p>Output Image: 1920x1280 pixels</p>
+<p>Type: Photo</p>
+  <p></p>
+</details>
+<h2 id="child">Child</h2>
+<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyNzE2" style="border: 0px none; height: 37vw; min-height: 440px; margin-top: -75px; margin-bottom:-30px;">
+  </iframe>
+</div>
+<p><a href="https://imgsli.com/MTMyNzE2" target="_blank">Open in external tab</a></p>
+<details>
+  <summary>Details</summary>
+  <p>
+</p><p>Creation Date: 03. Nov 2022</p>
+<p>Input Image: 320x320 pixels</p>
+<p>Scaling Factor: 4</p>
+<p>Output Image: 1280x1280 pixels</p>
+<p>Type: AI Generated Image</p>
+  <p></p>
+</details>
+<h2 id="grosser-mythen">Grosser Mythen</h2>
+<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyNzE3" style="border: 0px none; height: 29vw; min-height: 360px; margin-top: -75px; margin-bottom:-30px;">
+  </iframe>
+</div>
+<p><a href="https://imgsli.com/MTMyNzE3" target="_blank">Open in external tab</a></p>
+<details>
+  <summary>Details</summary>
+  <p>
+</p><p>Creation Date: 03. Nov 2022</p>
+<p>Input Image: 427x320 pixels</p>
+<p>Scaling Factor: 4</p>
+<p>Output Image: 1708x1280 pixels</p>
+<p>Type: Photo</p>
+  <p></p>
+</details>
+<h2 id="landscape">Landscape</h2>
+<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyNzE4" style="border: 0px none; height: 37vw; min-height: 440px; margin-top: -75px; margin-bottom:-30px;">
+  </iframe>
+</div>
+<p><a href="https://imgsli.com/MTMyNzE4" target="_blank">Open in external tab</a></p>
+<details>
+  <summary>Details</summary>
+  <p>
+</p><p>Creation Date: 03. Nov 2022</p>
+<p>Input Image: 320x320 pixels</p>
+<p>Scaling Factor: 4</p>
+<p>Output Image: 1280x1280 pixels</p>
+<p>Type: AI Generated Image</p>
+  <p></p>
+</details>
+<h2 id="lightning">Lightning</h2>
+<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyNzE5" style="border: 0px none; height: 37vw; min-height: 440px; margin-top: -75px; margin-bottom:-30px;">
+  </iframe>
+</div>
+<p><a href="https://imgsli.com/MTMyNzE5" target="_blank">Open in external tab</a></p>
+<details>
+  <summary>Details</summary>
+  <p>
+</p><p>Creation Date: 03. Nov 2022</p>
+<p>Input Image: 320x320 pixels</p>
+<p>Scaling Factor: 4</p>
+<p>Output Image: 1280x1280 pixels</p>
+<p>Type: AI Generated Image</p>
+  <p></p>
+</details>
+<h2 id="livingroom">Livingroom</h2>
+<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyNzIw" style="border: 0px none; height: 37vw; min-height: 440px; margin-top: -75px; margin-bottom:-30px;">
+  </iframe>
+</div>
+<p><a href="https://imgsli.com/MTMyNzIw" target="_blank">Open in external tab</a></p>
+<details>
+  <summary>Details</summary>
+  <p>
+</p><p>Creation Date: 03. Nov 2022</p>
+<p>Input Image: 320x320 pixels</p>
+<p>Scaling Factor: 4</p>
+<p>Output Image: 1280x1280 pixels</p>
+<p>Type: AI Generated Image</p>
+  <p></p>
+</details>
+<h2 id="painting">Painting</h2>
+<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyNzIx" style="border: 0px none; height: 29vw; min-height: 360px; margin-top: -75px; margin-bottom:-30px;">
+  </iframe>
+</div>
+<p><a href="https://imgsli.com/MTMyNzIx" target="_blank">Open in external tab</a></p>
+<details>
+  <summary>Details</summary>
+  <p>
+</p><p>Creation Date: 03. Nov 2022</p>
+<p>Input Image: 427x320 pixels</p>
+<p>Scaling Factor: 4</p>
+<p>Output Image: 1708x1280 pixels</p>
+<p>Type: Photo</p>
+  <p></p>
+</details>
+<h2 id="pc-build">PC Build</h2>
+<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyNzIy" style="border: 0px none; height: 29vw; min-height: 360px; margin-top: -75px; margin-bottom:-30px;">
+  </iframe>
+</div>
+<p><a href="https://imgsli.com/MTMyNzIy" target="_blank">Open in external tab</a></p>
+<details>
+  <summary>Details</summary>
+  <p>
+</p><p>Creation Date: 03. Nov 2022</p>
+<p>Input Image: 427x320 pixels</p>
+<p>Scaling Factor: 4</p>
+<p>Output Image: 1708x1280 pixels</p>
+<p>Type: Photo</p>
+  <p></p>
+</details>
+<h2 id="snowboard">Snowboard</h2>
+<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyNzIz" style="border: 0px none; height: 29vw; min-height: 360px; margin-top: -75px; margin-bottom:-30px;">
+  </iframe>
+</div>
+<p><a href="https://imgsli.com/MTMyNzIz" target="_blank">Open in external tab</a></p>
+<details>
+  <summary>Details</summary>
+  <p>
+</p><p>Creation Date: 03. Nov 2022</p>
+<p>Input Image: 427x320 pixels</p>
+<p>Scaling Factor: 4</p>
+<p>Output Image: 1708x1280 pixels</p>
+<p>Type: Photo</p>
+  <p></p>
+</details>
+	</section>
+	<nav class="block sm:hidden astro-Z4VAQWGD">
+		<!--
+{showMoreSection && <h2 class="heading">More</h2>}
+<ul>
+	{editHref && (
+		<li class={`heading-link depth-2`}>
+			<a class="edit-on-github" href={editHref} target="_blank">
+				<svg
+					aria-hidden="true"
+					focusable="false"
+					data-prefix="fas"
+					data-icon="pen"
+					class="svg-inline--fa fa-pen fa-w-16"
+					role="img"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 512 512"
+					height="1em"
+					width="1em"
+				>
+					<path
+						fill="currentColor"
+						d="M290.74 93.24l128.02 128.02-277.99 277.99-114.14 12.6C11.35 513.54-1.56 500.62.14 485.34l12.7-114.22 277.9-277.88zm207.2-19.06l-60.11-60.11c-18.75-18.75-49.16-18.75-67.91 0l-56.55 56.55 128.02 128.02 56.55-56.55c18.75-18.76 18.75-49.16 0-67.91z"
+					/>
+				</svg>
+				<span>Edit this page</span>
+			</a>
+		</li>
+	)}
+	{CONFIG.COMMUNITY_INVITE_URL && (
+		<li class={`heading-link depth-2`}>
+			<a href={CONFIG.COMMUNITY_INVITE_URL} target="_blank">
+				<svg
+					aria-hidden="true"
+					focusable="false"
+					data-prefix="fas"
+					data-icon="comment-alt"
+					class="svg-inline--fa fa-comment-alt fa-w-16"
+					role="img"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 512 512"
+					height="1em"
+					width="1em"
+				>
+					<path
+						fill="currentColor"
+						d="M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 9.8 11.2 15.5 19.1 9.7L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64z"
+					/>
+				</svg>
+				<span>Join our community</span>
+			</a>
+		</li>
+	)}
+</ul>
+--><div style="margin: 2rem 0; text-align: center;" class="astro-FFZNEEXL">
+	<script>(self.Astro=self.Astro||{}).visible=(s,c,n)=>{const r=async()=>{await(await s())()};let i=new IntersectionObserver(e=>{for(const t of e)if(!!t.isIntersecting){i.disconnect(),r();break}});for(let e=0;e<n.children.length;e++){const t=n.children[e];i.observe(t)}},window.dispatchEvent(new Event("astro:visible"));</script><astro-island uid="Z24OeAx" component-url="/ThemeToggleButton.e95cd100.js" component-export="default" renderer-url="/client.09d19424.js" props="{&quot;class&quot;:[0,&quot;astro-FFZNEEXL&quot;]}" ssr="" client="visible" opts="{&quot;name&quot;:&quot;ThemeToggleButton&quot;,&quot;value&quot;:true}" await-children=""><div class="theme-toggle"><label class><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd"></path></svg><input type="radio" name="theme-toggle" value="light" title="Use light theme" aria-label="Use light theme" /></label><label class><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg><input type="radio" name="theme-toggle" value="dark" title="Use dark theme" aria-label="Use dark theme" /></label></div></astro-island>
+</div>
+
+
+
+
+	</nav>
+</article>
+
+
+			</div>
+			<aside id="grid-right" class="grid-sidebar astro-T35XKCE4" title="Table of Contents">
+				<nav class="sidebar-nav astro-SQYPPL2P" aria-labelledby="grid-right">
+	<div class="sidebar-nav-inner astro-SQYPPL2P">
+		<astro-island uid="Z1aqem2" component-url="/TableOfContents.f429573e.js" component-export="default" renderer-url="/client.09d19424.js" props="{&quot;headings&quot;:[1,&quot;[[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;buddy\&quot;],\&quot;text\&quot;:[0,\&quot;Buddy\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;child\&quot;],\&quot;text\&quot;:[0,\&quot;Child\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;grosser-mythen\&quot;],\&quot;text\&quot;:[0,\&quot;Grosser Mythen\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;landscape\&quot;],\&quot;text\&quot;:[0,\&quot;Landscape\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;lightning\&quot;],\&quot;text\&quot;:[0,\&quot;Lightning\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;livingroom\&quot;],\&quot;text\&quot;:[0,\&quot;Livingroom\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;painting\&quot;],\&quot;text\&quot;:[0,\&quot;Painting\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;pc-build\&quot;],\&quot;text\&quot;:[0,\&quot;PC Build\&quot;]}],[0,{\&quot;depth\&quot;:[0,2],\&quot;slug\&quot;:[0,\&quot;snowboard\&quot;],\&quot;text\&quot;:[0,\&quot;Snowboard\&quot;]}]]&quot;],&quot;class&quot;:[0,&quot;astro-SQYPPL2P&quot;]}" ssr="" client="media" opts="{&quot;name&quot;:&quot;TableOfContents&quot;,&quot;value&quot;:&quot;(min-width: 50em)&quot;}" await-children=""><h2 class="heading">On this page</h2><ul><li class="heading-link depth-2"><a href="#overview">Overview</a></li><li class="heading-link depth-2"><a href="#buddy">Buddy</a></li><li class="heading-link depth-2"><a href="#child">Child</a></li><li class="heading-link depth-2"><a href="#grosser-mythen">Grosser Mythen</a></li><li class="heading-link depth-2"><a href="#landscape">Landscape</a></li><li class="heading-link depth-2"><a href="#lightning">Lightning</a></li><li class="heading-link depth-2"><a href="#livingroom">Livingroom</a></li><li class="heading-link depth-2"><a href="#painting">Painting</a></li><li class="heading-link depth-2"><a href="#pc-build">PC Build</a></li><li class="heading-link depth-2"><a href="#snowboard">Snowboard</a></li></ul></astro-island>
+		<!--
+{showMoreSection && <h2 class="heading">More</h2>}
+<ul>
+	{editHref && (
+		<li class={`heading-link depth-2`}>
+			<a class="edit-on-github" href={editHref} target="_blank">
+				<svg
+					aria-hidden="true"
+					focusable="false"
+					data-prefix="fas"
+					data-icon="pen"
+					class="svg-inline--fa fa-pen fa-w-16"
+					role="img"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 512 512"
+					height="1em"
+					width="1em"
+				>
+					<path
+						fill="currentColor"
+						d="M290.74 93.24l128.02 128.02-277.99 277.99-114.14 12.6C11.35 513.54-1.56 500.62.14 485.34l12.7-114.22 277.9-277.88zm207.2-19.06l-60.11-60.11c-18.75-18.75-49.16-18.75-67.91 0l-56.55 56.55 128.02 128.02 56.55-56.55c18.75-18.76 18.75-49.16 0-67.91z"
+					/>
+				</svg>
+				<span>Edit this page</span>
+			</a>
+		</li>
+	)}
+	{CONFIG.COMMUNITY_INVITE_URL && (
+		<li class={`heading-link depth-2`}>
+			<a href={CONFIG.COMMUNITY_INVITE_URL} target="_blank">
+				<svg
+					aria-hidden="true"
+					focusable="false"
+					data-prefix="fas"
+					data-icon="comment-alt"
+					class="svg-inline--fa fa-comment-alt fa-w-16"
+					role="img"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 512 512"
+					height="1em"
+					width="1em"
+				>
+					<path
+						fill="currentColor"
+						d="M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 9.8 11.2 15.5 19.1 9.7L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64z"
+					/>
+				</svg>
+				<span>Join our community</span>
+			</a>
+		</li>
+	)}
+</ul>
+--><div style="margin: 2rem 0; text-align: center;" class="astro-FFZNEEXL">
+	<astro-island uid="Z24OeAx" component-url="/ThemeToggleButton.e95cd100.js" component-export="default" renderer-url="/client.09d19424.js" props="{&quot;class&quot;:[0,&quot;astro-FFZNEEXL&quot;]}" ssr="" client="visible" opts="{&quot;name&quot;:&quot;ThemeToggleButton&quot;,&quot;value&quot;:true}" await-children=""><div class="theme-toggle"><label class><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd"></path></svg><input type="radio" name="theme-toggle" value="light" title="Use light theme" aria-label="Use light theme" /></label><label class><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg><input type="radio" name="theme-toggle" value="dark" title="Use dark theme" aria-label="Use dark theme" /></label></div></astro-island>
+</div>
+
+
+
+
+	</div>
+</nav>
+
+
+			</aside>
+		</main>
+		<footer class="astro-N5DEGEXR">
+	Created by Philip Hofmann. Made with Astro.
+	<!-- <AvatarList path={path} /> -->
+</footer>
+
+
+	</body></html>
