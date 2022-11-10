@@ -1,0 +1,17 @@
+{
+  "name": "Visual Upscale Models Comparison",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {    
+    "docs:dev": "vitepress dev docs --host",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "author": "Philip Hofmann",
+  "license": "",
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.27",
+    "vue": "^3.2.41"
+  }
+}
