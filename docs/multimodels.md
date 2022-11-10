@@ -101,7 +101,7 @@ In this following youtube video I am talking about my oldest and smallest compar
   ### Charade1963 Screenshot
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4NDIy/0/1" style="width: 100%; border: 0px none; height: 48 vmin; min-height: 270px; margin-top: -75px; margin-bottom:-30px;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4NDIy/0/1" style="width: 100%; border: 0px none; height: 48vmin; min-height: 270px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
@@ -143,7 +143,7 @@ In this following youtube video I am talking about my oldest and smallest compar
   ### Freedoom Titlepic
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4Njcw/0/1" style="width: 100%; border: 0px none; height: 52 vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4Njcw/0/1" style="width: 100%; border: 0px none; height: 52vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
