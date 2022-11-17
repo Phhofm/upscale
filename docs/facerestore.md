@@ -58,7 +58,7 @@ The input is the buddy example, the SwinIR-L taken from the 'Favorites' page. Co
 
 ## Woman
 
-This input is the img_005 from the Set5 dataset, specifically the version here: https://github.com/jbhuang0604/SelfExSR/blob/master/data/Set5/image_SRF_4/img_005_SRF_4_LR.png, upscaled 4x with SwinIR-L. We note that with CodeFormer, teeth start growing with each lower fidelity step :P
+This input is the img_005 from the Set5 dataset, specifically the version here: https://github.com/jbhuang0604/SelfExSR/blob/master/data/Set5/image_SRF_4/img_005_SRF_4_LR.png, upscaled 4x with SwinIR-L.
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM0ODk0" style="width: 100%; border: 0px none; height: 45vmin; min-height: 310px; margin-top: -75px; margin-bottom:-30px;">
@@ -67,7 +67,7 @@ This input is the img_005 from the Set5 dataset, specifically the version here: 
 
 <a href="https://imgsli.com/MTM0ODk0" target="_blank">Open in external tab</a>
 
-We note that with CodeFormer with each decreased fidelity step, teeth start appearing:  
+If we go too low with CodeFormers fidelity, it start to mess up the hat (just to be aware that CodeFormer might have such an effect, with GFPGAN the hat seems not as affected as much) 
 
 ![Teeth](../assets/images/facerestoration/facerestoration_codeformer_teeth.gif)  
 
