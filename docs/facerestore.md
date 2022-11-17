@@ -67,7 +67,7 @@ This input is the img_005 from the Set5 dataset, specifically the version here: 
 
 <a href="https://imgsli.com/MTM0ODk0" target="_blank">Open in external tab</a>
 
-If we go too low with CodeFormers fidelity, it start to mess up the hat (just to be aware that CodeFormer might have such an effect, with GFPGAN the hat seems not as affected as much) 
+Just to be aware that such an effect might happen, if we go too low with CodeFormers fidelity in this example, the hat gets messed up:
 
 ![Teeth](../assets/images/facerestoration/facerestoration_codeformer_teeth.gif)  
 
