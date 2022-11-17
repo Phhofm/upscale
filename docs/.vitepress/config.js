@@ -79,6 +79,10 @@ export default {
                 text: 'Video',
                 link: ''
             },
+            {
+                text: 'Changelog',
+                link: '/changelog'
+            },
         ],
 
         sidebar: [{
@@ -159,7 +163,7 @@ export default {
                     text: '',
                     link: ''
                 }, ]
-            }
+            },
         ],
     }
 }
