@@ -42,6 +42,10 @@ export default {
                         link: '/facerestore'
                     },
                     {
+                        text: 'Denoise',
+                        link: '/denoise'
+                    },
+                    {
                         text: 'SwinIR',
                         link: '/swinir'
                     },
@@ -122,6 +126,10 @@ export default {
                     {
                         text: 'Face Restoration',
                         link: '/facerestore'
+                    },
+                    {
+                        text: 'Denoise',
+                        link: '/denoise'
                     },
                     {
                         text: 'SwinIR',

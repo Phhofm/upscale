@@ -11,3 +11,8 @@ layout: doc
   - Add CodeFormer
   - Add additional woman example  
 - Add Changelog Page
+
+### 20. Nov 2022
+- Images - Add Denoise Page
+  - Add Directions example
+  - Add Stefantiek example
