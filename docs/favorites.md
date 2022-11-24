@@ -10,6 +10,7 @@ layout: doc
   Creation Date Of Upscale Set: 10. Nov 2022  
   Models used: 12    
   Set Name: 'Favorites'  
+  Image Files: [Github Repo](https://github.com/Phhofm/upscale/tree/main/assets/images)  
 
   <details>
     <summary>Models List</summary>
