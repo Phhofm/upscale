@@ -46,6 +46,10 @@ export default {
                         link: '/denoise'
                     },
                     {
+                        text: 'Deblurring',
+                        link: '/deblurring'
+                    },
+                    {
                         text: 'SwinIR',
                         link: '/swinir'
                     },
@@ -130,6 +134,10 @@ export default {
                     {
                         text: 'Denoise',
                         link: '/denoise'
+                    },
+                    {
+                        text: 'Deblurring',
+                        link: '/deblurring'
                     },
                     {
                         text: 'SwinIR',
