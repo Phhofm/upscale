@@ -16,6 +16,7 @@ The two (extreme) example images are taken from the [Natural Image Noise Dataset
   Creation Date: 20. Nov 2022  
   Models used: 14  
   Set Name: 'Denoise'  
+  Image Files: [Github Repo](https://github.com/Phhofm/upscale/tree/main/assets/images)  
 
   <details>
     <summary>Models List</summary>

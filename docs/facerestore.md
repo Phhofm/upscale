@@ -11,7 +11,8 @@ Face Restoration Models are meant to restore faces after an upscale because they
 
   Creation Date: 17. Nov 2022  
   Models used: 6  
-  Set Name: 'Face Restoration'  
+  Set Name: 'Face Restoration' 
+  Image Files: [Github Repo](https://github.com/Phhofm/upscale/tree/main/assets/images)    
 
   <details>
     <summary>Models List</summary>
