@@ -12,7 +12,8 @@ Deblurring is the process of removing blur from an image as shown in this exampl
 ### Details
 
   Creation Date: 24. Nov 2022  
-  Models used: 21   
+  Last Update: 25. Nov 2022  
+  Models used: 23   
   Set Name: 'Deblur'  
   Image Files: [Github Repo](https://github.com/Phhofm/upscale/tree/main/assets/images)  
 
@@ -40,7 +41,8 @@ Deblurring is the process of removing blur from an image as shown in this exampl
       MAXIM_REDS  
       NAFNet_GoPro  
       NAFNet_REDS  
-
+      DeblurGANv2_MobileNet  
+      DeblurGANv2_InceptionResNet-v2  
 
   </details>
 
@@ -51,17 +53,18 @@ These three example images are taken from the [GoPro Large Testset](https://seun
 ### Example 1
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM1ODQ0" style="width: 100%; border: 0px none; height: 49vmin; min-height: 270px; margin-top: -75px; margin-bottom:-30px;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM1OTg5" style="width: 100%; border: 0px none; height: 49vmin; min-height: 270px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-<a href="https://imgsli.com/MTM1ODQ0" target="_blank">Open in external tab</a>
+<a href="https://imgsli.com/MTM1OTg5" target="_blank">Open in external tab</a>
 
 <details>
   <summary>Details</summary>
   <p>
 
-  Creation Date: 24. Nov 2022  
+  Creation Date: 24. Nov 2022
+  Last Update: 25. Nov 2022  
   Image Dimensions: 1280x720 pixels  
   Type: Frame  
 
@@ -71,17 +74,18 @@ These three example images are taken from the [GoPro Large Testset](https://seun
 ### Example 2
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM1ODc2" style="width: 100%; border: 0px none; height: 49vmin; min-height: 270px; margin-top: -75px; margin-bottom:-30px;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM1OTkw" style="width: 100%; border: 0px none; height: 49vmin; min-height: 270px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-<a href="https://imgsli.com/MTM1ODc2" target="_blank">Open in external tab</a>
+<a href="https://imgsli.com/MTM1OTkw" target="_blank">Open in external tab</a>
 
 <details>
   <summary>Details</summary>
   <p>
 
   Creation Date: 24. Nov 2022  
+  Last Update: 25. Nov 2022  
   Image Dimensions: 1280x720 pixels  
   Type: Frame  
 
@@ -91,17 +95,18 @@ These three example images are taken from the [GoPro Large Testset](https://seun
   ### Example 3
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM1ODc3" style="width: 100%; border: 0px none; height: 49vmin; min-height: 270px; margin-top: -75px; margin-bottom:-30px;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM1OTkx" style="width: 100%; border: 0px none; height: 49vmin; min-height: 270px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-<a href="https://imgsli.com/MTM1ODc3" target="_blank">Open in external tab</a>
+<a href="https://imgsli.com/MTM1OTkx" target="_blank">Open in external tab</a>
 
 <details>
   <summary>Details</summary>
   <p>
 
   Creation Date: 24. Nov 2022  
+  Last Update: 25. Nov 2022  
   Image Dimensions: 1280x720 pixels  
   Type: Frame  
 
