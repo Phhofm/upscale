@@ -2,6 +2,7 @@
 title: Multi Models
 description: Visual Comparison of Multiple Models
 layout: doc
+outline: [2,3]
 ---
 # Multiple Models
 
@@ -14,7 +15,7 @@ In this following youtube video I am talking about my oldest and smallest compar
 
 ## Set 1
 
-### Set Details
+#### Set Details
 
   Creation Date Of Upscale Set: 2nd Oct. 2022  
   Models used: 22  
@@ -49,98 +50,98 @@ In this following youtube video I am talking about my oldest and smallest compar
     NMKD Siax
   </details>
 
-  ### Buddy
+  #### Buddy
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4NDE3/0/1" style="width: 100%; border: 0px none; height: 55vmin; min-height: 310px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-  ### Hike 
+  #### Hike 
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4NjY3/0/1" style="width: 100%; border: 0px none; height: 60vmin; min-height: 320px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-  ### Grat
+  #### Grat
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4NjY5/0/1" style="width: 100%; border: 0px none; height: 100vmin; min-height: 500px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-  ### View
+  #### View
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4Njc1/0/1" style="width: 100%; border: 0px none; height: 48vmin; min-height: 280px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-  ### PC Build
+  #### PC Build
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4Njcx/0/1" style="width: 100%; border: 0px none; height: 60vmin; min-height: 320px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-  ### 200Fr PC Build
+  #### 200Fr PC Build
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4Njcz/0/1" style="width: 100%; border: 0px none; height: 60vmin; min-height: 320px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-  ### Painting
+  #### Painting
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4NjY4/0/1" style="width: 100%; border: 0px none; height: 60vmin; min-height: 320px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-  ### Charade1963 Screenshot
+  #### Charade1963 Screenshot
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4NDIy/0/1" style="width: 100%; border: 0px none; height: 48vmin; min-height: 270px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-  ### Wuffy
+  #### Wuffy
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4NDE5/0/1" style="width: 100%; border: 0px none; height: 78vmin; min-height: 410px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-  ### Child
+  #### Child
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4NjI4/0/1" style="width: 100%; border: 0px none; height: 78vmin; min-height: 410px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-  ### Sir Foxy
+  #### Sir Foxy
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4Njc0/0/1" style="width: 100%; border: 0px none; height: 78vmin; min-height: 410px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-  ### Freedoom Texture
+  #### Freedoom Texture
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4NDEz/0/1" style="width: 100%; border: 0px none; height: 35vmin; min-height: 320px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-  ### Freedoom Sprite
+  #### Freedoom Sprite
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4NDE1/0/1" style="width: 100%; border: 0px none; height: 35vmin; min-height: 320px; margin-top: -75px; margin-bottom:-30px;">
   </iframe>
 </div>
 
-  ### Freedoom Titlepic
+  #### Freedoom Titlepic
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTI4Njcw/0/1" style="width: 100%; border: 0px none; height: 52vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
@@ -149,7 +150,7 @@ In this following youtube video I am talking about my oldest and smallest compar
 
 ## Set 2
 
-### Set Details
+#### Set Details
 
   Creation Date Of Upscale Set: 22. Oct 2022  
   Models used: 71  
@@ -232,7 +233,7 @@ In this following youtube video I am talking about my oldest and smallest compar
     srrescgan
   </details>
 
-### Buddy
+#### Buddy
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyNTYx/0/1" style="width: 100%; border: 0px none; height: 55vmin; min-height: 320px; margin-top: -75px; margin-bottom:-30px;">
@@ -249,7 +250,7 @@ In this following youtube video I am talking about my oldest and smallest compar
   Type: Photo
 
 ## Set 3
-  ### Set Details
+  #### Set Details
 
   Creation Date Of Upscale Set: 27. Oct 2022  
   Models used: 87  
@@ -348,7 +349,7 @@ In this following youtube video I am talking about my oldest and smallest compar
     spsr 
   </details>
 
-### Wuffy
+#### Wuffy
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMxODgy/0/1" style="width: 100%; border: 0px none; height: 78vmin; min-height: 410px; margin-top: -75px; margin-bottom:-30px;">
@@ -364,7 +365,7 @@ In this following youtube video I am talking about my oldest and smallest compar
   Output Image: 1920x1920 pixels  
   Type: AI Generated Image  
 
-### Planet
+#### Planet
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyMDEz/0/1" style="width: 100%; border: 0px none; height: 78vmin; min-height: 410px; margin-top: -75px; margin-bottom:-30px;">
@@ -380,7 +381,7 @@ In this following youtube video I am talking about my oldest and smallest compar
   Output Image: 1920x1920 pixels  
   Type: AI Generated Image  
 
-### Landscape
+#### Landscape
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyMDE4/0/1" style="width: 100%; border: 0px none; height: 78vmin; min-height: 410px; margin-top: -75px; margin-bottom:-30px;">
@@ -398,7 +399,7 @@ In this following youtube video I am talking about my oldest and smallest compar
 
 
 ## Set 4
-  ### Set Details
+  #### Set Details
 
   Creation Date Of Upscale Set: 04. Nov 2022  
   Models used: ~300  
@@ -710,7 +711,7 @@ In this following youtube video I am talking about my oldest and smallest compar
 
   </details>
 
-### Beautiful Landscape
+#### Beautiful Landscape
 
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyOTA0/0/1" style="width: 100%; border: 0px none; height: 78vmin; min-height: 410px; margin-top: -75px; margin-bottom:-30px;">
@@ -738,7 +739,7 @@ The Models used are listed for each example, toghether with now a poll. The top 
   ### Photo 
 <br/>
 
-  #### Buddy  
+#### Buddy  
 <br/>
 <div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
   <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM3MDAy/0/1" style="width: 100%; border: 0px none; height: 56vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
