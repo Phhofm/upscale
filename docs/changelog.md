@@ -28,16 +28,16 @@ layout: doc
   - Add DeblurGANv2_InceptionResNet-v2
 
 ### 01. Dec 2022
-- Images - Update Multimodel Page
-  - Add Set 5 Photo Buddy example
+- Images - Update Multimodel Page with [Set 5](multimodels.md#set-5)
+  - Add Set 5 Photo [Buddy example](multimodels.md#buddy-2)
     - Add HAT versions, Real_HAT_GAN_SRx4 was just released a week ago on 24 Nov 2022  
     - Add Swin2SR versions which released 27 Sept 2022
     - Add FeMaSE which released Oct 2022
     - Add LBNet which released Mai 2022
     - Add Poll (Voting for best results)
-    - P.S. just as info "ruDALL-E-SR" is the re-trained version of Real-ESRGAN with custom dataset by Igor Pavlov which is used by ruDALL-E (https://github.com/chenxwh/rudalle-sr , https://github.com/ai-forever/Real-ESRGAN , https://drive.google.com/drive/folders/16PlVKhTNkSyWFx52RPb2hXPIQveNGbxS)
+    - P.S. just as info "ruDALL-E-SR" is the re-trained version of Real-ESRGAN with custom dataset by Igor Pavlov which is used by ruDALL-E [Repo1](https://github.com/chenxwh/rudalle-sr) [Repo2](https://github.com/ai-forever/Real-ESRGAN) [Model](https://drive.google.com/drive/folders/16PlVKhTNkSyWFx52RPb2hXPIQveNGbxS)
   - Add Community Top 5 page template
-  - Add Set 5 Photo Grosser Mythen example
-  - Add Set 5 Photo Painting example
-  - Add Set 5 Photo PC Build example
-  - Add Set 5 Photo Snowboard example
+  - Add Set 5 Photo [Grosser Mythen example](multimodels.md#grosser-mythen)
+  - Add Set 5 Photo [Painting example](multimodels.md#painting-1)
+  - Add Set 5 Photo [PC Build example](multimodels.md#pc-build-1)
+  - Add Set 5 Photo [Snowboard example](multimodels.md#snowboard)

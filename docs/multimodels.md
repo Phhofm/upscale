@@ -733,7 +733,7 @@ Features examples where I integrated some new models like
 Real_HAT_GAN_SRx4 as released on the 24. Nov 2022 (last week as of me creating this entry)   
 Swin2SR models released one month ago at the end of oct 2022  
 FeMaSR which had been released in the second half of 2022.  
-I try to list updates I make on the changelog page  
+I try to list updates I make on the [changelog page](changelog.md)  
 The Models used are listed for each example, toghether with now a poll. The top 5 models of each example poll will be featured for the respective example on the Community Top 5 page. It is basically a voting from the upscaling community (Name: your discord handle) on which was the (subjective opinion) best result for the respective example.  
 
   ### Photo 
@@ -756,8 +756,8 @@ The Models used are listed for each example, toghether with now a poll. The top 
   Scaling Factor: 4  
   Output Image: 1920x1280 pixels  
   Models used: 315   
-  Input Source File:  
-  Output Source Files:  
+  Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)   
+  Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)   
   (Output Source Files are mozjpg compressed)
 
   <details>
@@ -1109,8 +1109,8 @@ The Models used are listed for each example, toghether with now a poll. The top 
   Input Image: 427x320 pixels  
   Scaling Factor: 4  
   Output Image: 1708x1280 pixels    
-  Input Source File:  
-  Output Source Files:  
+  Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
+  Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
   (Output Source Files are mozjpg compressed
 
   ##### Voting
@@ -1138,8 +1138,8 @@ The Models used are listed for each example, toghether with now a poll. The top 
   Input Image: 427x320 pixels  
   Scaling Factor: 4  
   Output Image: 1708x1280 pixels    
-  Input Source File:  
-  Output Source Files:  
+  Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
+  Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
   (Output Source Files are mozjpg compressed
 
   ##### Voting
@@ -1166,8 +1166,8 @@ The Models used are listed for each example, toghether with now a poll. The top 
   Input Image: 427x320 pixels  
   Scaling Factor: 4  
   Output Image: 1708x1280 pixels    
-  Input Source File:  
-  Output Source Files:  
+  Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
+  Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
   (Output Source Files are mozjpg compressed
 
   ##### Voting
@@ -1195,8 +1195,8 @@ The Models used are listed for each example, toghether with now a poll. The top 
   Input Image: 427x320 pixels  
   Scaling Factor: 4  
   Output Image: 1708x1280 pixels    
-  Input Source File:  
-  Output Source Files:  
+  Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
+  Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
   (Output Source Files are mozjpg compressed
 
   ##### Voting

@@ -31,6 +31,10 @@ export default {
                                 text: 'Set 4',
                                 link: '/multimodels#set-4'
                             },
+                            {
+                                text: 'Set 5',
+                                link: '/multimodels#set-5'
+                            },
                         ]
                     },
                     {
@@ -120,6 +124,10 @@ export default {
                             {
                                 text: 'Set 4',
                                 link: '/multimodels#set-4'
+                            },
+                            {
+                                text: 'Set 5',
+                                link: '/multimodels#set-5'
                             },
                         ]
                     },
