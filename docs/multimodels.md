@@ -734,7 +734,7 @@ Real_HAT_GAN_SRx4 as released on the 24. Nov 2022 (last week as of me creating t
 Swin2SR models released one month ago at the end of oct 2022  
 FeMaSR which had been released in the second half of 2022.  
 I try to list updates I make on the changelog page  
-The Models used are listed for each example, toghether with now a poll. The top 5 models of each example poll will be features for the respecitve example on the Community Top 5 page. It is basically a voting from the upscaling community (you might recognize some names) on which was the best result for the respective example.  
+The Models used are listed for each example, toghether with now a poll. The top 5 models of each example poll will be featured for the respective example on the Community Top 5 page. It is basically a voting from the upscaling community (Name: your discord handle) on which was the (subjective opinion) best result for the respective example.  
 
   ### Photo 
 <br/>
@@ -751,7 +751,7 @@ The Models used are listed for each example, toghether with now a poll. The top 
   ##### Example Details
 
   Name: Buddy 
-  Creation Date: 30. Nov 2022  
+  Creation Date: 01. Dec 2022  
   Input Image: 480x320 pixels  
   Scaling Factor: 4  
   Output Image: 1920x1280 pixels  
@@ -1081,6 +1081,9 @@ The Models used are listed for each example, toghether with now a poll. The top 
 
   </details>
 
+##### Voting
+  "4x BSRGAN" and "4x BSRGAN_old_arch" -> "BSRGAN"
+
 <div class="strawpoll-embed" id="strawpoll_QrgeVNGxOZp" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
 <iframe title="StrawPoll Embed" id="strawpoll_iframe_QrgeVNGxOZp" src="https://strawpoll.com/embed/polls/QrgeVNGxOZp" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
 <!-- <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script> -->
@@ -1089,8 +1092,40 @@ The Models used are listed for each example, toghether with now a poll. The top 
 <!-- Google Forms alternative, but I like the username entry of strawpoll since there are names/tags we know from the upscale community
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfwm-x0ZBB3fgcHzYUouXGkaA5EGndIFgpZCfF90oyN8VtXKg/viewform?embedded=true" width="640" height="474" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 
+
+#### Grosser Mythen
+<br/>
+<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM3MDgy/0/1" style="width: 100%; border: 0px none; height: 62vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
+  </iframe>
+</div>
+
+<a href="https://imgsli.com/MTM3MDgy/0/1" target="_blank">Open in external tab</a>
+
+  ##### Example Details
+
+  Name: Grosser Mythen 
+  Creation Date: 01. Dec 2022  
+  Input Image: 427x320 pixels  
+  Scaling Factor: 4  
+  Output Image: 1708x1280 pixels    
+  Input Source File:  
+  Output Source Files:  
+  (Output Source Files are mozjpg compressed
+
+  ##### Voting
+
+<div class="strawpoll-embed" id="trawpoll_PKglzr9zEyp" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
+<iframe title="StrawPoll Embed" id="trawpoll_PKglzr9zEyp" src="https://strawpoll.com/embed/polls/PKglzr9zEyp" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
+<!-- <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script> -->
+</div>
+
+
   ### AI Generated Images
 <br/>
 
   ### Anime
+<br/>
+
+  #### Fate
 <br/>
