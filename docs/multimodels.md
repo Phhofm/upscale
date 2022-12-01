@@ -1179,11 +1179,64 @@ The Models used are listed for each example, toghether with now a poll. The top 
 <br/>
 
 
+#### Snowboard
+<br/>
+<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM3MTM4/0/1" style="width: 100%; border: 0px none; height: 62vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
+  </iframe>
+</div>
+
+<a href="https://imgsli.com/MTM3MTM4/0/1" target="_blank">Open in external tab</a>
+
+  ##### Example Details
+
+  Name: Snowboard
+  Creation Date: 01. Dec 2022  
+  Input Image: 427x320 pixels  
+  Scaling Factor: 4  
+  Output Image: 1708x1280 pixels    
+  Input Source File:  
+  Output Source Files:  
+  (Output Source Files are mozjpg compressed
+
+  ##### Voting
+<br/>
+<div class="strawpoll-embed" id="strawpoll_B2ZB3MbxjyJ" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
+<iframe title="StrawPoll Embed" id="strawpoll_iframe_B2ZB3MbxjyJ" src="https://strawpoll.com/embed/polls/B2ZB3MbxjyJ" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
+<!-- <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script> -->
+</div>
+<br/>
+
+
   ### AI Generated Images
+<br/>
+
+  #### Child
+<br/>
+
+  #### Landscape
+<br/>
+
+  #### Lightning
+<br/>
+
+  #### Livingroom
 <br/>
 
   ### Anime
 <br/>
 
   #### Fate
+<br/>
+
+  #### KonoSuba
+<br/>
+
+  #### Overlord
+<br/>
+
+  #### Sword Art Online
+<br/>
+
+  #### That Time I Got Reincarnated As A Slime
 <br/>

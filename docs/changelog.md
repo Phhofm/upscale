@@ -40,3 +40,4 @@ layout: doc
   - Add Set 5 Photo Grosser Mythen example
   - Add Set 5 Photo Painting example
   - Add Set 5 Photo PC Build example
+  - Add Set 5 Photo Snowboard example
