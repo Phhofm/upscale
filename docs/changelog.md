@@ -38,3 +38,4 @@ layout: doc
     - P.S. just as info "ruDALL-E-SR" is the re-trained version of Real-ESRGAN with custom dataset by Igor Pavlov which is used by ruDALL-E (https://github.com/chenxwh/rudalle-sr , https://github.com/ai-forever/Real-ESRGAN , https://drive.google.com/drive/folders/16PlVKhTNkSyWFx52RPb2hXPIQveNGbxS)
   - Add Community Top 5 page template
   - Add Set 5 Photo Grosser Mythen example
+  - Add Set 5 Photo Painting example

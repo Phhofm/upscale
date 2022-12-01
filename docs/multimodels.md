@@ -1115,10 +1115,38 @@ The Models used are listed for each example, toghether with now a poll. The top 
 
   ##### Voting
 
-<div class="strawpoll-embed" id="trawpoll_PKglzr9zEyp" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
-<iframe title="StrawPoll Embed" id="trawpoll_PKglzr9zEyp" src="https://strawpoll.com/embed/polls/PKglzr9zEyp" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
+<div class="strawpoll-embed" id="strawpoll_PKglzr9zEyp" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
+<iframe title="StrawPoll Embed" id="strawpoll_PKglzr9zEyp" src="https://strawpoll.com/embed/polls/PKglzr9zEyp" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
 <!-- <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script> -->
 </div>
+
+#### Painting
+<br/>
+<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
+  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM3MTI2/0/1" style="width: 100%; border: 0px none; height: 62vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
+  </iframe>
+</div>
+
+<a href="https://imgsli.com/MTM3MTI2/0/1" target="_blank">Open in external tab</a>
+
+  ##### Example Details
+
+  Name: Painting
+  Creation Date: 01. Dec 2022  
+  Input Image: 427x320 pixels  
+  Scaling Factor: 4  
+  Output Image: 1708x1280 pixels    
+  Input Source File:  
+  Output Source Files:  
+  (Output Source Files are mozjpg compressed
+
+  ##### Voting
+
+<div class="strawpoll-embed" id="strawpoll_QrgeVNMkbZp" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
+<iframe title="StrawPoll Embed" id="strawpoll_QrgeVNMkbZp" src="https://strawpoll.com/embed/polls/QrgeVNMkbZp" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
+<!-- <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script> -->
+</div>
+
 
 
   ### AI Generated Images
