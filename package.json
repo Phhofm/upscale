@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {
     "docs:dev": "vitepress dev docs --host",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
@@ -12,6 +12,7 @@
   "license": "",
   "dependencies": {
     "vitepress": "^1.0.0-alpha.27",
-    "vue": "^3.2.41"
+    "vue": "^3.2.41",
+    "vue-image-compare2": "^1.0.0"
   }
 }
