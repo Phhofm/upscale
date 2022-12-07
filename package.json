@@ -1,7 +1,7 @@
 {
   "name": "Visual Upscale Models Comparison",
   "version": "1.0.0",
-  "description": "",
+  "description": "To visually compare different upscaling models for oneself",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs --host",
