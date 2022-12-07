@@ -5,6 +5,10 @@ layout: doc
 outline: [2, 3]
 ---
 
+<script setup>
+import ImageSlider from './components/imageslider.vue' // the vue image slider example comparison component
+</script>
+
 # Multiple Models
 
 This Page contains examples that were upscaled with multiple models for you to visually compare the outputs of these models against each other.  
@@ -16,505 +20,88 @@ In this following youtube video I am talking about my oldest and smallest compar
 
 ## Examples
 
-These examples are automatically updated since the vue component fetches all the images for the examples from my github sources folder on each browser visit. Meaning I can simply upload images files generated/upscaled with new models to update these examples. Models may differ for each image, this approach is now example-based and not set-based anymore. Generally these examples include >300 different models.
+These examples are automatically updated since the vue component fetches all the images for the examples from my github sources folder on each browser visit. Models used may differ for each image since this approach is now example-based and not set-based. Generally these examples include >300 different models.
+
+
 
 ### Photo
 
 <br/>
 
 #### Buddy
-
 <br/>
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM3MDAy/0/1" style="width: 100%; border: 0px none; height: 56vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/buddy.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/buddy' />
+<br/>
 
-<a href="https://imgsli.com/MTM3MDAy/0/1" target="_blank">Open in external tab</a>
-
-##### Example Details
+<details><summary>Example Details </summary>
 
 Name: Buddy
-Creation Date: 01. Dec 2022  
  Input Image: 480x320 pixels  
  Scaling Factor: 4  
  Output Image: 1920x1280 pixels  
- Models used: 315  
- Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
- Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
- (Output Source Files are mozjpg compressed)
-
-  <details>
-    <summary>Models List</summary>
-
-    001_classicalSR_DF2K_s64w8_SwinIR-M_x4
-    001_classicalSR_DIV2K_s48w8_SwinIR-M_x4
-    002_lightweightSR_DIV2K_s64w8_SwinIR-S_x4
-    003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_GAN
-    003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN
-    4x_1ch-Alpha-Lite_212000_G
-    4x_AmericanDad2
-    4x_Archerpolation_NXbrz
-    4x_b_melozard_2_latest_G
-    4x_BigFace_v3_Blend
-    4x_BigFace_v3_Clear
-    4x_BigFace_v3
-    4x_BigFArt_Bang1
-    4x_BigFArt_Base
-    4x_BigFArt_Blend
-    4x_BigFArt_Detail_300000_G
-    4x_BigFArt_Fine
-    4x_BMS_85000_G
-    4x_BMS_jpg60_20000_G
-    4x_BooruGan_600k
-    4x_BooruGan_650k
-    4x_BS_DevianceMIP_82000_G
-    4x_BS_DevianceV2
-    4x_BS_Mystery
-    4x_BS_SbeveHarvey_62000_G
-    4x_BS_Screenbooster_SPSR_88000G
-    4x_BSRGAN_old_arch
-    4x_BSRGAN
-    4x_cat_patch_325000_G
-    4x_comic_dataset_115k
-    4x_Compact_Pretrain_traiNNer
-    4x_Compact_Pretrain
-    4x_CountryRoads_377000_G
-    4x_DBMangaStand_255k GOOD
-    4x_DeBLRFS
-    4x_deindeo_x4_130000_G
-    4x_Deviance_60000G
-    4x_Deviance
-    4x_DevianceSPSR_152000_G
-    4x_DF2K_JPEG
-    4x_DigitalFake_2.1_100000_G
-    4x_DigitalFake-2.1_100000_G
-    4x_eula_digimanga_bw_v1_860k
-    4x_eula_digimanga_bw_v2_nc1_307k
-    4x_face_focus_275k
-    4x_Faces_04_N_180000_G
-    4x_FArtDIV3_Base
-    4x_FArtDIV3_Blend
-    4x_FArtDIV3_Fine
-    4x_FArtDIV3_UltraMix4
-    4x_FArtFace
-    4x_FArtSuperBlend
-    4x_fatal_Anime_160k
-    4x_fatal_Anime_190k
-    4x_fatal_Anime_200k
-    4x_fatal_Anime_260k
-    4x_fatal_Anime_360k
-    4x_Fatal_Anime_435k
-    4x_fatal_Anime_500000_G
-    4x_fatal_Faces_FS_MKI
-    4x_Fatal_twerpilation
-    4x_Fatality_01_375000_G
-    4x_Fatality_Comix_260000_G
-    4x_Fatality_Faces_310000_G
-    4x_Fatality_MKII_90000_G
-    4x_FatalPhotos_Beta
-    4x_FatalPixels_340000_G
-    4x_FireAlpha
-    4x_foolhardy_Remacri_ExtraSmoother
-    4x_foolhardy_Remacri
-    4x_FS_Dedither_new
-    4x_FuzzyBox
-    4x_GameAI_1.0
-    4x_GameAI_2.0
-    4x_GameboyCamera
-    4x_HDCube_110k
-    4x_HellInACel
-    4X_KCJPUNK_1.0_233089_
-    4x_Loyaldk-Kororo_652500_V1.0
-    4x_Loyaldk-LitePony_500000_V2.0
-    4x_Loyaldk-MediumPony_500000_V2.0
-    4x_Loyaldk-SuperPony_500000_V2.0
-    4x_mdeblur
-    4x_MeguUp_105000
-    4x_Minecraft_256hr_55000_G
-    4x_Minecraft_256hr_spsr_40000_G
-    4x_Minepack
-    4x_Morrowind_2.0_205K
-    4x_MW_ESRGAN_130K
-    4x_Nickelback_70000G
-    4x_NickelbackFS_72000_G
-    4x_NickelbackFS
-    4x_NMKD_SuperYandere_175k
-    4x_NMKD-PatchySharp_100K
-    4x_NMKD-PatchySharp_135K
-    4x_NMKD-PatchySharp_240K
-    4x_NMKD-Siax_200k
-    4x_NMKD-Superscale-SP_178000_G
-    4x_NMKD-UltraYandere_300k
-    4x_NMKD-UltraYandere-Lite_280k
-    4x_NMKD-UpgifLiteV2_210k
-    4x_NMKD-Yandere2_255000_G
-    4x_NMKD-Yandere4_120000_G
-    4x_NMKD-YandereNeoXL_200k
-    4x_NMKDfaces_downsized
-    4x_NMKDSuperscale-Artisoftject
-    4x_NMKDSuperscale
-    4x_OLDIES_290000_G_FINAL_interp_03
-    4x_OLDIES_ALTERNATIVE_FINAL
-    4x_OLDIES_ALTERNATIVE_FINAL.PTH
-    4x_Pixelity_Faces
-    4x_PixelPerfectV4_137000_G
-    4x_PixelScale_MKII_Beta
-    4x_PocketMonsters-Alpha_115000_G
-    4x_realistic_misc_alsa
-    4x_reks_effeks_photoanime_v2_150k
-    4x_RRDB-G_ResNet-D_latest_G
-    4x_scalenx_90k
-    4x_ScreenBoosterV2_44000_G
-    4x_SmolFace_200k
-    4x_SmolFace_clean
-    4x_Soladad
-    4x_Sourcetex-v2_136000_G
-    4x_Sourcetex-v2-DXTJPG-Smooth_132000_G
-    4x_Sourcetex-v2-DXTJPG-Smoother_134000_G
-    4x_Sourcetex-v2-Smooth_120000_G
-    4x_Sourcetex-v2-Smoother_120000_G
-    4x_Sourcetex-v2-Smoothest_100000_G
-    4x_SpongeBob_235000_G
-    4x_Spongebob_v6_190000_G
-    4x_Spongebob_v6_DDDQ_90000_G
-    4x_Spongebob_v6_Deblur_65000_G
-    4x_SpongeBob-Reloaded_153000_G
-    4x_SpongeBob-Reloaded-SWAG_153000_swaG
-    4x_SpongePSNR_85k
-    4x_Struzan_300000
-    4x_test_clay_v2
-    4x_test_Fatality_MK3
-    4x_test_redither
-    4x_Training4Melozard_Anime_144000_G
-    4x_Training4Xeller_latest_G
-    4x_Training4Xeller_v2_latest_G
-    4x_trixie
-    4x_Unholy_FArt
-    4x_UniversalUpscalerV2-Neutral_115000_swaG
-    4x_UniversalUpscalerV2-Sharp_101000_G
-    4x_UniversalUpscalerV2-Sharper_103000_G
-    4x_Valar_v1
-    4x_xbrz_90k
-    4x_xbrz+dd_260k
-    4x-AnimeSharp-lite
-    4x-AnimeSharp
-    4x-DeCompress EXTREME(avoid unless necessary)
-    4x-DeCompress-Strong
-    4x-DeCompress
-    4x-Fabric-Alt
-    4x-Fabric
-    4x-FatePlus-lite
-    4x-SkyrimTexV2_Fabric
-    4x-SkyrimTexV2.1
-    4x-TextSharpV1
-    4x-UltraMix_Balanced
-    4x-UltraMix_Restore
-    4x-UltraMix_Smooth
-    4x-UltraSharp
-    4x-UniScale_Restore
-    4x-UniScale-Balanced [72000g]
-    4x-UniScale-Interp
-    4x-UniScale-Strong [42400g]
-    4x-UniScaleNR-Balanced [34400g]
-    4x-UniScaleNR-Strong [62400g]
-    4x-UniScaleV2_Moderate
-    4x-UniScaleV2_Sharp
-    4x-UniScaleV2_Soft
-    4x-VolArt
-    4x-VolArtNR
-    4xBox
-    4xBS_DevianceV3
-    4xCatPatch
-    4xCharSprite
-    4xContextualSpongebob_70000_G
-    4xDetoon
-    4xDigiPaint35k
-    4xdragoon
-    4xEdges2Faces_V2Test
-    4xEdges2Faces_V3Test
-    4xEdges2Faces
-    4xESRGAN
-    4xFaceB
-    4xFaceriZor_V1Test
-    4xFaithful64
-    4xFalcoon
-    4xFalloutWeaponsV2
-    4xFart
-    4xFatalCats
-    4xFatalCoon
-    4xFatalFacesV1
-    4xFatalFacesV2
-    4xFatalimiX_MKII_beta
-    4xFatalimiX_MKIII
-    4xFatalimiX
-    4xFatalityV1
-    4xFatalityV2
-    4xFatalPixels
-    4xFireAlpha
-    4xForest
-    4xFS_DF2K_jpeg_SDSR
-    4xFS_DF2K_jpeg_TDSR
-    4xFSDedither_Manga
-    4xFSDedither_Riven_Smooth
-    4xFSDedither_Riven
-    4xFSDedither
-    4xFSMangaV2
-    4xFuzzyBox
-    4xGround
-    4xGuilty
-    4xJaypeg90
-    4xLADDIER1_282500_G
-    4xLady0101
-    4xlollypop
-    4xManga109
-    4xMCWashed
-    4xMeguUp130k
-    4xMinecraftAlpha
-    4xMinecraftSPSR_60000_G
-    4xMinepack
-    4xMisc
-    4xNickelback
-    4xNickelfront
-    4xPackCraft_v4_40000_G
-    4xPackCraft_v4
-    4xPaper
-    4xpicsy
-    4xPixelScale
-    4xPixelScaleClay
-    4xportrait
-    4xPSNR
-    4xQuaker
-    4xRealSR_DF2K_JPEG
-    4xRealSR_DF2K
-    4xRealSR_DPED
-    4xreboutfs
-    4xreboutpg
-    4xRender
-    4xScreenBooster
-    4xSGI_103000_G
-    4xSGI
-    4xShiteMountainV3
-    4xSkyrim_Weapons_And_Armor
-    4xSmoothRealism
-    4xsnesal
-    4xSourcetexV2_DXTJPG_Smooth
-    4xSourcetexV2_DXTJPG_Smoother
-    4xSourcetexV2_Smooth
-    4xSourcetexV2_Smoother
-    4xSourcetexV2
-    4xSpongeBob
-    4xSpongeBobTweak
-    4xSteveHarvey
-    4xSW1997_TEST
-    4xSW1997
-    4xSW1997Attempt2
-    4xSW1997Attempt3
-    4xSW1997V2
-    4xSW1997V3
-    4xsynla
-    4xTest_cout
-    4xTest_FSBox
-    4xTest_FSLinear
-    4xTest_pixy
-    4xTest_scalegenx
-    4xXplode
-    4xyammy
-    4xZZines
-    8x_glasshopper_ArzenalV1.1_175000_downsized
-    8x_glasshopper_MS-Unpainter_195000_G_downsized
-    8x_glasshopper_MS-Unpainter_De-Dither_195000_G_downsized
-    8x_HugePeeps_v1_downsized
-    American.Dad.2.HD.150ki.5e-PHOENiX
-    ArbSR
-    BSRGAN
-    deviantPixelHD_250000
-    DF2K_JPEG
-    DigiPaint35000
-    ESRGAN_GroundTextures_NonTiled_RGB_UpscalingAlgorithm_128HR_32LR_305000Iterations
-    ESRGAN_Skyrim_NonTiled_Alpha_NN_128_32_105000
-    FeMaSR
-    HAT_SRx4_ImageNet-pretrain
-    HAT_SRx4
-    HAT-L_SRx4_ImageNet-pretrain
-    HCFlow
-    LADDIER1_282500_G
-    Lady0101_208000
-    LBNet-X4
-    LDSR
-    lollypop
-    nESRGANplus
-    Real_HAT_GAN_SRx4
-    realesr-general-wdn-x4v3
-    realesr-general-x4v3
-    RealESRGAN_x4plus_anime_6B
-    RealESRGAN_x4plus
-    realesrgan-x4minus
-    RealESRGANv2-animevideo-xsx4
-    reboutblend
-    reboutcx
-    RRDB_ESRGAN_x4_old_arch
-    RRDB_PSNR_x4_old_arch
-    ruDALL-E-SR
-    SpongeBob.CEL.2.HD.125ki.499e-PHOENiX
-    spsr
-    SRResCGAN
-    Swin2SR_ClassicalSR_X4_64
-    Swin2SR_CompressedSR_X4_48
-    Swin2SR_RealworldSR_X4_64_BSRGAN_PSNR
-
-  </details>
-
-##### Voting
-
-<details><summary>Expand</summary>
-
-"4x BSRGAN" and "4x BSRGAN_old_arch" -> "BSRGAN"
-
-<div class="strawpoll-embed" id="strawpoll_QrgeVNGxOZp" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
-<iframe title="StrawPoll Embed" id="strawpoll_iframe_QrgeVNGxOZp" src="https://strawpoll.com/embed/polls/QrgeVNGxOZp" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
-<!-- <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script> -->
-</div>
-<br/>
-<!-- Google Forms alternative, but I like the username entry of strawpoll since there are names/tags we know from the upscale community
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfwm-x0ZBB3fgcHzYUouXGkaA5EGndIFgpZCfF90oyN8VtXKg/viewform?embedded=true" width="640" height="474" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
-
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/buddy.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos/buddy) (Output Source Files are mozjpg compressed)
 </details>
 
 #### Grosser Mythen
-
 <br/>
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM3MDgy/0/1" style="width: 100%; border: 0px none; height: 62vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/grossermythen.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/grossermythen' />
+<br/>
 
-<a href="https://imgsli.com/MTM3MDgy/0/1" target="_blank">Open in external tab</a>
-
-##### Example Details
+<details><summary>Example Details </summary>
 
 Name: Grosser Mythen
-Creation Date: 01. Dec 2022  
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
- Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
- (Output Source Files are mozjpg compressed
-
-##### Voting
-
-<details><summary>Expand</summary>
-
-  <br/>
-
-<div class="strawpoll-embed" id="strawpoll_PKglzr9zEyp" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
-<iframe title="StrawPoll Embed" id="strawpoll_iframe_PKglzr9zEyp" src="https://strawpoll.com/embed/polls/PKglzr9zEyp" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
-<!-- <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script> -->
-</div>
-<br/>
-
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/grossermythen.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos/grossermythen) (Output Source Files are mozjpg compressed)
 </details>
 
 #### Painting
-
 <br/>
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM3MTI2/0/1" style="width: 100%; border: 0px none; height: 62vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/painting.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/painting' />
+<br/>
 
-<a href="https://imgsli.com/MTM3MTI2/0/1" target="_blank">Open in external tab</a>
-
-##### Example Details
+<details><summary>Example Details </summary>
 
 Name: Painting
-Creation Date: 01. Dec 2022  
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
- Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
- (Output Source Files are mozjpg compressed
-
-##### Voting
-
-<details><summary>Expand</summary>
-
-<br/>
-<div class="strawpoll-embed" id="strawpoll_QrgeVNMkbZp" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
-<iframe title="StrawPoll Embed" id="strawpoll_iframe_QrgeVNMkbZp" src="https://strawpoll.com/embed/polls/QrgeVNMkbZp" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
-<!-- <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script> -->
-</div>
-<br/>
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/painting.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos/painting) (Output Source Files are mozjpg compressed)
 
 </details>
 
 #### PC Build
-
 <br/>
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM3MTMw/0/1" style="width: 100%; border: 0px none; height: 62vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/pcbuild.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/pcbuild' />
+<br/>
 
-<a href="https://imgsli.com/MTM3MTMw/0/1" target="_blank">Open in external tab</a>
-
-##### Example Details
+<details><summary>Example Details </summary>
 
 Name: PC Build
-Creation Date: 01. Dec 2022  
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
- Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
- (Output Source Files are mozjpg compressed
-
-##### Voting
-
-<details><summary>Expand</summary>
-
-<br/>
-<div class="strawpoll-embed" id="strawpoll_eJnv7bdNEgv" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
-<iframe title="StrawPoll Embed" id="strawpoll_iframe_eJnv7bdNEgv" src="https://strawpoll.com/embed/polls/eJnv7bdNEgv" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
-<!-- <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script> -->
-</div>
-<br/>
-
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/pcbuild.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos/pcbuild) (Output Source Files are mozjpg compressed)
 </details>
 
 #### Snowboard
-
 <br/>
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM3MTM4/0/1" style="width: 100%; border: 0px none; height: 62vmin; min-height: 300px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/snowboard.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/snowboard' />
+<br/>
 
-<a href="https://imgsli.com/MTM3MTM4/0/1" target="_blank">Open in external tab</a>
-
-##### Example Details
+<details><summary>Example Details </summary>
 
 Name: Snowboard
-Creation Date: 01. Dec 2022  
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
- Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
- (Output Source Files are mozjpg compressed
-
-##### Voting
-
-<details><summary>Expand</summary>
-
-<br/>
-<div class="strawpoll-embed" id="strawpoll_B2ZB3MbxjyJ" style="height: 600px; width: 100%; margin: 0 auto; display: flex; flex-direction: column;">
-<iframe title="StrawPoll Embed" id="strawpoll_iframe_B2ZB3MbxjyJ" src="https://strawpoll.com/embed/polls/B2ZB3MbxjyJ" style="position: static; visibility: visible; display: block; width: 100%; flex-grow: 1;" frameborder="0" allowfullscreen allowtransparency>Loading...</iframe>
-<!-- <script async src="https://cdn.strawpoll.com/dist/widgets.js" charset="utf-8"></script> -->
-</div>
-<br/>
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/snowboard.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos/snowboard) (Output Source Files are mozjpg compressed)
 
 </details>
 
@@ -523,20 +110,69 @@ Creation Date: 01. Dec 2022
 <br/>
 
 #### Child
-
 <br/>
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/child.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/child' />
+<br/>
+
+<details><summary>Example Details </summary>
+
+Name: Child
+ Input Image: 320x320 pixels  
+ Scaling Factor: 4  
+ Output Image: 1280x1280 pixels  
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/child.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/ai_generated/child) (Output Source Files are mozjpg compressed)
+
+</details>
 
 #### Landscape
-
 <br/>
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/landscape.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/landscape' />
+<br/>
+<details><summary>Example Details </summary>
+
+Name: Landscape
+ Input Image: 320x320 pixels  
+ Scaling Factor: 4  
+ Output Image: 1280x1280 pixels  
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/landscape.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/ai_generated/landscape) (Output Source Files are mozjpg compressed)
+
+</details>
 
 #### Lightning
 
 <br/>
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/lightning.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/lightning' />
+<br/>
+
+<details><summary>Example Details </summary>
+
+Name: Lightning
+ Input Image: 320x320 pixels  
+ Scaling Factor: 4  
+ Output Image: 1280x1280 pixels  
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/lightning.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/ai_generated/lightning) (Output Source Files are mozjpg compressed)
+
+</details>
 
 #### Livingroom
 
 <br/>
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/livingroom.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/livingroom' />
+<br/>
+
+<details><summary>Example Details </summary>
+
+Name: Livingroom
+ Input Image: 320x320 pixels  
+ Scaling Factor: 4  
+ Output Image: 1280x1280 pixels  
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/livingroom.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/ai_generated/livingroom) (Output Source Files are mozjpg compressed)
+
+</details>
 
 ### Anime
 

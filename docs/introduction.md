@@ -3,6 +3,18 @@ title: Introduction
 description: Introduction
 layout: doc
 ---
+
+<script setup>
+import imageCompare from "vue-image-compare2";
+import exampleLeftImgUrl from '../assets/images/introduction/buddy.jpg'; // import images because of vite asset loading/handling, they will be included in the build and get a hashed output name
+import exampleRightImgUrl from '../assets/images/introduction/SwinIR-L+GFPGANv1.4.jpg';
+
+const after = exampleLeftImgUrl; // left
+const before = exampleRightImgUrl; // right
+// set zoom options (doesnt make sense to zoom too deep since it will be pixelated just because of image size)
+const zoom = { min: 1, max: 5 };
+</script>
+
 # Introduction
 
 ### Super What?
@@ -36,10 +48,16 @@ You can find them in the sub pages on the left side. There is a multi model page
 For the comparisons I embedded on this page imgsli examples I had created. You can move the slider to compare, and you can even zoom into the image to better compare the details. The bottom right button enables fullscreen. The comparison works best on a large desktop/laptop screen rather than on a small mobile phone screen.
 Here is an example:  
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMyNzYz" style="width: 100%; border: 0px none; height: 55vmin; min-height: 310px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
+  <image-compare
+    :before="before"
+    :after="after"
+    isDraggable
+    isZoomable
+    :zoom="zoom"
+    @wheel.prevent
+    @touchmove.prevent
+    @scroll.prevent
+  />
 
 The images I use are either photos of mine or then images I had created with Midjourney (or Stable Diffusion).
 
