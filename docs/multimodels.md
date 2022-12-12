@@ -6,7 +6,6 @@ outline: [2, 3]
 ---
 
 <script setup>
-//import ImageSlider from './components/imageslider.vue' // the vue image slider example comparison component
 import ImageSliderLocal from './components/imagesliderlocal.vue' // the vue image slider example comparison component
 </script>
 
@@ -30,12 +29,8 @@ These examples are automatically updated since the vue component fetches all the
 #### Buddy
 
 <br/>
-<!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/buddy.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/buddy' />
--->
-<br/>
-
 <ImageSliderLocal inputImage='/upscale/sources/input/photos/buddy.jpg' localFolder='multimodel/current/photos/buddy' />
+<br/>
 
 <details><summary>Example Details </summary>
 
@@ -50,9 +45,7 @@ Name: Buddy
 #### Grosser Mythen
 
 <br/>
-<!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/grossermythen.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/grossermythen' />
--->
+<ImageSliderLocal inputImage='/upscale/sources/input/photos/grossermythen.jpg' localFolder='multimodel/current/photos/grossermythen' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -68,9 +61,7 @@ Name: Grosser Mythen
 #### Painting
 
 <br/>
-<!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/painting.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/painting' />
--->
+<ImageSliderLocal inputImage='/upscale/sources/input/photos/painting.jpg' localFolder='multimodel/current/photos/painting' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -87,9 +78,7 @@ Name: Painting
 #### PC Build
 
 <br/>
-<!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/pcbuild.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/pcbuild' />
--->
+<ImageSliderLocal inputImage='/upscale/sources/input/photos/pcbuild.jpg' localFolder='multimodel/current/photos/pcbuild' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -105,9 +94,7 @@ Name: PC Build
 #### Snowboard
 
 <br/>
-<!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/snowboard.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/snowboard' />
--->
+<ImageSliderLocal inputImage='/upscale/sources/input/photos/snowboard.jpg' localFolder='multimodel/current/photos/snowboard' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -128,9 +115,7 @@ Name: Snowboard
 #### Child
 
 <br/>
-<!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/child.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/child' />
--->
+<ImageSliderLocal inputImage='/upscale/sources/input/ai_generated/child.jpg' localFolder='multimodel/current/ai_generated/child' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -147,10 +132,9 @@ Name: Child
 #### Landscape
 
 <br/>
-<!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/landscape.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/landscape' />
--->
+<ImageSliderLocal inputImage='/upscale/sources/input/ai_generated/landscape.jpg' localFolder='multimodel/current/ai_generated/landscape' />
 <br/>
+
 <details><summary>Example Details </summary>
 
 Name: Landscape
@@ -165,9 +149,7 @@ Name: Landscape
 #### Lightning
 
 <br/>
-<!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/lightning.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/lightning' />
--->
+<ImageSliderLocal inputImage='/upscale/sources/input/ai_generated/lightning.jpg' localFolder='multimodel/current/ai_generated/lightning' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -184,9 +166,7 @@ Name: Lightning
 #### Livingroom
 
 <br/>
-<!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/livingroom.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/livingroom' />
--->
+<ImageSliderLocal inputImage='/upscale/sources/input/ai_generated/livingroom.jpg' localFolder='multimodel/current/ai_generated/livingroom' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -208,7 +188,7 @@ Name: Livingroom
 
 <br/>
 <!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/fate' />
+<ImageSliderLocal inputImage='/upscale/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg' localFolder='multimodel/current/anime/fate' />
 -->
 <br/>
 
@@ -227,7 +207,7 @@ Name: Fate (Fate/Stay Night: Unlimited Blade Works Opening)
 
 <br/>
 <!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/KonoSuba.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/konosuba' />
+<ImageSliderLocal inputImage='/upscale/sources/input/anime/KonoSuba.jpg' localFolder='multimodel/current/anime/konosuba' />
 -->
 <br/>
 
@@ -246,7 +226,7 @@ Name: KonoSuba
 
 <br/>
 <!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/Overlord.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/overlord' />
+<ImageSliderLocal inputImage='/upscale/sources/input/anime/Overlord.jpg' localFolder='multimodel/current/anime/overlord' />
 -->
 <br/>
 
@@ -265,7 +245,7 @@ Name: Overlord
 
 <br/>
 <!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/SwordArtOnline.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/sao' />
+<ImageSliderLocal inputImage='/upscale/sources/input/anime/SwordArtOnline.jpg' localFolder='multimodel/current/anime/sao' />
 -->
 <br/>
 
@@ -284,7 +264,7 @@ Name: Sword Art Online
 
 <br/>
 <!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/SwordArtOnline2.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/sao2' />
+<ImageSliderLocal inputImage='/upscale/sources/input/anime/SwordArtOnline2.jpg' localFolder='multimodel/current/anime/sao2' />
 -->
 <br/>
 
@@ -303,7 +283,7 @@ Name: Sword Art Online 2
 
 <br/>
 <!-- 
-<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/slime' />
+<ImageSliderLocal inputImage='/upscale/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg' localFolder='multimodel/current/anime/slime' />
 -->
 <br/>
 
