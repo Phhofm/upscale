@@ -133,6 +133,10 @@ export default {
                         text: 'Models Used',
                         link: '/modelsused'
                     },
+                    {
+                        text: 'Changelog',
+                        link: '/changelog'
+                    },
                 ]
             },
             {
