@@ -4,13 +4,14 @@
   "description": "To visually compare different upscaling models for oneself",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vitepress dev docs --host",
-    "docs:build": "vitepress build docs",
+    "docs:dev": "node loadSourceFiles.mjs && vitepress dev docs --host",
+    "docs:build": "node loadSourceFiles.mjs && vitepress build docs",
     "docs:serve": "vitepress serve docs"
   },
   "author": "Philip Hofmann",
   "license": "",
   "dependencies": {
+    "readdir-plus": "^1.1.1",
     "vitepress": "^1.0.0-alpha.27",
     "vue": "^3.2.41",
     "vue-image-compare2": "^1.0.0"

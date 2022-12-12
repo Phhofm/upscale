@@ -7,6 +7,7 @@ outline: [2, 3]
 
 <script setup>
 //import ImageSlider from './components/imageslider.vue' // the vue image slider example comparison component
+import ImageSliderLocal from './components/imagesliderlocal.vue' // the vue image slider example comparison component
 </script>
 
 # Multiple Models
@@ -22,19 +23,19 @@ In this following youtube video I am talking about my oldest and smallest compar
 
 These examples are automatically updated since the vue component fetches all the images for the examples from my github sources folder on each browser visit. Models used may differ for each image since this approach is now example-based and not set-based. Generally these examples include >300 different models.
 
-
-
 ### Photo
 
 <br/>
 
 #### Buddy
+
 <br/>
 <!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/buddy.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/buddy' />
 -->
 <br/>
 
+<ImageSliderLocal inputImage='/upscale/sources/input/photos/buddy.jpg' localFolder='multimodel/current/photos/buddy' />
 
 <details><summary>Example Details </summary>
 
@@ -47,6 +48,7 @@ Name: Buddy
 </details>
 
 #### Grosser Mythen
+
 <br/>
 <!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/grossermythen.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/grossermythen' />
@@ -64,6 +66,7 @@ Name: Grosser Mythen
 </details>
 
 #### Painting
+
 <br/>
 <!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/painting.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/painting' />
@@ -82,6 +85,7 @@ Name: Painting
 </details>
 
 #### PC Build
+
 <br/>
 <!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/pcbuild.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/pcbuild' />
@@ -99,6 +103,7 @@ Name: PC Build
 </details>
 
 #### Snowboard
+
 <br/>
 <!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/snowboard.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/snowboard' />
@@ -121,6 +126,7 @@ Name: Snowboard
 <br/>
 
 #### Child
+
 <br/>
 <!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/child.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/child' />
@@ -139,6 +145,7 @@ Name: Child
 </details>
 
 #### Landscape
+
 <br/>
 <!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/landscape.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/landscape' />
@@ -194,9 +201,11 @@ Name: Livingroom
 </details>
 
 ### Anime
+
 <br/>
 
 #### Fate
+
 <br/>
 <!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/fate' />
@@ -215,6 +224,7 @@ Name: Fate (Fate/Stay Night: Unlimited Blade Works Opening)
 </details>
 
 #### KonoSuba
+
 <br/>
 <!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/KonoSuba.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/konosuba' />
@@ -233,6 +243,7 @@ Name: KonoSuba
 </details>
 
 #### Overlord
+
 <br/>
 <!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/Overlord.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/overlord' />
@@ -251,6 +262,7 @@ Name: Overlord
 </details>
 
 #### Sword Art Online
+
 <br/>
 <!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/SwordArtOnline.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/sao' />
@@ -269,6 +281,7 @@ Name: Sword Art Online
 </details>
 
 #### Sword Art Online 2
+
 <br/>
 <!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/SwordArtOnline2.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/sao2' />
@@ -287,6 +300,7 @@ Name: Sword Art Online 2
 </details>
 
 #### That Time I Got Reincarnated As A Slime
+
 <br/>
 <!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/slime' />
