@@ -6,7 +6,7 @@ outline: [2, 3]
 ---
 
 <script setup>
-import ImageSlider from './components/imageslider.vue' // the vue image slider example comparison component
+//import ImageSlider from './components/imageslider.vue' // the vue image slider example comparison component
 </script>
 
 # Multiple Models
@@ -30,8 +30,11 @@ These examples are automatically updated since the vue component fetches all the
 
 #### Buddy
 <br/>
+<!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/buddy.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/buddy' />
+-->
 <br/>
+
 
 <details><summary>Example Details </summary>
 
@@ -45,7 +48,9 @@ Name: Buddy
 
 #### Grosser Mythen
 <br/>
+<!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/grossermythen.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/grossermythen' />
+-->
 <br/>
 
 <details><summary>Example Details </summary>
@@ -60,7 +65,9 @@ Name: Grosser Mythen
 
 #### Painting
 <br/>
+<!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/painting.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/painting' />
+-->
 <br/>
 
 <details><summary>Example Details </summary>
@@ -76,7 +83,9 @@ Name: Painting
 
 #### PC Build
 <br/>
+<!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/pcbuild.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/pcbuild' />
+-->
 <br/>
 
 <details><summary>Example Details </summary>
@@ -91,7 +100,9 @@ Name: PC Build
 
 #### Snowboard
 <br/>
+<!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/photos/snowboard.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/photos/snowboard' />
+-->
 <br/>
 
 <details><summary>Example Details </summary>
@@ -111,7 +122,9 @@ Name: Snowboard
 
 #### Child
 <br/>
+<!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/child.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/child' />
+-->
 <br/>
 
 <details><summary>Example Details </summary>
@@ -127,7 +140,9 @@ Name: Child
 
 #### Landscape
 <br/>
+<!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/landscape.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/landscape' />
+-->
 <br/>
 <details><summary>Example Details </summary>
 
@@ -143,7 +158,9 @@ Name: Landscape
 #### Lightning
 
 <br/>
+<!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/lightning.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/lightning' />
+-->
 <br/>
 
 <details><summary>Example Details </summary>
@@ -160,7 +177,9 @@ Name: Lightning
 #### Livingroom
 
 <br/>
+<!-- 
 <ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/livingroom.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/ai_generated/livingroom' />
+-->
 <br/>
 
 <details><summary>Example Details </summary>
@@ -175,29 +194,115 @@ Name: Livingroom
 </details>
 
 ### Anime
-
 <br/>
 
 #### Fate
-
 <br/>
+<!-- 
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/fate' />
+-->
+<br/>
+
+<details><summary>Example Details </summary>
+
+Name: Fate (Fate/Stay Night: Unlimited Blade Works Opening)
+ Input Image: 640x360 pixels (360p)  
+ Scaling Factor: 2  
+ Output Image: 1280x720 pixels (720p)  
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/anime/fate) (Output Source Files are mozjpg compressed)
+
+</details>
 
 #### KonoSuba
-
 <br/>
+<!-- 
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/KonoSuba.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/konosuba' />
+-->
+<br/>
+
+<details><summary>Example Details </summary>
+
+Name: KonoSuba
+ Input Image: 640x360 pixels (360p)  
+ Scaling Factor: 2  
+ Output Image: 1280x720 pixels (720p)  
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/KonoSuba.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/anime/konosuba) (Output Source Files are mozjpg compressed)
+
+</details>
 
 #### Overlord
-
 <br/>
+<!-- 
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/Overlord.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/overlord' />
+-->
+<br/>
+
+<details><summary>Example Details </summary>
+
+Name: Overlord
+ Input Image: 640x360 pixels (360p)  
+ Scaling Factor: 2  
+ Output Image: 1280x720 pixels (720p)  
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/Overlord.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/anime/overlord) (Output Source Files are mozjpg compressed)
+
+</details>
 
 #### Sword Art Online
-
 <br/>
+<!-- 
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/SwordArtOnline.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/sao' />
+-->
+<br/>
+
+<details><summary>Example Details </summary>
+
+Name: Sword Art Online
+ Input Image: 640x360 pixels (360p)  
+ Scaling Factor: 2  
+ Output Image: 1280x720 pixels (720p)  
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/SwordArtOnline.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/anime/sao) (Output Source Files are mozjpg compressed)
+
+</details>
+
+#### Sword Art Online 2
+<br/>
+<!-- 
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/SwordArtOnline2.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/sao2' />
+-->
+<br/>
+
+<details><summary>Example Details </summary>
+
+Name: Sword Art Online 2
+ Input Image: 640x360 pixels (360p)  
+ Scaling Factor: 2  
+ Output Image: 1280x720 pixels (720p)  
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/SwordArtOnline2.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/anime/sao2) (Output Source Files are mozjpg compressed)
+
+</details>
 
 #### That Time I Got Reincarnated As A Slime
-
+<br/>
+<!-- 
+<ImageSlider inputLink='https://github.com/Phhofm/upscale/blob/main/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg.jpg?raw=true' githubFolderLink='https://api.github.com/repos/phhofm/upscale/contents/sources/multimodel/current/anime/slime' />
+-->
 <br/>
 
+<details><summary>Example Details </summary>
+
+Name: Slime
+ Input Image: 640x360 pixels (360p)  
+ Scaling Factor: 2  
+ Output Image: 1280x720 pixels (720p)  
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/anime/slime) (Output Source Files are mozjpg compressed)
+
+</details>
 ## Sets
 
 (Older Set-Based Approach)
