@@ -1,3 +1,6 @@
+- Throw all images from the public folder to mozjpeg to compress, if already compressed nothing will happen. Upload. Make sure they are all compressed. https://mozjpeg.com/
+- Then check in the anime examples if image size matters for your vue comparison component. If not you can leave them original size, otherwise resize all to 2x since 2x and 4x outputs are used.
+- Check examples maybe extend them with 2x examples if works, i did not include them at fist because 2x against 4x comparison seemed unfair but i mean it can still be visually compared.
 - Anime examples resize/downsize to 2x since its 2x models and 4x models etc mixed. Then upload images. And check examples on multimodel page again. PS dont forget to move sources folder into the docs/public for it to be loaded into dist, remove sources folder outside afterwards to avoid confusion.
 - Update Favorites page (like the hat real gan model and maybe others you had added recently since the last creation of the fav page)
 - Add more categories like JPEG Artifacts or halo removal, demoire etc
@@ -9,7 +12,7 @@ Ah maybe people should specifically request to have their model put on there bec
 To be honest, it was a little bit a pain getting multiple models from this page like the anime ones, since multiple of them used 1fichier or something which had a 30 min time limit after getting one model to download the next ... tor browser to the rescue with establishing new connections ... a pain
 - Make a Upscale Wiki Models page, where I only use the models that are exactly listed on the upscale wiki per category, so an example (or multiple) per category. I mean this is how this whole page started basically. But I added/used more and more models (from the replicate, huggingface or simply google colabs or own written colabs) that are not from that site and not supported by chaiNNer. Would be cool if i make a single page with only models from the wiki so we know most of them can be used with chaiNNer.
 - Replace all imgsli examples with own component at some point so update is easy (just manage files)
-
+- Include a Section for replicate models and huggingface models? Like models you can use over those sites?
 
 
 
