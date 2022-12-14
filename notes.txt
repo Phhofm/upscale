@@ -16,7 +16,7 @@ To be honest, it was a little bit a pain getting multiple models from this page 
 
 
 
-
+I think I have not added FeMaSR output results to multimodel current yet? check
 
 
 ---------------------------------
@@ -26,4 +26,4 @@ https://github.com/gladzhang/art Accurate Image Restoration with Attention Retra
 https://huggingface.co/spaces/danielsapit/JPEG_Artifacts_Removal Accurate Image Restoration with Attention Retractable Transformer https://huggingface.co/spaces/danielsapit/JPEG_Artifacts_Removal
 https://github.com/wyhuai/ddnm Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model 
 https://github.com/icandle/MAN Multi-scale Attention Network for Single Image Super-Resolution 
-https://github.com/csxmli2016/redegnet From Face to Natural Image: Learning Real Degradation for Blind Image Super-Resolution 
+https://github.com/csxmli2016/redegnet From Face to Natural Image: Learning Real Degradation for Blind Image Super-Resolution   
