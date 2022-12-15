@@ -1,3 +1,7 @@
+<!-- Old image slider component, I had used it originally with the github api to load image examples from a folder in github, but was rate limited.
+Also component would completely vanish then reappear when force rerendered (since no image size) until respective images had been downloaded to cache from github, now I bundle all images in with imagesliderlocal
+so no vanishing on force rerender anymore, just a flicker since force-rerendered since it was made for comparing only two images -->
+
 <template>
   <div>
     <select v-model="after" class="left">
@@ -12,17 +16,8 @@
     </select>
   </div>
 
-  <image-compare
-    :before="before"
-    :after="after"
-    isDraggable
-    isZoomable
-    :key="componentKey"
-    :zoom="zoom"
-    @wheel.prevent
-    @touchmove.prevent
-    @scroll.prevent
-  />
+  <image-compare :before="before" :after="after" isDraggable isZoomable :key="componentKey" :zoom="zoom" @wheel.prevent
+    @touchmove.prevent @scroll.prevent />
 </template>
 
 <script setup>
@@ -85,15 +80,18 @@ fetchFilesJSON().then((files) => {
 .before-name {
   color: black;
 }
+
 .after-name {
   color: black;
 }
+
 .right {
   position: absolute;
   right: 0px;
   text-align: center;
   max-width: 49.5%;
 }
+
 .left {
   text-align: center;
   width: 49.5%;
