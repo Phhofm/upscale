@@ -20,7 +20,7 @@ In this following youtube video I am talking about my oldest and smallest compar
 
 ## Examples
 
-These examples are automatically updated since the vue component fetches all the images for the examples from my github sources folder on each browser visit. Models used may differ for each image since this approach is now example-based and not set-based. Generally these examples include >300 different models.
+These examples are automatically updated ~~since the vue component fetches all the images for the examples from my github sources folder on each browser visit~~. Models used may differ for each image since this approach is now example-based and not set-based. Generally these examples include >300 different models.
 
 ### Photo
 
@@ -38,8 +38,8 @@ Name: Buddy
  Input Image: 480x320 pixels  
  Scaling Factor: 4  
  Output Image: 1920x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/buddy.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos/buddy) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/docs/public/sources/input/photos/buddy.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/docs/public/sources/multimodel/current/photos/buddy) (Output Source Files are mozjpg compressed)
 </details>
 
 #### Grosser Mythen
@@ -54,8 +54,8 @@ Name: Grosser Mythen
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/grossermythen.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos/grossermythen) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/docs/public/sources/input/photos/grossermythen.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/docs/public/sources/multimodel/current/photos/grossermythen) (Output Source Files are mozjpg compressed)
 </details>
 
 #### Painting
@@ -70,8 +70,8 @@ Name: Painting
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/painting.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos/painting) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/photos/painting.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/photos/painting) (Output Source Files are mozjpg compressed)
 
 </details>
 
@@ -87,8 +87,8 @@ Name: PC Build
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/pcbuild.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos/pcbuild) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/photos/pcbuild.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/photos/pcbuild) (Output Source Files are mozjpg compressed)
 </details>
 
 #### Snowboard
@@ -103,8 +103,8 @@ Name: Snowboard
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/snowboard.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos/snowboard) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/photos/snowboard.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/photos/snowboard) (Output Source Files are mozjpg compressed)
 
 </details>
 
@@ -124,8 +124,8 @@ Name: Child
  Input Image: 320x320 pixels  
  Scaling Factor: 4  
  Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/child.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/ai_generated/child) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/ai_generated/child.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/ai_generated/child) (Output Source Files are mozjpg compressed)
 
 </details>
 
@@ -141,8 +141,8 @@ Name: Landscape
  Input Image: 320x320 pixels  
  Scaling Factor: 4  
  Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/landscape.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/ai_generated/landscape) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/ai_generated/landscape.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/ai_generated/landscape) (Output Source Files are mozjpg compressed)
 
 </details>
 
@@ -158,8 +158,8 @@ Name: Lightning
  Input Image: 320x320 pixels  
  Scaling Factor: 4  
  Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/lightning.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/ai_generated/lightning) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/ai_generated/lightning.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/ai_generated/lightning) (Output Source Files are mozjpg compressed)
 
 </details>
 
@@ -175,8 +175,8 @@ Name: Livingroom
  Input Image: 320x320 pixels  
  Scaling Factor: 4  
  Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/ai_generated/livingroom.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/ai_generated/livingroom) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/ai_generated/livingroom.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/ai_generated/livingroom) (Output Source Files are mozjpg compressed)
 
 </details>
 
@@ -196,8 +196,8 @@ Name: Fate (Fate/Stay Night: Unlimited Blade Works Opening)
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/anime/fate) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/anime/fate) (Output Source Files are mozjpg compressed)
 
 </details>
 
@@ -213,8 +213,8 @@ Name: KonoSuba
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/KonoSuba.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/anime/konosuba) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/anime/KonoSuba.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/anime/konosuba) (Output Source Files are mozjpg compressed)
 
 </details>
 
@@ -230,8 +230,8 @@ Name: Overlord
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/Overlord.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/anime/overlord) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/anime/Overlord.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/anime/overlord) (Output Source Files are mozjpg compressed)
 
 </details>
 
@@ -247,8 +247,8 @@ Name: Sword Art Online
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/SwordArtOnline.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/anime/sao) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/anime/SwordArtOnline.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/anime/sao) (Output Source Files are mozjpg compressed)
 
 </details>
 
@@ -264,8 +264,8 @@ Name: Sword Art Online 2
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/SwordArtOnline2.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/anime/sao2) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/anime/SwordArtOnline2.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/anime/sao2) (Output Source Files are mozjpg compressed)
 
 </details>
 
@@ -281,8 +281,8 @@ Name: Slime
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/anime/slime) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg?raw=true)  
+ [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/anime/slime) (Output Source Files are mozjpg compressed)
 
 </details>
 ## Sets
@@ -1054,8 +1054,8 @@ Creation Date: 01. Dec 2022
  Scaling Factor: 4  
  Output Image: 1920x1280 pixels  
  Models used: 315  
- Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
- Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
+ Input Source File: [Link](https://github.com/Phhofm/upscale/public/sources/input/photos)  
+ Output Source Files: [Link](https://github.com/Phhofm/upscale/public/sources/multimodel/current/photos)  
  (Output Source Files are mozjpg compressed)
 
   <details>
@@ -1412,8 +1412,8 @@ Creation Date: 01. Dec 2022
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
- Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
+ Input Source File: [Link](https://github.com/Phhofm/upscale/public/sources/input/photos)  
+ Output Source Files: [Link](https://github.com/Phhofm/upscale/public/sources/multimodel/current/photos)  
  (Output Source Files are mozjpg compressed
 
 ##### Voting
@@ -1447,8 +1447,8 @@ Creation Date: 01. Dec 2022
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
- Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
+ Input Source File: [Link](https://github.com/Phhofm/upscale/public/sources/input/photos)  
+ Output Source Files: [Link](https://github.com/Phhofm/upscale/public/sources/multimodel/current/photos)  
  (Output Source Files are mozjpg compressed
 
 ##### Voting
@@ -1481,8 +1481,8 @@ Creation Date: 01. Dec 2022
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
- Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
+ Input Source File: [Link](https://github.com/Phhofm/upscale/public/sources/input/photos)  
+ Output Source Files: [Link](https://github.com/Phhofm/upscale/public/sources/multimodel/current/photos)  
  (Output Source Files are mozjpg compressed
 
 ##### Voting
@@ -1515,8 +1515,8 @@ Creation Date: 01. Dec 2022
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- Input Source File: [Link](https://github.com/Phhofm/upscale/tree/main/sources/input/photos)  
- Output Source Files: [Link](https://github.com/Phhofm/upscale/tree/main/sources/multimodel/current/photos)  
+ Input Source File: [Link](https://github.com/Phhofm/upscale/public/sources/input/photos)  
+ Output Source Files: [Link](https://github.com/Phhofm/upscale/public/sources/multimodel/current/photos)  
  (Output Source Files are mozjpg compressed
 
 ##### Voting
