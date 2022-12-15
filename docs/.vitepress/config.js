@@ -15,7 +15,12 @@ export default {
                     },
                     {
                         text: '',
-                        items: [{
+                        items: [
+                            {
+                                text: 'Examples',
+                                link: '/multimodels#examples'
+                            },
+                            {
                                 text: 'Set 1',
                                 link: '/multimodels#set-1'
                             },
@@ -52,34 +57,6 @@ export default {
                     {
                         text: 'Deblurring',
                         link: '/deblurring'
-                    },
-                    {
-                        text: 'SwinIR',
-                        link: '/swinir'
-                    },
-                    {
-                        text: 'LDSR',
-                        link: '/ldsr'
-                    },
-                    {
-                        text: 'BSRGAN',
-                        link: '/bsrgan'
-                    },
-                    {
-                        text: 'Real-ESRGAN',
-                        link: '/realesrgan'
-                    },
-                    {
-                        text: 'RealSR',
-                        link: '/realsr'
-                    },
-                    {
-                        text: 'Remacri',
-                        link: '/remacri'
-                    },
-                    {
-                        text: 'Siax',
-                        link: '/siax'
                     },
                     {
                         text: 'Models Used',
@@ -109,7 +86,12 @@ export default {
                     },
                     {
                         text: '',
-                        items: [{
+                        items: [
+                            {
+                                text: 'Examples',
+                                link: '/multimodels#examples'
+                            },
+                            {
                                 text: 'Set 1',
                                 link: '/multimodels#set-1'
                             },
@@ -148,36 +130,12 @@ export default {
                         link: '/deblurring'
                     },
                     {
-                        text: 'SwinIR',
-                        link: '/swinir'
-                    },
-                    {
-                        text: 'LDSR',
-                        link: '/ldsr'
-                    },
-                    {
-                        text: 'BSRGAN',
-                        link: '/bsrgan'
-                    },
-                    {
-                        text: 'Real-ESRGAN',
-                        link: '/realesrgan'
-                    },
-                    {
-                        text: 'RealSR',
-                        link: '/realsr'
-                    },
-                    {
-                        text: 'Remacri',
-                        link: '/remacri'
-                    },
-                    {
-                        text: 'Siax',
-                        link: '/siax'
-                    },
-                    {
                         text: 'Models Used',
                         link: '/modelsused'
+                    },
+                    {
+                        text: 'Changelog',
+                        link: '/changelog'
                     },
                 ]
             },

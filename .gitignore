@@ -134,3 +134,7 @@ dist
 
 # SvelteKit build / generate output
 .svelte-kit
+data.json
+models.json
+data.json
+models.json
