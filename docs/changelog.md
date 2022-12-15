@@ -50,8 +50,9 @@ layout: doc
 ### 12. Dec 2022
 
 - Images - Update Multimodels Page
-  - Restructure Page, current examples on Top
-  - Current examples redone in own Vue Image comparison component. Now I can simply manage files and these examples will keep themselves updated with each new build (triggered on commit, traverses files in directory with nodejs and outputs a data.json which is processed by client page load). So drag&dropping 300+ images through the imgsli website to update a single example is now in the past. With the new comparison component it is simpler to drag the image around than to try to hit the middle slider to move it around. With the mouse wheel one can be zoom in up to a hardcoded limit.
-  - Added Anime 2x examples with the vue component. Models from the 'Anime' Section in the Upscale Wiki Model Database have been used additionally, also Bubbles AnimeScale swinir model.  
+  - Restructure Page, current (now updatable) examples on Top
+  - Current examples redone in own Vue Image comparison component with vue select and fore rerender component when selection happens so that multi-image comparison is possible. The list is built by traversing the folders with nodejs and saving filenames and paths in a data.json file so the frontend can use it on page load, the images get bundled with the application. Now I can simply manage files and these examples will keep themselves updated with each new build (drag&dropping 300+ images through the imgsli website to update a single example is now in the past). With the new comparison component it is simpler to drag the image around than to try to hit the middle slider to move it around. With the mouse wheel one can zoom in up to a hardcoded limit.
+  - Added AI Generated Images examples with vue component
+  - Added Anime examples with the vue component. Models from the 'Anime' Section in the Upscale Wiki Model Database have been used additionally.
 - Images - Remove single model pages
 - Images - Models used page is now also automatically generated thorugh traversing files in some example directories since I generally named the output files according to the model used
