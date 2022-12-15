@@ -4,7 +4,7 @@
 import readdir from 'readdir-plus'
 import fs from 'fs'
 
-readdir('sources', async function (err, files) {
+readdir('docs/public/sources', async function (err, files) {
 
   let data = JSON.stringify(files);
 
