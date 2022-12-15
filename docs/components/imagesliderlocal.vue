@@ -12,17 +12,8 @@
     </select>
   </div>
 
-  <image-compare
-    :before="before"
-    :after="after"
-    isDraggable
-    isZoomable
-    :key="componentKey"
-    :zoom="zoom"
-    @wheel.prevent
-    @touchmove.prevent
-    @scroll.prevent
-  />
+  <image-compare :before="before" :after="after" isDraggable isZoomable :key="componentKey" :zoom="zoom" @wheel.prevent
+    @touchmove.prevent @scroll.prevent />
 </template>
 
 <script setup>
@@ -59,7 +50,7 @@ const zoom = { min: 1, max: 5 };
 
 // get relevant files from the data.json object
 let relevantFiles = data.filter((file) =>
-  file.relativePath.startsWith(props.localFolder)
+  file.relativePath.startsWith(props.localFolder + '/') // needed to add '/' because otherwise examplefolder that start the same get overwritten (like 'sao' will get overwritten by the 'sao2' example image files)
 );
 let relativePaths = relevantFiles.map((file) => file.relativePath);
 let modelNames = relevantFiles.map((file) => file.basename);
@@ -82,15 +73,18 @@ before.value = options.value[1].value;
 .before-name {
   color: black;
 }
+
 .after-name {
   color: black;
 }
+
 .right {
   position: absolute;
   right: 0px;
   text-align: center;
   max-width: 49.5%;
 }
+
 .left {
   text-align: center;
   width: 49.5%;
