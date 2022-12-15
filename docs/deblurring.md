@@ -3,6 +3,11 @@ title: Deblurring
 description: Visual Comparison of deblurring models
 layout: doc
 ---
+
+<script setup>
+import ImageSliderLocal from './components/imagesliderlocal.vue' // the vue image slider example comparison component
+</script>
+
 # Deblurring
 
 Deblurring is the process of removing blur from an image as shown in this example:
@@ -52,12 +57,9 @@ These three example images are taken from the [GoPro Large Testset](https://seun
 
 ### Example 1
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM1OTg5" style="width: 100%; border: 0px none; height: 49vmin; min-height: 270px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
-
-<a href="https://imgsli.com/MTM1OTg5" target="_blank">Open in external tab</a>
+<br/>
+<ImageSliderLocal inputImage='/upscale/sources/deblur/GOPRO_Large/test/GOPR0384_11_00/000001.jpg' localFolder='deblur/GOPRO_Large/test/GOPR0384_11_00/output' />
+<br/>
 
 <details>
   <summary>Details</summary>
@@ -73,12 +75,9 @@ These three example images are taken from the [GoPro Large Testset](https://seun
 
 ### Example 2
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM1OTkw" style="width: 100%; border: 0px none; height: 49vmin; min-height: 270px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
-
-<a href="https://imgsli.com/MTM1OTkw" target="_blank">Open in external tab</a>
+<br/>
+<ImageSliderLocal inputImage='/upscale/sources/deblur/GOPRO_Large/test/GOPR0862_11_00/000004.jpg' localFolder='deblur/GOPRO_Large/test/GOPR0862_11_00/output' />
+<br/>
 
 <details>
   <summary>Details</summary>
@@ -94,12 +93,9 @@ These three example images are taken from the [GoPro Large Testset](https://seun
 
   ### Example 3
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTM1OTkx" style="width: 100%; border: 0px none; height: 49vmin; min-height: 270px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
-
-<a href="https://imgsli.com/MTM1OTkx" target="_blank">Open in external tab</a>
+<br/>
+<ImageSliderLocal inputImage='/upscale/sources/deblur/GOPRO_Large/test/GOPR0881_11_01/000202.jpg' localFolder='deblur/GOPRO_Large/test/GOPR0881_11_01/output' />
+<br/>
 
 <details>
   <summary>Details</summary>

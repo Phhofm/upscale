@@ -3,6 +3,11 @@ title: Favorites
 description: Visual Comparison for some of my personal favorites
 layout: doc
 ---
+
+<script setup>
+import ImageSliderLocal from './components/imagesliderlocal.vue' // the vue image slider example comparison component
+</script>
+
 # Favorites
 
 ### Set Details
@@ -31,12 +36,9 @@ layout: doc
 
 ## Buddy
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMzNzk4" style="width: 100%; border: 0px none; height: 55vmin; min-height: 310px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
-
-<a href="https://imgsli.com/MTMzNzk4" target="_blank">Open in external tab</a>
+<br/>
+<ImageSliderLocal inputImage='/upscale/sources/favorites/input/buddy.jpg' localFolder='favorites/output/buddy' />
+<br/>
 
 <details>
   <summary>Details</summary>
@@ -59,12 +61,9 @@ layout: doc
 
 This is the buddy example but with Face Restoration. To compare different Face Restoration models, head to the face restoration page.
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMzODE0" style="width: 100%; border: 0px none; height: 55vmin; min-height: 310px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
-
-<a href="https://imgsli.com/MTMzODE0" target="_blank">Open in external tab</a>
+<br/>
+<ImageSliderLocal inputImage='/upscale/sources/favorites/input/buddy.jpg' localFolder='favorites/output/buddy-fr' />
+<br/>
 
 <details>
   <summary>Details</summary>
@@ -87,12 +86,9 @@ This is the buddy example but with Face Restoration. To compare different Face R
 
 ## Child
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMzODAw" style="width: 100%; border: 0px none; height: 78vmin; min-height: 410px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
-
-<a href="https://imgsli.com/MTMzODAw" target="_blank">Open in external tab</a>
+<br/>
+<ImageSliderLocal inputImage='/upscale/sources/favorites/input/child.jpg' localFolder='favorites/output/child' />
+<br/>
 
 <details>
   <summary>Details</summary>
@@ -114,12 +110,9 @@ This is the buddy example but with Face Restoration. To compare different Face R
 
 ## Grosser Mythen
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMzODAx" style="width: 100%; border: 0px none; height: 60vmin; min-height: 320px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
-
-<a href="https://imgsli.com/MTMzODAx" target="_blank">Open in external tab</a>
+<br/>
+<ImageSliderLocal inputImage='/upscale/sources/favorites/input/grossermythen.jpg' localFolder='favorites/output/grossermythen' />
+<br/>
 
 <details>
   <summary>Details</summary>
@@ -141,12 +134,9 @@ This is the buddy example but with Face Restoration. To compare different Face R
 
 ## Landscape
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMzODAy" style="width: 100%; border: 0px none; height: 78vmin; min-height: 410px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
-
-<a href="https://imgsli.com/MTMzODAy" target="_blank">Open in external tab</a>
+<br/>
+<ImageSliderLocal inputImage='/upscale/sources/favorites/input/landscape.jpg' localFolder='favorites/output/landscape' />
+<br/>
 
 <details>
   <summary>Details</summary>
@@ -167,12 +157,9 @@ This is the buddy example but with Face Restoration. To compare different Face R
 
 ## Lightning
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMzODAz" style="width: 100%; border: 0px none; height: 78vmin; min-height: 410px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
-
-<a href="https://imgsli.com/MTMzODAz" target="_blank">Open in external tab</a>
+<br/>
+<ImageSliderLocal inputImage='/upscale/sources/favorites/input/lightning.jpg' localFolder='favorites/output/lightning' />
+<br/>
 
 <details>
   <summary>Details</summary>
@@ -193,12 +180,9 @@ This is the buddy example but with Face Restoration. To compare different Face R
 
 ## Livingroom
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMzODA1" style="width: 100%; border: 0px none; height: 78vmin; min-height: 410px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
-
-<a href="https://imgsli.com/MTMzODA1" target="_blank">Open in external tab</a>
+<br/>
+<ImageSliderLocal inputImage='/upscale/sources/favorites/input/livingroom.jpg' localFolder='favorites/output/livingroom' />
+<br/>
 
 <details>
   <summary>Details</summary>
@@ -220,12 +204,9 @@ This is the buddy example but with Face Restoration. To compare different Face R
 
 ## Painting
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMzODA2" style="width: 100%; border: 0px none; height: 60vmin; min-height: 320px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
-
-<a href="https://imgsli.com/MTMzODA2" target="_blank">Open in external tab</a>
+<br/>
+<ImageSliderLocal inputImage='/upscale/sources/favorites/input/painting.jpg' localFolder='favorites/output/painting' />
+<br/>
 
 <details>
   <summary>Details</summary>
@@ -246,12 +227,9 @@ This is the buddy example but with Face Restoration. To compare different Face R
 
 ## PC Build
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMzODA3" style="width: 100%; border: 0px none; height: 60vmin; min-height: 320px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
-
-<a href="https://imgsli.com/MTMzODA3" target="_blank">Open in external tab</a>
+<br/>
+<ImageSliderLocal inputImage='/upscale/sources/favorites/input/pcbuild.jpg' localFolder='favorites/output/pcbuild' />
+<br/>
 
 <details>
   <summary>Details</summary>
@@ -272,12 +250,9 @@ This is the buddy example but with Face Restoration. To compare different Face R
 
 ## Snowboard
 
-<div style="border: 0px solid rgb(201, 0, 1); overflow: hidden; margin: 15px auto; max-width: 100%;">
-  <iframe allowfullscreen scrolling="no" src="https://imgsli.com/MTMzODA4" style="width: 100%; border: 0px none; height: 60vmin; min-height: 320px; margin-top: -75px; margin-bottom:-30px;">
-  </iframe>
-</div>
-
-<a href="https://imgsli.com/MTMzODA4" target="_blank">Open in external tab</a>
+<br/>
+<ImageSliderLocal inputImage='/upscale/sources/favorites/input/snowboard.jpg' localFolder='favorites/output/snowboard' />
+<br/>
 
 <details>
   <summary>Details</summary>
