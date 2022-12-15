@@ -18,6 +18,14 @@ To be honest, it was a little bit a pain getting multiple models from this page 
 
 I think I have not added FeMaSR output results to multimodel current yet? check
 
+Categories:
+    - JPEG Artifacts Removal
+    - Demoire
+    - Dehalo
+    - Colorize (Black and White images)
+
+Train your own model? You will learn more this way about how all of this works (experience)
+
 
 ---------------------------------
 Keep an eye out for new models you want to test
