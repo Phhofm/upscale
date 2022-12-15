@@ -187,9 +187,7 @@ Name: Livingroom
 #### Fate
 
 <br/>
-<!-- 
 <ImageSliderLocal inputImage='/upscale/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg' localFolder='multimodel/current/anime/fate' />
--->
 <br/>
 
 <details><summary>Example Details </summary>
@@ -206,9 +204,7 @@ Name: Fate (Fate/Stay Night: Unlimited Blade Works Opening)
 #### KonoSuba
 
 <br/>
-<!-- 
 <ImageSliderLocal inputImage='/upscale/sources/input/anime/KonoSuba.jpg' localFolder='multimodel/current/anime/konosuba' />
--->
 <br/>
 
 <details><summary>Example Details </summary>
@@ -225,9 +221,7 @@ Name: KonoSuba
 #### Overlord
 
 <br/>
-<!-- 
 <ImageSliderLocal inputImage='/upscale/sources/input/anime/Overlord.jpg' localFolder='multimodel/current/anime/overlord' />
--->
 <br/>
 
 <details><summary>Example Details </summary>
@@ -244,9 +238,7 @@ Name: Overlord
 #### Sword Art Online
 
 <br/>
-<!-- 
 <ImageSliderLocal inputImage='/upscale/sources/input/anime/SwordArtOnline.jpg' localFolder='multimodel/current/anime/sao' />
--->
 <br/>
 
 <details><summary>Example Details </summary>
@@ -263,9 +255,7 @@ Name: Sword Art Online
 #### Sword Art Online 2
 
 <br/>
-<!-- 
 <ImageSliderLocal inputImage='/upscale/sources/input/anime/SwordArtOnline2.jpg' localFolder='multimodel/current/anime/sao2' />
--->
 <br/>
 
 <details><summary>Example Details </summary>
@@ -282,9 +272,7 @@ Name: Sword Art Online 2
 #### That Time I Got Reincarnated As A Slime
 
 <br/>
-<!-- 
 <ImageSliderLocal inputImage='/upscale/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg' localFolder='multimodel/current/anime/slime' />
--->
 <br/>
 
 <details><summary>Example Details </summary>
