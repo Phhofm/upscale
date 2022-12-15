@@ -56,3 +56,5 @@ layout: doc
   - Added Anime examples with the vue component. Models from the 'Anime' Section in the Upscale Wiki Model Database have been used additionally.
 - Images - Remove single model pages
 - Images - Models used page is now also automatically generated thorugh traversing files in some example directories since I generally named the output files according to the model used
+- Images - update all examples from imgsli to local vue component
+- Images - Bundle all image sources files inside the app
