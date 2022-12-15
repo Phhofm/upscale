@@ -47,7 +47,7 @@ layout: doc
   - Add Set 5 Photo [PC Build example](multimodels.md#pc-build-1)
   - Add Set 5 Photo [Snowboard example](multimodels.md#snowboard)
 
-### 12. Dec 2022
+### 15. Dec 2022
 
 - Images - Update Multimodels Page
   - Restructure Page, current (now updatable) examples on Top
@@ -56,5 +56,5 @@ layout: doc
   - Added Anime examples with the vue component. Models from the 'Anime' Section in the Upscale Wiki Model Database have been used additionally.
 - Images - Remove single model pages
 - Images - Models used page is now also automatically generated thorugh traversing files in some example directories since I generally named the output files according to the model used
-- Images - update all examples from imgsli to local vue component
+- Images - update all examples from imgsli to new local vue component
 - Images - Bundle all image sources files inside the app
