@@ -4,7 +4,17 @@
 import readdir from 'readdir-plus'
 import fs from 'fs'
 
-readdir('docs/public/sources', async function (err, files) {
+readdir('docs/public/sources', { stat: false }, async function (err, files) {
+
+  // clean up object, remove unnessesary attributes from object to make the json.data smaller
+  const keys = Object.keys(files);
+
+  keys.forEach((key) => {
+    delete files[key].name;
+    delete files[key].path;
+    delete files[key].extension;
+    delete files[key].type;
+  });
 
   let data = JSON.stringify(files);
 
@@ -21,6 +31,7 @@ readdir('docs/public/sources', async function (err, files) {
 
 // it is a big array with objects in them
 // this is what a single object in the array looks like
+// * would look like if i did not clean it up
 /*
 {
     name: 'snowboard.jpg',
