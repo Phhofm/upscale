@@ -17,28 +17,20 @@ export default {
                         text: '',
                         items: [
                             {
-                                text: 'Examples',
-                                link: '/multimodels#examples'
+                                text: 'Photo',
+                                link: '/multimodels#photo'
                             },
                             {
-                                text: 'Set 1',
-                                link: '/multimodels#set-1'
+                                text: 'AI Generated',
+                                link: '/multimodels#ai-generated-images'
                             },
                             {
-                                text: 'Set 2',
-                                link: '/multimodels#set-2'
+                                text: 'Anime',
+                                link: '/multimodels#anime'
                             },
                             {
-                                text: 'Set 3',
-                                link: '/multimodels#set-3'
-                            },
-                            {
-                                text: 'Set 4',
-                                link: '/multimodels#set-4'
-                            },
-                            {
-                                text: 'Set 5',
-                                link: '/multimodels#set-5'
+                                text: 'Sets',
+                                link: '/multimodels#sets'
                             },
                         ]
                     },
@@ -88,28 +80,20 @@ export default {
                         text: '',
                         items: [
                             {
-                                text: 'Examples',
-                                link: '/multimodels#examples'
+                                text: 'Photo',
+                                link: '/multimodels#photo'
                             },
                             {
-                                text: 'Set 1',
-                                link: '/multimodels#set-1'
+                                text: 'AI Generated',
+                                link: '/multimodels#ai-generated-images'
                             },
                             {
-                                text: 'Set 2',
-                                link: '/multimodels#set-2'
+                                text: 'Anime',
+                                link: '/multimodels#anime'
                             },
                             {
-                                text: 'Set 3',
-                                link: '/multimodels#set-3'
-                            },
-                            {
-                                text: 'Set 4',
-                                link: '/multimodels#set-4'
-                            },
-                            {
-                                text: 'Set 5',
-                                link: '/multimodels#set-5'
+                                text: 'Sets',
+                                link: '/multimodels#sets'
                             },
                         ]
                     },
