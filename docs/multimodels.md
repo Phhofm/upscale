@@ -196,8 +196,8 @@ Name: Fate (Fate/Stay Night: Unlimited Blade Works Opening)
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/anime/fate) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/anime/fate)
 
 </details>
 
@@ -213,8 +213,8 @@ Name: KonoSuba
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/anime/KonoSuba.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/anime/konosuba) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/anime/KonoSuba.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/anime/konosuba)
 
 </details>
 
@@ -230,8 +230,8 @@ Name: Overlord
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/anime/Overlord.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/anime/overlord) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/anime/Overlord.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/anime/overlord)
 
 </details>
 
@@ -247,8 +247,8 @@ Name: Sword Art Online
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/anime/SwordArtOnline.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/anime/sao) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/anime/SwordArtOnline.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/anime/sao)
 
 </details>
 
@@ -264,8 +264,8 @@ Name: Sword Art Online 2
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/anime/SwordArtOnline2.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/anime/sao2) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/anime/SwordArtOnline2.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/anime/sao2)
 
 </details>
 
@@ -281,10 +281,11 @@ Name: Slime
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/anime/slime) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/anime/slime)
 
 </details>
+
 ## Sets
 
 (Older Set-Based Approach)
