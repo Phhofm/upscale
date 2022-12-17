@@ -38,8 +38,8 @@ Name: Buddy
  Input Image: 480x320 pixels  
  Scaling Factor: 4  
  Output Image: 1920x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/docs/public/sources/input/photos/buddy.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/docs/public/sources/multimodel/current/photos/buddy) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/photos/buddy.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/photos/buddy)
 </details>
 
 #### Grosser Mythen
@@ -54,8 +54,8 @@ Name: Grosser Mythen
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/docs/public/sources/input/photos/grossermythen.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/docs/public/sources/multimodel/current/photos/grossermythen) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/photos/grossermythen.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/photos/grossermythen)
 </details>
 
 #### Painting
@@ -70,9 +70,8 @@ Name: Painting
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/photos/painting.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/photos/painting) (Output Source Files are mozjpg compressed)
-
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/photos/painting.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/photos/painting)
 </details>
 
 #### PC Build
@@ -87,8 +86,8 @@ Name: PC Build
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/photos/pcbuild.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/photos/pcbuild) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/photos/pcbuild.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/photos/pcbuild)
 </details>
 
 #### Snowboard
@@ -103,8 +102,8 @@ Name: Snowboard
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/photos/snowboard.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/photos/snowboard) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/photos/snowboard.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/photos/snowboard)
 
 </details>
 
@@ -124,8 +123,8 @@ Name: Child
  Input Image: 320x320 pixels  
  Scaling Factor: 4  
  Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/ai_generated/child.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/ai_generated/child) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/ai_generated/child.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/ai_generated/child)
 
 </details>
 
@@ -141,8 +140,8 @@ Name: Landscape
  Input Image: 320x320 pixels  
  Scaling Factor: 4  
  Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/ai_generated/landscape.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/ai_generated/landscape) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/ai_generated/landscape.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/ai_generated/landscape)
 
 </details>
 
@@ -158,8 +157,8 @@ Name: Lightning
  Input Image: 320x320 pixels  
  Scaling Factor: 4  
  Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/ai_generated/lightning.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/ai_generated/lightning) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/ai_generated/lightning.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/ai_generated/lightning)
 
 </details>
 
@@ -175,8 +174,8 @@ Name: Livingroom
  Input Image: 320x320 pixels  
  Scaling Factor: 4  
  Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/public/sources/input/ai_generated/livingroom.jpg?raw=true)  
- [Output Source Files](https://github.com/Phhofm/upscale/public/sources/multimodel/current/ai_generated/livingroom) (Output Source Files are mozjpg compressed)
+ [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/ai_generated/livingroom.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/ai_generated/livingroom)
 
 </details>
 
