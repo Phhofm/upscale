@@ -65,3 +65,9 @@ layout: doc
   - Replace anime example source files. 
   
   Based on feedback, I had overdone it with image compression (mozjpeg) (for page speed reasons) which led to artifacts appearing on all images. Reverted those back to the original jpg 100% output files I still have, additionally compressed with fileoptimizer. Will need to do the same for the other examples. I might redo all the upscales, but with a lossless image format output (either PNG (together with oxiPNG maybe or fileoptimizer again) or WEBP Lossless).
+
+### 17. Dec 2022
+
+- Images - Multimodels
+  - Replace photo and ai-generated example source files. 
+  - Fix file links (input and output source files) for these examples
