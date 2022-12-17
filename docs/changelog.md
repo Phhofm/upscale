@@ -58,3 +58,10 @@ layout: doc
 - Images - Models used page is now also automatically generated thorugh traversing files in some example directories since I generally named the output files according to the model used
 - Images - update all examples from imgsli to new local vue component
 - Images - Bundle all image sources files inside the app
+
+### 16. Dec 2022
+
+- Images - Multimodels
+  - Replace anime example source files. 
+  
+  Based on feedback, I had overdone it with image compression (mozjpeg) (for page speed reasons) which led to artifacts appearing on all images. Reverted those back to the original jpg 100% output files I still have, additionally compressed with fileoptimizer. Will need to do the same for the other examples. I might redo all the upscales, but with a lossless image format output (either PNG (together with oxiPNG maybe or fileoptimizer again) or WEBP Lossless).
