@@ -4,7 +4,7 @@
 import readdir from 'readdir-plus'
 import fs from 'fs'
 
-readdir('docs/public/sources', { stat: false }, async function (err, files) {
+readdir('sources', { stat: false }, async function (err, files) {
 
   // clean up object, remove unnessesary attributes from object to make the json.data smaller
   const keys = Object.keys(files);

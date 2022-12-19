@@ -4,23 +4,22 @@ description: Visual Comparison of deblurring models
 layout: doc
 ---
 
-<script setup>
-import ImageSliderLocal from './components/imagesliderlocal.vue' // the vue image slider example comparison component
+<script setup lang="ts">
+import ImageSliderGithub from './components/imageslidergithub.vue' // the vue image slider example comparison component
 </script>
 
 # Deblurring
 
 Deblurring is the process of removing blur from an image as shown in this example:
 
-![Example](../assets/images/deblur/deblur_example.jpg) 
+![Example](../assets/images/deblur/deblur_example.jpg)
 
 ### Details
 
   Creation Date: 24. Nov 2022  
   Last Update: 25. Nov 2022  
-  Models used: 23   
+  Models used: 23
   Set Name: 'Deblur'  
-  Image Files: [Github Repo](https://github.com/Phhofm/upscale/tree/main/assets/images)  
 
   <details>
     <summary>Models List</summary>
@@ -58,7 +57,7 @@ These three example images are taken from the [GoPro Large Testset](https://seun
 ### Example 1
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/deblur/GOPRO_Large/test/GOPR0384_11_00/000001.jpg' localFolder='deblur/GOPRO_Large/test/GOPR0384_11_00/output' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/deblur/GOPRO_Large/test/GOPR0384_11_00/000001.jpg' relativePathOutputFolder='deblur/GOPRO_Large/test/GOPR0384_11_00/output' />
 <br/>
 
 <details>
@@ -69,6 +68,7 @@ These three example images are taken from the [GoPro Large Testset](https://seun
   Last Update: 25. Nov 2022  
   Image Dimensions: 1280x720 pixels  
   Type: Frame  
+  Image Files: [Github Repo](https://github.com/Phhofm/upscale/tree/sources/deblur/GOPRO_Large/test/GOPR0384_11_00)
 
   </p>
   </details>
@@ -76,7 +76,7 @@ These three example images are taken from the [GoPro Large Testset](https://seun
 ### Example 2
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/deblur/GOPRO_Large/test/GOPR0862_11_00/000004.jpg' localFolder='deblur/GOPRO_Large/test/GOPR0862_11_00/output' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/deblur/GOPRO_Large/test/GOPR0862_11_00/000004.jpg' relativePathOutputFolder='deblur/GOPRO_Large/test/GOPR0862_11_00/output' />
 <br/>
 
 <details>
@@ -87,14 +87,15 @@ These three example images are taken from the [GoPro Large Testset](https://seun
   Last Update: 25. Nov 2022  
   Image Dimensions: 1280x720 pixels  
   Type: Frame  
+  Image Files: [Github Repo](https://github.com/Phhofm/upscale/tree/sources/deblur/GOPRO_Large/test/GOPR0862_11_00)
 
   </p>
   </details>
 
-  ### Example 3
+### Example 3
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/deblur/GOPRO_Large/test/GOPR0881_11_01/000202.jpg' localFolder='deblur/GOPRO_Large/test/GOPR0881_11_01/output' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/deblur/GOPRO_Large/test/GOPR0881_11_01/000202.jpg' relativePathOutputFolder='deblur/GOPRO_Large/test/GOPR0881_11_01/output' />
 <br/>
 
 <details>
@@ -105,6 +106,7 @@ These three example images are taken from the [GoPro Large Testset](https://seun
   Last Update: 25. Nov 2022  
   Image Dimensions: 1280x720 pixels  
   Type: Frame  
+  Image Files: [Github Repo](https://github.com/Phhofm/upscale/tree/sources/deblur/GOPRO_Large/test/GOPR0881_11_01)
 
   </p>
   </details>
