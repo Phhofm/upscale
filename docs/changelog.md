@@ -71,3 +71,9 @@ layout: doc
 - Images - Multimodels
   - Replace photo and ai-generated example source files. 
   - Fix file links (input and output source files) for these examples
+
+### 19. Dec 2022
+
+- Externalize image source files, not bundled into app anymore but load directly from github folders through github links (reduce bundle size because of github pages artifacts size limit (deploy abort because of timeout error) and also bundle/deploy times (shot up from ~8 min to >30min when bundling image sources) reduction). Also important if more files are added in the future. For the externalized sources folder the image sources files have been re-imported from commit 70420bd136c31e26c6bba8cf19e8d630848dc67e to make sure the image files are from before I had bundled and overdone it with compression (so to get the output files I got when running chaiNNer with JPG 100% output, still lossy though since jpg format) - added anime examples from later states again
+  - Adapt component, load files from github links (raw.githubusercontent.com)
+  - Adapt source links for examples (externalized source folder)

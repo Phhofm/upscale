@@ -4,8 +4,8 @@ description: Visual Comparison for some of my personal favorites
 layout: doc
 ---
 
-<script setup>
-import ImageSliderLocal from './components/imagesliderlocal.vue' // the vue image slider example comparison component
+<script setup lang="ts">
+import ImageSliderGithub from './components/imageslidergithub.vue' // the vue image slider example comparison component
 </script>
 
 # Favorites
@@ -13,9 +13,9 @@ import ImageSliderLocal from './components/imagesliderlocal.vue' // the vue imag
 ### Set Details
 
   Creation Date Of Upscale Set: 10. Nov 2022  
-  Models used: 12    
+  Models used: 12
   Set Name: 'Favorites'  
-  Image Files: [Github Repo](https://github.com/Phhofm/upscale/tree/main/assets/images)  
+  Image Files: [Github Repo](https://github.com/Phhofm/upscale/tree/sources/favorites)  
 
   <details>
     <summary>Models List</summary>
@@ -37,7 +37,7 @@ import ImageSliderLocal from './components/imagesliderlocal.vue' // the vue imag
 ## Buddy
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/favorites/input/buddy.jpg' localFolder='favorites/output/buddy' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/favorites/input/buddy.jpg' relativePathOutputFolder='favorites/output/buddy' />
 <br/>
 
 <details>
@@ -62,7 +62,7 @@ import ImageSliderLocal from './components/imagesliderlocal.vue' // the vue imag
 This is the buddy example but with Face Restoration. To compare different Face Restoration models, head to the face restoration page.
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/favorites/input/buddy.jpg' localFolder='favorites/output/buddy-fr' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/favorites/input/buddy.jpg' relativePathOutputFolder='favorites/output/buddy-fr' />
 <br/>
 
 <details>
@@ -87,7 +87,7 @@ This is the buddy example but with Face Restoration. To compare different Face R
 ## Child
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/favorites/input/child.jpg' localFolder='favorites/output/child' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/favorites/input/child.jpg' relativePathOutputFolder='favorites/output/child' />
 <br/>
 
 <details>
@@ -107,11 +107,10 @@ This is the buddy example but with Face Restoration. To compare different Face R
   </p>
 </details>
 
-
 ## Grosser Mythen
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/favorites/input/grossermythen.jpg' localFolder='favorites/output/grossermythen' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/favorites/input/grossermythen.jpg' relativePathOutputFolder='favorites/output/grossermythen' />
 <br/>
 
 <details>
@@ -131,11 +130,10 @@ This is the buddy example but with Face Restoration. To compare different Face R
   </p>
 </details>
 
-
 ## Landscape
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/favorites/input/landscape.jpg' localFolder='favorites/output/landscape' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/favorites/input/landscape.jpg' relativePathOutputFolder='favorites/output/landscape' />
 <br/>
 
 <details>
@@ -158,7 +156,7 @@ This is the buddy example but with Face Restoration. To compare different Face R
 ## Lightning
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/favorites/input/lightning.jpg' localFolder='favorites/output/lightning' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/favorites/input/lightning.jpg' relativePathOutputFolder='favorites/output/lightning' />
 <br/>
 
 <details>
@@ -181,7 +179,7 @@ This is the buddy example but with Face Restoration. To compare different Face R
 ## Livingroom
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/favorites/input/livingroom.jpg' localFolder='favorites/output/livingroom' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/favorites/input/livingroom.jpg' relativePathOutputFolder='favorites/output/livingroom' />
 <br/>
 
 <details>
@@ -201,11 +199,10 @@ This is the buddy example but with Face Restoration. To compare different Face R
   </p>
 </details>
 
-
 ## Painting
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/favorites/input/painting.jpg' localFolder='favorites/output/painting' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/favorites/input/painting.jpg' relativePathOutputFolder='favorites/output/painting' />
 <br/>
 
 <details>
@@ -228,7 +225,7 @@ This is the buddy example but with Face Restoration. To compare different Face R
 ## PC Build
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/favorites/input/pcbuild.jpg' localFolder='favorites/output/pcbuild' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/favorites/input/pcbuild.jpg' relativePathOutputFolder='favorites/output/pcbuild' />
 <br/>
 
 <details>
@@ -251,7 +248,7 @@ This is the buddy example but with Face Restoration. To compare different Face R
 ## Snowboard
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/favorites/input/snowboard.jpg' localFolder='favorites/output/snowboard' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/favorites/input/snowboard.jpg' relativePathOutputFolder='favorites/output/snowboard' />
 <br/>
 
 <details>

@@ -5,8 +5,8 @@ layout: doc
 outline: [2, 3]
 ---
 
-<script setup>
-import ImageSliderLocal from './components/imagesliderlocal.vue' // the vue image slider example comparison component
+<script setup lang="ts">
+import ImageSliderGithub from './components/imageslidergithub.vue' // the vue image slider example comparison component
 </script>
 
 # Multiple Models
@@ -29,7 +29,7 @@ These examples are automatically updated ~~since the vue component fetches all t
 #### Buddy
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/photos/buddy.jpg' localFolder='multimodel/current/photos/buddy' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/buddy.jpg' relativePathOutputFolder='multimodel/current/photos/buddy' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -38,14 +38,14 @@ Name: Buddy
  Input Image: 480x320 pixels  
  Scaling Factor: 4  
  Output Image: 1920x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/photos/buddy.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/photos/buddy)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/photos/buddy.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/photos/buddy)
 </details>
 
 #### Grosser Mythen
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/photos/grossermythen.jpg' localFolder='multimodel/current/photos/grossermythen' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/grossermythen.jpg' relativePathOutputFolder='multimodel/current/photos/grossermythen' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -54,14 +54,14 @@ Name: Grosser Mythen
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/photos/grossermythen.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/photos/grossermythen)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/photos/grossermythen.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/photos/grossermythen)
 </details>
 
 #### Painting
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/photos/painting.jpg' localFolder='multimodel/current/photos/painting' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/painting.jpg' relativePathOutputFolder='multimodel/current/photos/painting' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -70,14 +70,14 @@ Name: Painting
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/photos/painting.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/photos/painting)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/photos/painting.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/photos/painting)
 </details>
 
 #### PC Build
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/photos/pcbuild.jpg' localFolder='multimodel/current/photos/pcbuild' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/pcbuild.jpg' relativePathOutputFolder='multimodel/current/photos/pcbuild' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -86,14 +86,14 @@ Name: PC Build
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/photos/pcbuild.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/photos/pcbuild)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/photos/pcbuild.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/photos/pcbuild)
 </details>
 
 #### Snowboard
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/photos/snowboard.jpg' localFolder='multimodel/current/photos/snowboard' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/snowboard.jpg' relativePathOutputFolder='multimodel/current/photos/snowboard' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -102,8 +102,8 @@ Name: Snowboard
  Input Image: 427x320 pixels  
  Scaling Factor: 4  
  Output Image: 1708x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/photos/snowboard.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/photos/snowboard)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/photos/snowboard.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/photos/snowboard)
 
 </details>
 
@@ -114,7 +114,7 @@ Name: Snowboard
 #### Child
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/ai_generated/child.jpg' localFolder='multimodel/current/ai_generated/child' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/ai_generated/child.jpg' relativePathOutputFolder='multimodel/current/ai_generated/child' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -123,15 +123,15 @@ Name: Child
  Input Image: 320x320 pixels  
  Scaling Factor: 4  
  Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/ai_generated/child.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/ai_generated/child)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/ai_generated/child.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/ai_generated/child)
 
 </details>
 
 #### Landscape
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/ai_generated/landscape.jpg' localFolder='multimodel/current/ai_generated/landscape' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/ai_generated/landscape.jpg' relativePathOutputFolder='multimodel/current/ai_generated/landscape' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -140,15 +140,15 @@ Name: Landscape
  Input Image: 320x320 pixels  
  Scaling Factor: 4  
  Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/ai_generated/landscape.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/ai_generated/landscape)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/ai_generated/landscape.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/ai_generated/landscape)
 
 </details>
 
 #### Lightning
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/ai_generated/lightning.jpg' localFolder='multimodel/current/ai_generated/lightning' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/ai_generated/lightning.jpg' relativePathOutputFolder='multimodel/current/ai_generated/lightning' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -157,15 +157,15 @@ Name: Lightning
  Input Image: 320x320 pixels  
  Scaling Factor: 4  
  Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/ai_generated/lightning.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/ai_generated/lightning)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/ai_generated/lightning.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/ai_generated/lightning)
 
 </details>
 
 #### Livingroom
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/ai_generated/livingroom.jpg' localFolder='multimodel/current/ai_generated/livingroom' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/ai_generated/livingroom.jpg' relativePathOutputFolder='multimodel/current/ai_generated/livingroom' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -174,8 +174,8 @@ Name: Livingroom
  Input Image: 320x320 pixels  
  Scaling Factor: 4  
  Output Image: 1280x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/ai_generated/livingroom.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/ai_generated/livingroom)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/ai_generated/livingroom.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/ai_generated/livingroom)
 
 </details>
 
@@ -186,7 +186,7 @@ Name: Livingroom
 #### Fate
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg' localFolder='multimodel/current/anime/fate' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg' relativePathOutputFolder='multimodel/current/anime/fate' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -195,15 +195,15 @@ Name: Fate (Fate/Stay Night: Unlimited Blade Works Opening)
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/anime/fate)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/anime/fate)
 
 </details>
 
 #### KonoSuba
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/anime/KonoSuba.jpg' localFolder='multimodel/current/anime/konosuba' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/KonoSuba.jpg' relativePathOutputFolder='multimodel/current/anime/konosuba' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -212,15 +212,15 @@ Name: KonoSuba
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/anime/KonoSuba.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/anime/konosuba)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/anime/KonoSuba.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/anime/konosuba)
 
 </details>
 
 #### Overlord
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/anime/Overlord.jpg' localFolder='multimodel/current/anime/overlord' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/Overlord.jpg' relativePathOutputFolder='multimodel/current/anime/overlord' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -229,15 +229,15 @@ Name: Overlord
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/anime/Overlord.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/anime/overlord)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/anime/Overlord.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/anime/overlord)
 
 </details>
 
 #### Sword Art Online
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/anime/SwordArtOnline.jpg' localFolder='multimodel/current/anime/sao' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/SwordArtOnline.jpg' relativePathOutputFolder='multimodel/current/anime/sao' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -246,15 +246,15 @@ Name: Sword Art Online
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/anime/SwordArtOnline.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/anime/sao)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/anime/SwordArtOnline.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/anime/anime/sao)
 
 </details>
 
 #### Sword Art Online 2
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/anime/SwordArtOnline2.jpg' localFolder='multimodel/current/anime/sao2' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/SwordArtOnline2.jpg' relativePathOutputFolder='multimodel/current/anime/sao2' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -263,15 +263,15 @@ Name: Sword Art Online 2
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/anime/SwordArtOnline2.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/anime/sao2)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/anime/SwordArtOnline2.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/anime/sao2)
 
 </details>
 
 #### That Time I Got Reincarnated As A Slime
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg' localFolder='multimodel/current/anime/slime' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg' relativePathOutputFolder='multimodel/current/anime/slime' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -280,8 +280,8 @@ Name: Slime
  Input Image: 640x360 pixels (360p)  
  Scaling Factor: 2  
  Output Image: 1280x720 pixels (720p)  
- [Input Source File](https://github.com/Phhofm/upscale/blob/main/docs/public/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/main/docs/public/sources/multimodel/current/anime/slime)
+ [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg)  
+ [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/anime/slime)
 
 </details>
 

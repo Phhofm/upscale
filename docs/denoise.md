@@ -4,15 +4,15 @@ description: Visual Comparison of denoise models
 layout: doc
 ---
 
-<script setup>
-import ImageSliderLocal from './components/imagesliderlocal.vue' // the vue image slider example comparison component
+<script setup lang="ts">
+import ImageSliderGithub from './components/imageslidergithub.vue' // the vue image slider example comparison component
 </script>
 
 # Denoise
 
 Denoising is the process of removing noise from an image, fixing random variation of brightness or color information in images:
 
-![Example](../assets/images/denoise/denoise_example.jpg) 
+![Example](../assets/images/denoise/denoise_example.jpg)
 
 The two (extreme) example images are taken from the [Natural Image Noise Dataset](https://commons.wikimedia.org/wiki/Natural_Image_Noise_Dataset) which is an open dataset of photographs with real noise from varying ISO values.
 
@@ -21,7 +21,7 @@ The two (extreme) example images are taken from the [Natural Image Noise Dataset
   Creation Date: 20. Nov 2022  
   Models used: 14  
   Set Name: 'Denoise'  
-  Image Files: [Github Repo](https://github.com/Phhofm/upscale/tree/main/assets/images)  
+  Image Files: [Github Repo](https://github.com/Phhofm/upscale/tree/sources/denoise)  
 
   <details>
     <summary>Models List</summary>
@@ -46,7 +46,7 @@ The two (extreme) example images are taken from the [Natural Image Noise Dataset
 ## Directions ISOH3
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/denoise/input/NIND_directions_ISOH3.jpg' localFolder='denoise/output/directions' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/denoise/input/NIND_directions_ISOH3.jpg' relativePathOutputFolder='denoise/output/directions' />
 <br/>
 
 <details>
@@ -63,67 +63,68 @@ The two (extreme) example images are taken from the [Natural Image Noise Dataset
     <summary>Metadata</summary>
   <p>
 
-Camera manufacturer	FUJIFILM  
-Camera model	X-T1  
-Author	Trougnouf (Benoit Brummer)  
-Copyright holder  	
+Camera manufacturer FUJIFILM  
+Camera model X-T1  
+Author Trougnouf (Benoit Brummer)  
+Copyright holder
 cc-by-sa-4.0  
-Exposure time	1/4,400 sec (0.00022727272727273)  
-F-number	f/11  
-ISO speed rating	6,400  
-Date and time of data generation	14:24, 15 December 2018  
-Lens focal length	30.2 mm  
-Orientation	Normal  
-Horizontal resolution	300 dpi  
-Vertical resolution	300 dpi  
-Software used	darktable 2.5.0+1087~g1078fb85e  
-File change date and time	17:18, 15 December 2018  
-Y and C positioning	Centered  
-Exposure Program	Aperture priority  
-Exif version	2.3  
-Date and time of digitizing	14:24, 15 December 2018  
-Meaning of each component	  
+Exposure time 1/4,400 sec (0.00022727272727273)  
+F-number f/11  
+ISO speed rating 6,400  
+Date and time of data generation 14:24, 15 December 2018  
+Lens focal length 30.2 mm  
+Orientation Normal  
+Horizontal resolution 300 dpi  
+Vertical resolution 300 dpi  
+Software used darktable 2.5.0+1087~g1078fb85e  
+File change date and time 17:18, 15 December 2018  
+Y and C positioning Centered  
+Exposure Program Aperture priority  
+Exif version 2.3  
+Date and time of digitizing 14:24, 15 December 2018  
+Meaning of each component
+
 1. Y  
 2. Cb  
 3. Cr  
 4. does not exist  
-   
-APEX shutter speed	12.169924996926  
-APEX aperture	6.8925124792013  
-APEX brightness	5.56  
-APEX exposure bias	−3  
-Maximum land aperture	2.9708536585366 APEX (f/2.8)  
-Metering mode	Pattern  
-Light source	Unknown  
-Supported Flashpix version	1  
-Color space	sRGB  
-Focal plane X resolution	820  
-Focal plane Y resolution	820  
-Focal plane resolution unit	3  
-Sensing method	One-chip color area sensor  
-File source	Digital still camera  
-Scene type	A directly photographed image  
-Custom image processing	Normal process  
-Exposure mode	Auto exposure  
-White balance	Auto white balance  
-Focal length in 35 mm film	45 mm  
-Scene capture type	Standard  
-Saturation	Normal  
-Sharpness	Normal  
-Subject distance range	Unknown  
-Image compression mode	2.5  
-Flash	Flash did not fire  
-Bits per component	  
+
+APEX shutter speed 12.169924996926  
+APEX aperture 6.8925124792013  
+APEX brightness 5.56  
+APEX exposure bias −3  
+Maximum land aperture 2.9708536585366 APEX (f/2.8)  
+Metering mode Pattern  
+Light source Unknown  
+Supported Flashpix version 1  
+Color space sRGB  
+Focal plane X resolution 820  
+Focal plane Y resolution 820  
+Focal plane resolution unit 3  
+Sensing method One-chip color area sensor  
+File source Digital still camera  
+Scene type A directly photographed image  
+Custom image processing Normal process  
+Exposure mode Auto exposure  
+White balance Auto white balance  
+Focal length in 35 mm film 45 mm  
+Scene capture type Standard  
+Saturation Normal  
+Sharpness Normal  
+Subject distance range Unknown  
+Image compression mode 2.5  
+Flash Flash did not fire  
+Bits per component
+
   1. 16  
   2. 16  
   3. 16  
-   
-Height	3,250 px  
-Width	4,906 px  
-Pixel composition	RGB  
-Number of components	3  
-Rating (out of 5)	1  
 
+Height 3,250 px  
+Width 4,906 px  
+Pixel composition RGB  
+Number of components 3  
+Rating (out of 5) 1  
 
   </p>
 </details>
@@ -131,7 +132,7 @@ Rating (out of 5)	1
 ## Stefantiek ISOH2
 
 <br/>
-<ImageSliderLocal inputImage='/upscale/sources/denoise/input/NIND_stefantiek_ISOH2.jpg' localFolder='denoise/output/stefantiek' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/denoise/input/NIND_stefantiek_ISOH2.jpg' relativePathOutputFolder='denoise/output/stefantiek' />
 <br/>
 
 <details>
@@ -148,67 +149,68 @@ Rating (out of 5)	1
     <summary>Metadata</summary>
   <p>
 
-Camera manufacturer	FUJIFILM  
-Camera model	X-T1  
-Author	Trougnouf (Benoit Brummer)  
-Copyright holder	  
+Camera manufacturer FUJIFILM  
+Camera model X-T1  
+Author Trougnouf (Benoit Brummer)  
+Copyright holder
 cc-by-sa-4.0  
-Exposure time	1/1,900 sec (0.00052631578947368)  
-F-number	f/9  
-ISO speed rating	6,400  
-Date and time of data generation	13:52, 15 December 2018  
-Lens focal length	55 mm  
-Orientation	Normal  
-Horizontal resolution	300 dpi  
-Vertical resolution	300 dpi  
-Software used	darktable 2.5.0+1087~g1078fb85e  
-File change date and time	17:17, 15 December 2018  
-Y and C positioning	Centered  
-Exposure Program	Aperture priority  
-Exif version	2.3  
-Date and time of digitizing	13:52, 15 December 2018  
-Meaning of each component	  
+Exposure time 1/1,900 sec (0.00052631578947368)  
+F-number f/9  
+ISO speed rating 6,400  
+Date and time of data generation 13:52, 15 December 2018  
+Lens focal length 55 mm  
+Orientation Normal  
+Horizontal resolution 300 dpi  
+Vertical resolution 300 dpi  
+Software used darktable 2.5.0+1087~g1078fb85e  
+File change date and time 17:17, 15 December 2018  
+Y and C positioning Centered  
+Exposure Program Aperture priority  
+Exif version 2.3  
+Date and time of digitizing 13:52, 15 December 2018  
+Meaning of each component
+
 1. Y  
 2. Cb  
 3. Cr  
 4. does not exist  
-   
-APEX shutter speed	10.960001932274  
-APEX aperture	6.307610619469  
-APEX brightness	5.16  
-APEX exposure bias	−1.67  
-Maximum land aperture	2.9708536585366 APEX (f/2.8)  
-Metering mode	Pattern  
-Light source	Unknown  
-Supported Flashpix version	1  
-Color space	sRGB  
-Focal plane X resolution	820  
-Focal plane Y resolution	820  
-Focal plane resolution unit	3  
-Sensing method	One-chip color area sensor  
-File source	Digital still camera  
-Scene type	A directly photographed image  
-Custom image processing	Normal process  
-Exposure mode	Auto exposure  
-White balance	Auto white balance  
-Focal length in 35 mm film	83 mm  
-Scene capture type	Standard  
-Saturation	Normal  
-Sharpness	Normal  
-Subject distance range	Unknown  
-Image compression mode	2.5  
-Flash	Flash did not fire  
-Bits per component	  
+
+APEX shutter speed 10.960001932274  
+APEX aperture 6.307610619469  
+APEX brightness 5.16  
+APEX exposure bias −1.67  
+Maximum land aperture 2.9708536585366 APEX (f/2.8)  
+Metering mode Pattern  
+Light source Unknown  
+Supported Flashpix version 1  
+Color space sRGB  
+Focal plane X resolution 820  
+Focal plane Y resolution 820  
+Focal plane resolution unit 3  
+Sensing method One-chip color area sensor  
+File source Digital still camera  
+Scene type A directly photographed image  
+Custom image processing Normal process  
+Exposure mode Auto exposure  
+White balance Auto white balance  
+Focal length in 35 mm film 83 mm  
+Scene capture type Standard  
+Saturation Normal  
+Sharpness Normal  
+Subject distance range Unknown  
+Image compression mode 2.5  
+Flash Flash did not fire  
+Bits per component
+
 1. 16  
 2. 16  
 3. 16  
-   
-Height	3,050 px  
-Width	1,618 px  
-Pixel composition	RGB  
-Number of components	3  
-Rating (out of 5)	1   
 
+Height 3,050 px  
+Width 1,618 px  
+Pixel composition RGB  
+Number of components 3  
+Rating (out of 5) 1
 
   </p>
 </details>
