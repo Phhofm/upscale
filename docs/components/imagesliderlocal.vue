@@ -60,7 +60,7 @@ options.value.push({ text: "Input", value: props.inputImage }); // push first im
 // build the options array with the data
 for (let i = 0; i < relativePaths.length; i++) {
   let text = modelNames[i];
-  let value = "/upscale/sources/" + relativePaths[i];
+  let value = "/upscale/main/sources/" + relativePaths[i];
   let object = { text: text, value: value };
   options.value.push(object);
 }

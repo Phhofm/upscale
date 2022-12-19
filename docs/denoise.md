@@ -46,7 +46,7 @@ The two (extreme) example images are taken from the [Natural Image Noise Dataset
 ## Directions ISOH3
 
 <br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/denoise/input/NIND_directions_ISOH3.jpg' relativePathOutputFolder='denoise/output/directions' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/denoise/input/NIND_directions_ISOH3.jpg' relativePathOutputFolder='denoise/output/directions' />
 <br/>
 
 <details>
@@ -132,7 +132,7 @@ Rating (out of 5) 1
 ## Stefantiek ISOH2
 
 <br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/denoise/input/NIND_stefantiek_ISOH2.jpg' relativePathOutputFolder='denoise/output/stefantiek' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/denoise/input/NIND_stefantiek_ISOH2.jpg' relativePathOutputFolder='denoise/output/stefantiek' />
 <br/>
 
 <details>

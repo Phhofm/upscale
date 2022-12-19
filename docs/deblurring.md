@@ -57,7 +57,7 @@ These three example images are taken from the [GoPro Large Testset](https://seun
 ### Example 1
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/deblur/GOPRO_Large/test/GOPR0384_11_00/000001.jpg' relativePathOutputFolder='deblur/GOPRO_Large/test/GOPR0384_11_00/output' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/deblur/GOPRO_Large/test/GOPR0384_11_00/000001.jpg' relativePathOutputFolder='deblur/GOPRO_Large/test/GOPR0384_11_00/output' />
 <br/>
 
 <details>
@@ -76,7 +76,7 @@ These three example images are taken from the [GoPro Large Testset](https://seun
 ### Example 2
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/deblur/GOPRO_Large/test/GOPR0862_11_00/000004.jpg' relativePathOutputFolder='deblur/GOPRO_Large/test/GOPR0862_11_00/output' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/deblur/GOPRO_Large/test/GOPR0862_11_00/000004.jpg' relativePathOutputFolder='deblur/GOPRO_Large/test/GOPR0862_11_00/output' />
 <br/>
 
 <details>
@@ -95,7 +95,7 @@ These three example images are taken from the [GoPro Large Testset](https://seun
 ### Example 3
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/deblur/GOPRO_Large/test/GOPR0881_11_01/000202.jpg' relativePathOutputFolder='deblur/GOPRO_Large/test/GOPR0881_11_01/output' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/deblur/GOPRO_Large/test/GOPR0881_11_01/000202.jpg' relativePathOutputFolder='deblur/GOPRO_Large/test/GOPR0881_11_01/output' />
 <br/>
 
 <details>

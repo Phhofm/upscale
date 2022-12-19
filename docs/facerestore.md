@@ -33,7 +33,7 @@ Face Restoration Models are meant to restore faces after an upscale because they
 The input is the buddy example, the SwinIR-L taken from the 'Favorites' page. CodeFormer has been run with fidelity iteration set in 0.1 steps
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/facerestoration/buddy/input/SwinIR-L.jpg' relativePathOutputFolder='facerestoration/buddy/output' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/facerestoration/buddy/input/SwinIR-L.jpg' relativePathOutputFolder='facerestoration/buddy/output' />
 <br/>
 
 <details>
@@ -64,7 +64,7 @@ The input is the buddy example, the SwinIR-L taken from the 'Favorites' page. Co
 This input is the img_005 from the Set5 dataset, specifically the version here: <https://github.com/jbhuang0604/SelfExSR/blob/master/data/Set5/image_SRF_4/img_005_SRF_4_LR.png>, upscaled 4x with SwinIR-L.
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/facerestoration/woman/input/SwinIR-L.jpg' relativePathOutputFolder='facerestoration/woman/output' />
+<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/facerestoration/woman/input/SwinIR-L.jpg' relativePathOutputFolder='facerestoration/woman/output' />
 <br/>
 
 Just to be aware that such an effect might happen, if we go too low with CodeFormers fidelity in this example, the hat gets messed up:
