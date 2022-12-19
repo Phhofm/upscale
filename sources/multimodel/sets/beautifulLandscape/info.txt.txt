@@ -1,0 +1,5 @@
+Upscaled with chaiNNer, replicate, huggingface etc
+then converted to jpg
+then compressed again with mozjpg
+
+There are upload limitations on imgsli, compression was needed for this set to be able to create an imgsli link
