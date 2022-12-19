@@ -29,7 +29,7 @@ These examples are automatically updated ~~since the vue component fetches all t
 #### Buddy
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/buddy.jpg' relativePathOutputFolder='multimodel/current/photos/buddy' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/buddy.jpg' relativePathOutputFolder='multimodel/current/photos/buddy' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -45,7 +45,7 @@ Name: Buddy
 #### Grosser Mythen
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/grossermythen.jpg' relativePathOutputFolder='multimodel/current/photos/grossermythen' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/grossermythen.jpg' relativePathOutputFolder='multimodel/current/photos/grossermythen' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -61,7 +61,7 @@ Name: Grosser Mythen
 #### Painting
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/painting.jpg' relativePathOutputFolder='multimodel/current/photos/painting' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/painting.jpg' relativePathOutputFolder='multimodel/current/photos/painting' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -77,7 +77,7 @@ Name: Painting
 #### PC Build
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/pcbuild.jpg' relativePathOutputFolder='multimodel/current/photos/pcbuild' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/pcbuild.jpg' relativePathOutputFolder='multimodel/current/photos/pcbuild' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -93,7 +93,7 @@ Name: PC Build
 #### Snowboard
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/snowboard.jpg' relativePathOutputFolder='multimodel/current/photos/snowboard' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/photos/snowboard.jpg' relativePathOutputFolder='multimodel/current/photos/snowboard' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -114,7 +114,7 @@ Name: Snowboard
 #### Child
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/ai_generated/child.jpg' relativePathOutputFolder='multimodel/current/ai_generated/child' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/ai_generated/child.jpg' relativePathOutputFolder='multimodel/current/ai_generated/child' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -131,7 +131,7 @@ Name: Child
 #### Landscape
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/ai_generated/landscape.jpg' relativePathOutputFolder='multimodel/current/ai_generated/landscape' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/ai_generated/landscape.jpg' relativePathOutputFolder='multimodel/current/ai_generated/landscape' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -148,7 +148,7 @@ Name: Landscape
 #### Lightning
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/ai_generated/lightning.jpg' relativePathOutputFolder='multimodel/current/ai_generated/lightning' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/ai_generated/lightning.jpg' relativePathOutputFolder='multimodel/current/ai_generated/lightning' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -165,7 +165,7 @@ Name: Lightning
 #### Livingroom
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/ai_generated/livingroom.jpg' relativePathOutputFolder='multimodel/current/ai_generated/livingroom' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/ai_generated/livingroom.jpg' relativePathOutputFolder='multimodel/current/ai_generated/livingroom' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -186,7 +186,7 @@ Name: Livingroom
 #### Fate
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg' relativePathOutputFolder='multimodel/current/anime/fate' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg' relativePathOutputFolder='multimodel/current/anime/fate' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -203,7 +203,7 @@ Name: Fate (Fate/Stay Night: Unlimited Blade Works Opening)
 #### KonoSuba
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/KonoSuba.jpg' relativePathOutputFolder='multimodel/current/anime/konosuba' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/KonoSuba.jpg' relativePathOutputFolder='multimodel/current/anime/konosuba' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -220,7 +220,7 @@ Name: KonoSuba
 #### Overlord
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/Overlord.jpg' relativePathOutputFolder='multimodel/current/anime/overlord' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/Overlord.jpg' relativePathOutputFolder='multimodel/current/anime/overlord' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -237,7 +237,7 @@ Name: Overlord
 #### Sword Art Online
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/SwordArtOnline.jpg' relativePathOutputFolder='multimodel/current/anime/sao' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/SwordArtOnline.jpg' relativePathOutputFolder='multimodel/current/anime/sao' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -254,7 +254,7 @@ Name: Sword Art Online
 #### Sword Art Online 2
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/SwordArtOnline2.jpg' relativePathOutputFolder='multimodel/current/anime/sao2' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/SwordArtOnline2.jpg' relativePathOutputFolder='multimodel/current/anime/sao2' />
 <br/>
 
 <details><summary>Example Details </summary>
@@ -271,7 +271,7 @@ Name: Sword Art Online 2
 #### That Time I Got Reincarnated As A Slime
 
 <br/>
-<ImageSliderLocal inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg' relativePathOutputFolder='multimodel/current/anime/slime' />
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/sources/input/anime/ThatTimeIGotReincarnatedAsASlime.jpg' relativePathOutputFolder='multimodel/current/anime/slime' />
 <br/>
 
 <details><summary>Example Details </summary>
