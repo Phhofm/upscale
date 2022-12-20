@@ -6,6 +6,21 @@ layout: doc
 
 <script setup lang="ts">
 import ImageSliderGithub from './components/imageslidergithub.vue' // the vue image slider example comparison component
+
+//HTML5 Fullscreen API
+/*
+function enterFullscreen(elementName) {
+  var element = document.getElementById(elementName);
+  if(element.requestFullscreen) {
+    element.requestFullscreen();
+  } else if(element.msRequestFullscreen) {      // for IE11 (remove June 15, 2022)
+    element.msRequestFullscreen();
+  } else if(element.webkitRequestFullscreen) {  // iOS Safari
+    element.webkitRequestFullscreen();
+  }
+}
+*/
+
 </script>
 
 # Favorites
@@ -37,8 +52,12 @@ import ImageSliderGithub from './components/imageslidergithub.vue' // the vue im
 ## Buddy
 
 <br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/favorites/input/buddy.jpg' relativePathOutputFolder='favorites/output/buddy' />
+<!-- <div id="buddyExample"> -->
+<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/favorites/input/buddy.jpg' relativePathOutputFolder='favorites/output/buddy'/>
+<!-- </div> -->
 <br/>
+
+<!-- <button @click="enterFullscreen('buddyExample')">FULLSCREEN (Exit with ESC)</button> -->
 
 <details>
   <summary>Details</summary>
