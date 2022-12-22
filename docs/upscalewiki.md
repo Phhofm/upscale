@@ -5,7 +5,7 @@ layout: doc
 ---
 
 <script setup lang="ts">
-import ImageSliderGithub from './components/imageslidergithub.vue' // the vue image slider example comparison component
+import ImageSliderGithubSelection from './components/imageslidergithubselection.vue' // the vue image slider example comparison component
 </script>
 
 # Upscale Wiki Model Database
@@ -19,12 +19,14 @@ When I first started upscaling I came across this site and was overwhelmed by th
 ## Universal Models
 
 <br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/photos/buddy.jpg' relativePathOutputFolder='multimodel/current/photos/buddy' />
+<ImageSliderGithubSelection inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg' relativePathOutputFolder='output/lossless/anime/fate' :fileNamesList="['003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN','RealESRGAN_x4plus_anime_6B']" />
 <br/>
+
+
 
 <details><summary>Example Details </summary>
 
- Name: Buddy
+ Name: Fate
  Input Image: 480x320 pixels  
  Scaling Factor: 4  
  Output Image: 1920x1280 pixels  
