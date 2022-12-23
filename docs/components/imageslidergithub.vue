@@ -12,8 +12,13 @@
     </select>
   </div>
 
-  <image-compare :before="before" :after="after" isDraggable isZoomable :key="componentKey" :zoom="zoom" @wheel.prevent
+  <image-compare v-if="nondraggable" :before="before" :after="after" isZoomable :key="componentKey" :zoom="zoom" @wheel.prevent
     @touchmove.prevent @scroll.prevent />
+
+  <image-compare v-if="!nondraggable" :before="before" :after="after" isDraggable isZoomable :key="componentKey" :zoom="zoom" @wheel.prevent
+    @touchmove.prevent @scroll.prevent />
+
+
 </template>
 
 <script setup lang="ts">
@@ -25,6 +30,8 @@ import data from "../../data.json";
 const props = defineProps({
   inputImageURL: String,
   relativePathOutputFolder: String,
+  fileNamesList: [],
+  nondraggable: Boolean
 });
 
 // the selection options
@@ -52,6 +59,13 @@ const zoom = { min: 1, max: 4 };
 let relevantFiles = data.filter((file) =>
   file.relativePath.startsWith(props.relativePathOutputFolder + '/') // needed to add '/' because otherwise examplefolder that start the same get overwritten (like 'sao' will get overwritten by the 'sao2' example image files)
 );
+
+if (props.fileNamesList && props.fileNamesList.length >= 1) {
+  relevantFiles = relevantFiles.filter((file) =>
+    props.fileNamesList.includes(file.basename)
+  );
+}
+
 let relativePaths = relevantFiles.map((file) => file.relativePath);
 let modelNames = relevantFiles.map((file) => file.basename);
 
