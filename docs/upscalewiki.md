@@ -63,7 +63,7 @@ Info:
 
  Name: Fate
  Input Image: 480x320 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/photos/buddy.jpg https://github.com/Phhofm/upscale/tree/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg)  
+ [Input Source File](https://github.com/Phhofm/upscale/tree/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg)  
  [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/anime/fate)
 </details>
 
@@ -108,7 +108,7 @@ The outputs named like '50k [epoch 253, psnr 30.316, ssim 0.8508, lpips 0.052897
 
  Name: Fate
  Input Image: 480x320 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/photos/buddy.jpg https://github.com/Phhofm/upscale/tree/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg)  
+ [Input Source File](https://github.com/Phhofm/upscale/tree/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg)  
  [Output Source Files](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/anime/fate)  
 </details>
 
