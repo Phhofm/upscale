@@ -1,14 +1,127 @@
 ---
 title: Favorites
-description: Visual Comparison for some of my personal favorites
+description: Favorites Page
 layout: doc
 ---
 
 <script setup lang="ts">
+
 import ImageSliderGithub from './components/imageslidergithub.vue' // the vue image slider example comparison component
 
-//HTML5 Fullscreen API
 /*
+const fullNamesList = [
+  '003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN',
+  '4x-UltraMix_Restore',
+  '4x-UltraMix_Balanced',
+  '4x-UltraSharp',
+  '4x-UniScaleV2_Moderate',
+  '4xRealSR_DF2K_JPEG',
+  '4x_foolhardy_Remacri',
+  '4x_NMKD-Siax_200k',
+  'BSRGAN',
+  '4x_NMKD-Yandere4_120000_G',
+  'LDSR_100steps',
+  'realesr-general-wdn-x4v3',
+  'RealESRGAN_x4plus',
+  'RealESRGAN_x4_rudalle',
+  'Real_HAT_GAN_SRx4',
+  'Swin2SR_RealworldSR_X4_64_BSRGAN_PSNR',
+  'SwinIR-L+GFPGANv1.4',
+  'SwinIR-L+CodeFormer',
+  '4x_BooruGan_650k',
+  'RealESRGAN_x4plus_anime_6B'
+  ]
+  */
+
+  const buddyFileNamesList = [
+  'SwinIR-L+CodeFormer',
+  'LDSR+CodeFormer',
+  'RealESRGAN_x4plus+CodeFormer',
+  'BSRGAN+CodeFormer',
+  'realesr-general-wdn-x4v3+CodeFormer',
+  'Real_HAT+CodeFormer',
+  'Remacri+CodeFormer',
+  'Rudalle+CodeFormer',
+  'UltraMix_Balanced+CodeFormer',
+  'SwinIR-L+GFPGANv1.4',
+  'SwinIR-L'
+  ]
+
+/*
+  const mythenFileNamesList = [
+  '003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN',
+  '4x-UltraMix_Restore',
+  '4x-UltraMix_Balanced',
+  '4x-UltraSharp',
+  '4x-UniScaleV2_Moderate',
+  '4xRealSR_DF2K_JPEG',
+  '4x_foolhardy_Remacri',
+  '4x_NMKD-Siax_200k',
+  'BSRGAN',
+  '4x_NMKD-Yandere4_120000_G',
+  'LDSR_100steps',
+  'realesr-general-wdn-x4v3',
+  'RealESRGAN_x4plus',
+  'RealESRGAN_x4_rudalle',
+  'Real_HAT_GAN_SRx4',
+  'Swin2SR_RealworldSR_X4_64_BSRGAN_PSNR',
+  'SwinIR-L+GFPGANv1.4',
+  'SwinIR-L+CodeFormer',
+  '4x_BooruGan_650k',
+  'RealESRGAN_x4plus_anime_6B'
+  ]
+  */
+
+  const fateFileNamesList = [
+  '003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN',
+  '4x-UltraMix_Restore',
+  '4x-UltraMix_Balanced',
+  '4x-UltraSharp',
+  '4x-UniScaleV2_Moderate',
+  '4xRealSR_DF2K_JPEG',
+  '4x_foolhardy_Remacri',
+  '4x_NMKD-Siax_200k',
+  'BSRGAN',
+  '4x_NMKD-Yandere4_120000_G',
+  'LDSR_100steps',
+  'realesr-general-wdn-x4v3',
+  'RealESRGAN_x4plus',
+  'RealESRGAN_x4_rudalle',
+  'Real_HAT_GAN_SRx4',
+  'Swin2SR_RealworldSR_X4_64_BSRGAN_PSNR',
+  'SwinIR-L+GFPGANv1.4',
+  'SwinIR-L+CodeFormer',
+  '4x_BooruGan_650k',
+  'RealESRGAN_x4plus_anime_6B'
+  ]
+
+  /*
+  const konosubaFileNamesList = [
+  '003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN',
+  '4x-UltraMix_Restore',
+  '4x-UltraMix_Balanced',
+  '4x-UltraSharp',
+  '4x-UniScaleV2_Moderate',
+  '4xRealSR_DF2K_JPEG',
+  '4x_foolhardy_Remacri',
+  '4x_NMKD-Siax_200k',
+  'BSRGAN',
+  '4x_NMKD-Yandere4_120000_G',
+  'LDSR_100steps',
+  'realesr-general-wdn-x4v3',
+  'RealESRGAN_x4plus',
+  'RealESRGAN_x4_rudalle',
+  'Real_HAT_GAN_SRx4',
+  'Swin2SR_RealworldSR_X4_64_BSRGAN_PSNR',
+  'SwinIR-L+GFPGANv1.4',
+  'SwinIR-L+CodeFormer',
+  '4x_BooruGan_650k',
+  'RealESRGAN_x4plus_anime_6B'
+  ]
+  */
+
+//HTML5 Fullscreen API
+const fullscreenEnabled = document.fullscreenEnabled; //check if fullscreen is possible
 function enterFullscreen(elementName) {
   var element = document.getElementById(elementName);
   if(element.requestFullscreen) {
@@ -19,270 +132,143 @@ function enterFullscreen(elementName) {
     element.webkitRequestFullscreen();
   }
 }
-*/
 
+// reset button, to keep it simple this will reset all examples. This is simply because when entering fullscreen mode, dragging/moving the image out of view, and pressing esc, the image will have 'vanished' (not in view anymore) so i thought id add a reset button
+import { ref } from 'vue';
+const componentKey = ref(0);
+
+const forceRerender = () => {
+  componentKey.value += 1;
+};
 </script>
 
 # Favorites
 
-### Set Details
-
-  Creation Date Of Upscale Set: 10. Nov 2022  
-  Models used: 12
-  Set Name: 'Favorites'  
-  Image Files: [Github Repo](https://github.com/Phhofm/upscale/tree/sources/favorites)  
-
-  <details>
-    <summary>Models List</summary>
-
-      003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN
-      003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_GAN
-      4x-UltraMix_Restore
-      4x-UltraSharp
-      4x-UniScaleV2_Moderate
-      4xRealSR_DF2K_JPEG
-      4x_foolhardy_Remacri
-      4x_NMKD-Siax_200k
-      BSRGAN
-      LDSR_100steps
-      realesr-general-wdn-x4v3
-      RealESRGAN_x4plus
-  </details>
+# !TODO
+>DO NOT FORGET TO CHANGE THE SOURCE LINKS BACK BEFORE MERGING INTO MAIN. /dev/ needs to be /main/ also in the imageslidergithub.vue file  
+ADD LINKS TO DESCRIPTION AND FILES AND SOURCES  
+CHOOSE GROSSER MYTHEN FAVS  
+CHOOSE KONOSUBA FAVS  
+EXTEND THOSE  
+THEN YOU CAN PUBLISH .. YOU CAN STILL ADD AI GENERATED EXAMPLES LATER, MAYBE NEW ONES GENERATED WTH THE NEW MIDJOURNEY AI  
 
 ## Buddy
 
-<br/>
-<!-- <div id="buddyExample"> -->
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/favorites/input/buddy.jpg' relativePathOutputFolder='favorites/output/buddy'/>
-<!-- </div> -->
-<br/>
-
-<!-- <button @click="enterFullscreen('buddyExample')">FULLSCREEN (Exit with ESC)</button> -->
-
-<details>
-  <summary>Details</summary>
-  <p>
-
-  Creation Date: 10. Nov 2022
-
-  Input Image: 480x320 pixels
-
-  Scaling Factor: 4
-
-  Output Image: 1920x1280 pixels
-
-  Type: Photo
-
-  </p>
-</details>
-
-## Buddy + FR
-
-This is the buddy example but with Face Restoration. To compare different Face Restoration models, head to the face restoration page.
-
-<br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/favorites/input/buddy.jpg' relativePathOutputFolder='favorites/output/buddy-fr' />
+For **photos with faces** my simplest recommendation is [SwinIR-L]() together with [CodeFormer]() in [chaiNNer]() as shown [here]().   
+>Added *SwinIR-L* to show the output without face restoration, and *SwinIR-L+GFPGANv1.4* to show an alternative face restoration model.  
+>Model names have been simplified. 
+<div id="buddyExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/dev/sources/input/photos/buddy.jpg' relativePathOutputFolder='output/lossless/photos/buddy' :fileNamesList="buddyFileNamesList" />
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('buddyExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
 <details>
   <summary>Details</summary>
   <p>
 
-  Creation Date: 10. Nov 2022
+Input Image: 480x320 pixels
 
-  Input Image: 480x320 pixels
+Scaling Factor: 4
 
-  Scaling Factor: 4
+Output Image: 1920x1280 pixels
 
-  Output Image: 1920x1280 pixels
+Type: Photo with Faces
 
-  Face Restoration Model: GFPGANv1.4
+Input Image: [Image]()
 
-  Type: Photo
-
-  </p>
-</details>
-
-## Child
-
-<br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/favorites/input/child.jpg' relativePathOutputFolder='favorites/output/child' />
-<br/>
-
-<details>
-  <summary>Details</summary>
-  <p>
-
-  Creation Date: 10. Nov 2022  
-
-  Input Image: 320x320 pixels  
-
-  Scaling Factor: 4  
-
-  Output Image: 1280x1280 pixels  
-
-  Type: AI Generated Image  
+Output Images: [Github Folder]()
 
   </p>
 </details>
 
 ## Grosser Mythen
 
-<br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/favorites/input/grossermythen.jpg' relativePathOutputFolder='favorites/output/grossermythen' />
-<br/>
+For photos of landscapes
 
-<details>
-  <summary>Details</summary>
-  <p>
-
-  Creation Date: 10. Nov 2022
-
-  Input Image: 427x320 pixels
-
-  Scaling Factor: 4
-
-  Output Image: 1708x1280 pixels
-
-  Type: Photo
-
-  </p>
-</details>
-
-## Landscape
-
-<br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/favorites/input/landscape.jpg' relativePathOutputFolder='favorites/output/landscape' />
+<div id="mythenExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/photos/grossermythen.jpg' relativePathOutputFolder='output/lossless/photos/grossermythen' />
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('mythenExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
 <details>
   <summary>Details</summary>
   <p>
 
-  Creation Date: 10. Nov 2022
+Input Image: 480x320 pixels
 
-  Input Image: 320x320 pixels
+Scaling Factor: 4
 
-  Scaling Factor: 4
+Output Image: 1920x1280 pixels
 
-  Output Image: 1280x1280 pixels
-
-  Type: AI Generated Image
+Type: Photo
 
   </p>
 </details>
 
-## Lightning
+## KonoSuba
 
-<br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/favorites/input/lightning.jpg' relativePathOutputFolder='favorites/output/lightning' />
+For anime images
+
+<div id="konosubaExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/anime/KonoSuba.jpg' relativePathOutputFolder='output/lossless/anime/konosuba' />
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('konosubaExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
 <details>
   <summary>Details</summary>
   <p>
 
-  Creation Date: 10. Nov 2022
+Input Image: 480x320 pixels
 
-  Input Image: 320x320 pixels
+Scaling Factor: 4
 
-  Scaling Factor: 4
+Output Image: 1920x1280 pixels
 
-  Output Image: 1280x1280 pixels
-
-  Type: AI Generated Image
+Type: Photo
 
   </p>
 </details>
 
-## Livingroom
+## Fate
 
-<br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/favorites/input/livingroom.jpg' relativePathOutputFolder='favorites/output/livingroom' />
+For anime images with Bokeh effect
+
+<div id="fateSelectionExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg' relativePathOutputFolder='output/lossless/anime/fate' :fileNamesList="fateFileNamesList" />
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('fateSelectionExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
 <details>
   <summary>Details</summary>
   <p>
 
-  Creation Date: 10. Nov 2022
+Input Image: 480x320 pixels
 
-  Input Image: 320x320 pixels
+Scaling Factor: 4
 
-  Scaling Factor: 4
+Output Image: 1920x1280 pixels
 
-  Output Image: 1280x1280 pixels
-
-  Type: AI Generated Image
+Type: Photo
 
   </p>
 </details>
 
-## Painting
+<!-- not ready yet, LDSR etc missing
+# Livingroom
 
-<br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/favorites/input/painting.jpg' relativePathOutputFolder='favorites/output/painting' />
-<br/>
+<div id="fateSelectionExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg' relativePathOutputFolder='output/lossless/anime/fate' :fileNamesList="fileNamesList" />
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('fateSelectionExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
+<br/><br/><br/>
 
-<details>
-  <summary>Details</summary>
-  <p>
-
-  Creation Date: 10. Nov 2022
-
-  Input Image: 427x320 pixels
-
-  Scaling Factor: 4
-
-  Output Image: 1708x1280 pixels
-
-  Type: Photo
-
-  </p>
-</details>
-
-## PC Build
-
-<br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/favorites/input/pcbuild.jpg' relativePathOutputFolder='favorites/output/pcbuild' />
-<br/>
-
-<details>
-  <summary>Details</summary>
-  <p>
-
-  Creation Date: 03. Nov 2022
-
-  Input Image: 427x320 pixels
-
-  Scaling Factor: 4
-
-  Output Image: 1708x1280 pixels
-
-  Type: Photo
-
-  </p>
-</details>
-
-## Snowboard
-
-<br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/favorites/input/snowboard.jpg' relativePathOutputFolder='favorites/output/snowboard' />
-<br/>
-
-<details>
-  <summary>Details</summary>
-  <p>
-
-  Creation Date: 10. Nov 2022
-
-  Input Image: 427x320 pixels
-
-  Scaling Factor: 4
-
-  Output Image: 1708x1280 pixels
-
-  Type: Photo
-
-  </p>
-</details>
+-->
