@@ -35,7 +35,6 @@ const fullNamesList = [
 
   const buddyFileNamesList = [
   'SwinIR-L+CodeFormer',
-  'LDSR+CodeFormer',
   'RealESRGAN_x4plus+CodeFormer',
   'BSRGAN+CodeFormer',
   'realesr-general-wdn-x4v3+CodeFormer',
@@ -44,33 +43,27 @@ const fullNamesList = [
   'Rudalle+CodeFormer',
   'UltraMix_Balanced+CodeFormer',
   'SwinIR-L+GFPGANv1.4',
-  'SwinIR-L'
+  'SwinIR-L',
+  '4xLDSR_50steps+CodeFormer',
   ]
 
-/*
   const mythenFileNamesList = [
   '003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN',
+  '4xJaypeg90',
+  '4xRealSR_DF2K_JPEG',
   '4x-UltraMix_Restore',
   '4x-UltraMix_Balanced',
   '4x-UltraSharp',
-  '4x-UniScaleV2_Moderate',
   '4xRealSR_DF2K_JPEG',
-  '4x_foolhardy_Remacri',
   '4x_NMKD-Siax_200k',
   'BSRGAN',
-  '4x_NMKD-Yandere4_120000_G',
   'LDSR_100steps',
   'realesr-general-wdn-x4v3',
   'RealESRGAN_x4plus',
   'RealESRGAN_x4_rudalle',
   'Real_HAT_GAN_SRx4',
-  'Swin2SR_RealworldSR_X4_64_BSRGAN_PSNR',
-  'SwinIR-L+GFPGANv1.4',
-  'SwinIR-L+CodeFormer',
-  '4x_BooruGan_650k',
-  'RealESRGAN_x4plus_anime_6B'
+  '4xLDSR_200steps',
   ]
-  */
 
   const fateFileNamesList = [
   '003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN',
@@ -154,10 +147,9 @@ THEN YOU CAN PUBLISH .. YOU CAN STILL ADD AI GENERATED EXAMPLES LATER, MAYBE NEW
 
 ## Buddy
 For **photos with faces** my simplest recommendation is [SwinIR-L](https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth) together with [CodeFormer](https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/codeformer.pth) in [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) as shown [here](https://raw.githubusercontent.com/Phhofm/upscale/dev/assets/images/favorites/screenshotBuddySwinIRLCodeFormer.png).    
->Added *SwinIR-L* to show the output without face restoration, and *SwinIR-L+GFPGANv1.4* to show an alternative face restoration model.  
->Model names have been simplified. 
+>LDSR, especially with higher step count, starts messing up the faces too much, even when used with face restoration models, in my opinion.
 <div id="buddyExample">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/dev/sources/input/photos/buddy.jpg' relativePathOutputFolder='output/lossless/photos/buddy' :fileNamesList="buddyFileNamesList" />
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/dev/sources/input/photos/buddy.jpg' relativePathOutputFolder='output/lossless/photos/buddy' :fileNamesList="buddyFileNamesList"/>
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('buddyExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
@@ -184,10 +176,11 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
 
 ## Grosser Mythen
 
-For photos of landscapes
+For photos of landscapes my simplest recommendation is [Real_HAT_GAN_SRx4](https://drive.google.com/file/d/1Ma12vCWT27P9M99-s2RXnynKN-OQsBrv/view) with [chaiNNer](https://github.com/chaiNNer-org/chaiNNer).   
+>LDSR also gives good results here but is not supported by chaiNNer. If you are using LDSR (like with [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)) always check your output for completeness. Oftentimes the input is not in the correct dimensions and therefore unintentional cropping will occur, then you need to manually pad the [input](https://raw.githubusercontent.com/Phhofm/upscale/dev/sources/input/photos/grossermythen_ldsr_padded.jpg) and crop the output.
 
 <div id="mythenExample">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/photos/grossermythen.jpg' relativePathOutputFolder='output/lossless/photos/grossermythen' />
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/photos/grossermythen.jpg' relativePathOutputFolder='output/lossless/photos/grossermythen' :fileNamesList="mythenFileNamesList" draggable="true"/>
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('mythenExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
