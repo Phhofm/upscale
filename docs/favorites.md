@@ -153,8 +153,7 @@ EXTEND THOSE
 THEN YOU CAN PUBLISH .. YOU CAN STILL ADD AI GENERATED EXAMPLES LATER, MAYBE NEW ONES GENERATED WTH THE NEW MIDJOURNEY AI  
 
 ## Buddy
-
-For **photos with faces** my simplest recommendation is [SwinIR-L]() together with [CodeFormer]() in [chaiNNer]() as shown [here]().   
+For **photos with faces** my simplest recommendation is [SwinIR-L](https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth) together with [CodeFormer](https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/codeformer.pth) in [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) as shown [here](https://raw.githubusercontent.com/Phhofm/upscale/dev/assets/images/favorites/screenshotBuddySwinIRLCodeFormer.png).    
 >Added *SwinIR-L* to show the output without face restoration, and *SwinIR-L+GFPGANv1.4* to show an alternative face restoration model.  
 >Model names have been simplified. 
 <div id="buddyExample">
@@ -176,9 +175,9 @@ Output Image: 1920x1280 pixels
 
 Type: Photo with Faces
 
-Input Image: [Image]()
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/buddy.jpg)
 
-Output Images: [Github Folder]()
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/photos/buddy)
 
   </p>
 </details>
