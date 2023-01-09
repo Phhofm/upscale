@@ -51,7 +51,7 @@ const fullNamesList = [
   '003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN',
   '4xJaypeg90',
   '4xRealSR_DF2K_JPEG',
-  '4x-UltraMix_Restore',
+  //'4x-UltraMix_Restore',
   '4x-UltraMix_Balanced',
   '4x-UltraSharp',
   '4xRealSR_DF2K_JPEG',
@@ -66,52 +66,50 @@ const fullNamesList = [
   ]
 
   const fateFileNamesList = [
-  '003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN',
+  //'003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN',
   '4x-UltraMix_Restore',
-  '4x-UltraMix_Balanced',
-  '4x-UltraSharp',
-  '4x-UniScaleV2_Moderate',
+  //'4x-UltraMix_Balanced',
+  //'4x-UltraSharp',
   '4xRealSR_DF2K_JPEG',
   '4x_foolhardy_Remacri',
   '4x_NMKD-Siax_200k',
-  'BSRGAN',
+  //'BSRGAN',
   '4x_NMKD-Yandere4_120000_G',
-  'LDSR_100steps',
+  //'4xLDSR_100steps',
   'realesr-general-wdn-x4v3',
-  'RealESRGAN_x4plus',
-  'RealESRGAN_x4_rudalle',
-  'Real_HAT_GAN_SRx4',
-  'Swin2SR_RealworldSR_X4_64_BSRGAN_PSNR',
-  'SwinIR-L+GFPGANv1.4',
-  'SwinIR-L+CodeFormer',
+  //'RealESRGAN_x4plus',
+  //'RealESRGAN_x4_rudalle',
+  //'Real_HAT_GAN_SRx4',
+  //'Swin2SR_RealworldSR_X4_64_BSRGAN_PSNR',
   '4x_BooruGan_650k',
-  'RealESRGAN_x4plus_anime_6B'
+  'RealESRGAN_x4plus_anime_6B',
+  '4x-AnimeSharp',
+  '4x_NMKD-UltraYandere_300k',
+  '4x_NMKD-YandereNeo-F64B2_200k'
   ]
 
-  /*
   const konosubaFileNamesList = [
   '003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN',
-  '4x-UltraMix_Restore',
+  //'4x-UltraMix_Restore',
   '4x-UltraMix_Balanced',
   '4x-UltraSharp',
-  '4x-UniScaleV2_Moderate',
   '4xRealSR_DF2K_JPEG',
   '4x_foolhardy_Remacri',
-  '4x_NMKD-Siax_200k',
+  //'4x_NMKD-Siax_200k',
   'BSRGAN',
-  '4x_NMKD-Yandere4_120000_G',
-  'LDSR_100steps',
-  'realesr-general-wdn-x4v3',
-  'RealESRGAN_x4plus',
-  'RealESRGAN_x4_rudalle',
-  'Real_HAT_GAN_SRx4',
-  'Swin2SR_RealworldSR_X4_64_BSRGAN_PSNR',
-  'SwinIR-L+GFPGANv1.4',
-  'SwinIR-L+CodeFormer',
-  '4x_BooruGan_650k',
-  'RealESRGAN_x4plus_anime_6B'
+  //'4x_NMKD-Yandere4_120000_G',
+  '4xLDSR_50steps',
+  //'realesr-general-wdn-x4v3',
+  //'RealESRGAN_x4plus',
+  //'RealESRGAN_x4_rudalle',
+  //'Real_HAT_GAN_SRx4',
+  //'Swin2SR_RealworldSR_X4_64_BSRGAN_PSNR',
+  //'4x_BooruGan_650k',
+  'RealESRGAN_x4plus_anime_6B',
+  '4x-AnimeSharp',
+  '4x_NMKD-UltraYandere_300k',
+  //'4x_NMKD-YandereNeo-F64B2_200k'
   ]
-  */
 
 //HTML5 Fullscreen API
 const fullscreenEnabled = document.fullscreenEnabled; //check if fullscreen is possible
@@ -137,19 +135,15 @@ const forceRerender = () => {
 
 # Favorites
 
-# !TODO
->DO NOT FORGET TO CHANGE THE SOURCE LINKS BACK BEFORE MERGING INTO MAIN. /dev/ needs to be /main/ also in the imageslidergithub.vue file  
-ADD LINKS TO DESCRIPTION AND FILES AND SOURCES  
-CHOOSE GROSSER MYTHEN FAVS  
-CHOOSE KONOSUBA FAVS  
-EXTEND THOSE  
-THEN YOU CAN PUBLISH .. YOU CAN STILL ADD AI GENERATED EXAMPLES LATER, MAYBE NEW ONES GENERATED WTH THE NEW MIDJOURNEY AI  
+On this page I present my favorite upscaling models for a given example together with a simple recommendation.
+>Examples: Left mouse button to drag the image or to move the slider, mouse wheel to zoom in, right mouse button to toggle left model on/off, releasing middle mouse button will activate a short flicker test for the left side of the slider. Do not work on mobile.
 
 ## Buddy
-For **photos with faces** my simplest recommendation is [SwinIR-L](https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth) together with [CodeFormer](https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/codeformer.pth) in [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) as shown [here](https://raw.githubusercontent.com/Phhofm/upscale/dev/assets/images/favorites/screenshotBuddySwinIRLCodeFormer.png).    
+
+For **photos with faces** my simplest recommendation is [SwinIR-L](https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth) together with [CodeFormer](https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/codeformer.pth) in [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) as shown [here](https://raw.githubusercontent.com/Phhofm/upscale/main/assets/images/favorites/screenshotBuddySwinIRLCodeFormer.png).
 >LDSR, especially with higher step count, starts messing up the faces too much, even when used with face restoration models, in my opinion.
 <div id="buddyExample">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/dev/sources/input/photos/buddy.jpg' relativePathOutputFolder='output/lossless/photos/buddy' :fileNamesList="buddyFileNamesList"/>
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/photos/buddy.jpg' relativePathOutputFolder='output/lossless/photos/buddy' :fileNamesList="buddyFileNamesList"/>
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('buddyExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
@@ -176,11 +170,11 @@ Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sourc
 
 ## Grosser Mythen
 
-For photos of landscapes my simplest recommendation is [Real_HAT_GAN_SRx4](https://drive.google.com/file/d/1Ma12vCWT27P9M99-s2RXnynKN-OQsBrv/view) with [chaiNNer](https://github.com/chaiNNer-org/chaiNNer).   
->LDSR also gives good results here but is not supported by chaiNNer. If you are using LDSR (like with [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)) always check your output for completeness. Oftentimes the input is not in the correct dimensions and therefore unintentional cropping will occur, then you need to manually pad the [input](https://raw.githubusercontent.com/Phhofm/upscale/dev/sources/input/photos/grossermythen_ldsr_padded.jpg) and crop the output.
+For photos of landscapes my simplest recommendation is [Real_HAT_GAN_SRx4](https://drive.google.com/file/d/1Ma12vCWT27P9M99-s2RXnynKN-OQsBrv/view) with [chaiNNer](https://github.com/chaiNNer-org/chaiNNer).
+>LDSR also gives good results here but is not supported by chaiNNer. If you are using LDSR (with [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) or [Replicate](https://replicate.com/nightmareai/latent-sr)) always check your output for completeness. Oftentimes the input is not in the correct dimensions and therefore unintentional cropping will occur, then you need to manually pad the [input](https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/photos/grossermythen_ldsr_padded.jpg) and crop the output.
 
 <div id="mythenExample">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/photos/grossermythen.jpg' relativePathOutputFolder='output/lossless/photos/grossermythen' :fileNamesList="mythenFileNamesList" draggable="true"/>
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/photos/grossermythen.jpg' relativePathOutputFolder='output/lossless/photos/grossermythen' :fileNamesList="mythenFileNamesList"/>
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('mythenExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
@@ -190,23 +184,27 @@ For photos of landscapes my simplest recommendation is [Real_HAT_GAN_SRx4](https
   <summary>Details</summary>
   <p>
 
-Input Image: 480x320 pixels
+Input Image: 427x320 pixels
 
 Scaling Factor: 4
 
-Output Image: 1920x1280 pixels
+Output Image: 1708x1280 pixels
 
-Type: Photo
+Type: Photo Landscape
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/grossermythen.jpg)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/photos/grossermythen)
 
   </p>
 </details>
 
 ## KonoSuba
 
-For anime images
+For anime images my simplest recommendation is [RealESRGAN_x4plus_anime_6B](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth) with [chaiNNer](https://github.com/chaiNNer-org/chaiNNer).
 
 <div id="konosubaExample">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/anime/KonoSuba.jpg' relativePathOutputFolder='output/lossless/anime/konosuba' />
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/anime/KonoSuba.jpg' relativePathOutputFolder='output/lossless/anime/konosuba' :fileNamesList="konosubaFileNamesList"/>
 </div>
 <button v-if="fullscreenEnabled" @click="enterFullscreen('konosubaExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
 <button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
@@ -216,20 +214,28 @@ For anime images
   <summary>Details</summary>
   <p>
 
-Input Image: 480x320 pixels
+Input Image: 640x360 pixels
 
 Scaling Factor: 4
 
-Output Image: 1920x1280 pixels
+Output Image: 2560x1440 pixels
 
-Type: Photo
+Type: Anime Image
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/KonoSuba.jpg)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/anime/konosuba)
 
   </p>
 </details>
 
 ## Fate
 
-For anime images with Bokeh effect
+For anime images with bokeh effect my simplest recommendation is [AnimeSharp]() with [chaiNNer](https://github.com/chaiNNer-org/chaiNNer).
+
+If only a 2x upscale is needed, you can also try out [2x_Bubble_AnimeScale_SwinIR_Small_v1](https://github.com/Bubblemint864/AI-Models/releases/download/2x_Bubble_AnimeScale_SwinIR_Small_v1/2x_Bubble_AnimeScale_SwinIR_Small_v1.pth) with [chaiNNer](https://github.com/chaiNNer-org/chaiNNer).
+
+>RealESRGAN_x4plus_anime_6B this time does not belong my favorites, I left it in here for you to notice what it does to the blurry background.
 
 <div id="fateSelectionExample">
 <ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg' relativePathOutputFolder='output/lossless/anime/fate' :fileNamesList="fateFileNamesList" />
@@ -242,25 +248,17 @@ For anime images with Bokeh effect
   <summary>Details</summary>
   <p>
 
-Input Image: 480x320 pixels
+Input Image: 640x360 pixels
 
 Scaling Factor: 4
 
-Output Image: 1920x1280 pixels
+Output Image: 2560x1440 pixels
 
-Type: Photo
+Type: Anime Image with Bokeh Effect
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/anime/fate)
 
   </p>
 </details>
-
-<!-- not ready yet, LDSR etc missing
-# Livingroom
-
-<div id="fateSelectionExample">
-<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/anime/FateStayNightUnlimitedBladeWorksOpening.jpg' relativePathOutputFolder='output/lossless/anime/fate' :fileNamesList="fileNamesList" />
-</div>
-<button v-if="fullscreenEnabled" @click="enterFullscreen('fateSelectionExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
-<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
-<br/><br/><br/>
-
--->
