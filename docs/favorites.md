@@ -135,8 +135,8 @@ const forceRerender = () => {
 
 # Favorites
 
-On this page I present my favorite upscaling models for a given example together with a simple recommendation.
->Examples: Left mouse button to drag the image or to move the slider, mouse wheel to zoom in, right mouse button to toggle left model on/off, releasing middle mouse button will activate a short flicker test for the left side of the slider. Do not work on mobile.
+On this page I present my favorite upscaling models for a given example together with a simple recommendation. If you want all the upscaling outputs of these examples, head on over to the [multimodels page](./multimodels.md).
+>Example Controls: Left mouse button to drag the image or to move the slider, mouse wheel to zoom in, right mouse button to toggle left model on/off, releasing middle mouse button will activate a short flicker test for the left side of the slider. Do not work on mobile.
 
 ## Buddy
 

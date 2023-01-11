@@ -7,20 +7,41 @@ outline: [2, 3]
 
 <script setup lang="ts">
 import ImageSliderGithub from './components/imageslidergithub.vue' // the vue image slider example comparison component
+
+//HTML5 Fullscreen API
+const fullscreenEnabled = document.fullscreenEnabled; //check if fullscreen is possible
+function enterFullscreen(elementName) {
+  var element = document.getElementById(elementName);
+  if(element.requestFullscreen) {
+    element.requestFullscreen();
+  } else if(element.msRequestFullscreen) {      // for IE11 (remove June 15, 2022)
+    element.msRequestFullscreen();
+  } else if(element.webkitRequestFullscreen) {  // iOS Safari
+    element.webkitRequestFullscreen();
+  }
+}
+
+// reset button, to keep it simple this will reset all examples. This is simply because when entering fullscreen mode, dragging/moving the image out of view, and pressing esc, the image will have 'vanished' (not in view anymore) so i thought id add a reset button
+import { ref } from 'vue';
+const componentKey = ref(0);
+
+const forceRerender = () => {
+  componentKey.value += 1;
+};
 </script>
 
 # Multiple Models
 
-This Page contains examples that were upscaled with multiple models for you to visually compare the outputs of these models against each other.  
-The embedded imgsli examples can be zoomed in for a more detailed comparison, and you can enable fullscreen mode by clicking on the right bottom button. The visual comparison works also better on a bigger display like a desktop monitor instead of a small mobile phone screen.
+This page contains the full examples of images that have been upscaled with multiple different models for you to visually compare the outputs of these models against each other. If you would like to see a smaller selection, head on over to my [favorites page](./favorites.md).
 
-In this following youtube video I am talking about my oldest and smallest comparison set 1, which included only some universal upscaling models. The newer sets are bigger and feature more models.
+Here I demonstrate how I was comparing different model outputs with each other, it features my oldest example which included only around 20 universal upscaling models. The examples on this page are newer and now contain some 300+ outputs in comparison.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/0TYRDmQ5LZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Examples
 
-These examples are automatically updated ~~since the vue component fetches all the images for the examples from my github sources folder on each browser visit~~. Models used may differ for each image since this approach is now example-based and not set-based. Generally these examples include >300 different models.
+These examples feature 300+ model ouputs and display all of my generated output from the respective github folder. Bear in mind that some of these models serve a different purpose than upscaling, like for example some 1x denoising models. You find the links to the input image and all the generated outputs in the 'Details' Section beneath each example, in case you wanted to do your own upscaling comparison.
+>Example Controls: Left mouse button to drag the image or to move the slider, mouse wheel to zoom in, right mouse button to toggle left model on/off, releasing middle mouse button will activate a short flicker test for the left side of the slider. Do not work on mobile.
 
 ### Photo
 
@@ -28,34 +49,50 @@ These examples are automatically updated ~~since the vue component fetches all t
 
 #### Buddy
 
-<br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/photos/buddy.jpg' relativePathOutputFolder='multimodel/current/photos/buddy' />
+<div id="buddyExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/photos/buddy.jpg' relativePathOutputFolder='output/lossless/photos/buddy' />
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('buddyExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
-<details><summary>Example Details </summary>
+<details>
+  <summary>Details</summary>
+  <p>
 
-Name: Buddy
- Input Image: 480x320 pixels  
- Scaling Factor: 4  
- Output Image: 1920x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/photos/buddy.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/photos/buddy)
+Input Image: 480x320 pixels
+
+Type: Photo with Faces
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/buddy.jpg)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/photos/buddy)
+
+  </p>
 </details>
 
 #### Grosser Mythen
 
-<br/>
-<ImageSliderGithub inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/photos/grossermythen.jpg' relativePathOutputFolder='multimodel/current/photos/grossermythen' />
+<div id="mythenExample">
+<ImageSliderGithub :key="componentKey" inputImageURL='https://raw.githubusercontent.com/Phhofm/upscale/main/sources/input/photos/grossermythen.jpg' relativePathOutputFolder='output/lossless/photos/grossermythen' />
+</div>
+<button v-if="fullscreenEnabled" @click="enterFullscreen('mythenExample')" style="color:mediumseagreen;"><strong>FULLSCREEN (Exit with ESC)</strong></button><br/>
+<button v-if="fullscreenEnabled" @click="forceRerender()" style="color:mediumseagreen;"><strong>Reset examples</strong></button>  
 <br/>
 
-<details><summary>Example Details </summary>
+<details>
+  <summary>Details</summary>
+  <p>
 
-Name: Grosser Mythen
- Input Image: 427x320 pixels  
- Scaling Factor: 4  
- Output Image: 1708x1280 pixels  
- [Input Source File](https://github.com/Phhofm/upscale/tree/sources/input/photos/grossermythen.jpg)  
- [Output Source Files](https://github.com/Phhofm/upscale/tree/sources/multimodel/current/photos/grossermythen)
+Input Image: 427x320 pixels
+
+Type: Photo Landscape
+
+Input Image: [Image](https://github.com/Phhofm/upscale/blob/main/sources/input/photos/grossermythen.jpg)
+
+Output Images: [Github Folder](https://github.com/Phhofm/upscale/tree/main/sources/output/lossless/photos/grossermythen)
+
+  </p>
 </details>
 
 #### Painting
@@ -285,9 +322,9 @@ Name: Slime
 
 </details>
 
-## Sets
+## Deprecated: Sets
 
-(Older Set-Based Approach)
+Older set-based approach with source files in lossy jpg format
 
 <details><summary> Expand</summary>
 
