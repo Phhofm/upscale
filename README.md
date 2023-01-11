@@ -1,5 +1,7 @@
 # README
 
+Website can be accessed here: [https://phhofm.github.io/upscale/](https://phhofm.github.io/upscale/)
+
 ## Story
 
 My interest in upscaling started when I generated images with Midjourney AI and thought about enlarging those so I could use one as a desktop background image.
